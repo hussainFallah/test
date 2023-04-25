@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Leaflet Map Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <!-- This is the minified production version of Parse JS -->
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script src="back4app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div>
+    <input type="text" name="zipCode" id="zipCodeInput" placeholder="&lt;zipCode&gt;">
+    <button id="zipCodeButton">zipcodeابحث برمز الـ</button>
+</div>
+<div id="panel" class="hidden">
+    <p>this is content</p>
+    <p>this is content</p>
+    <p>this is content</p>
+    <p>this is content</p>
+    <p>this is content</p>
+</div>
+
+<div id="mapid" style="height: 500px;"></div>
+
+
+    <script src="zipcodeparser.js"></script>
+    <script src="main.js"></script>
+    <script src="carsAdder.js"></script>
+</body>
+
+</html>
