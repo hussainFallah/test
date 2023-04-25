@@ -48,7 +48,6 @@ let blueIcon = L.icon({
     popupAnchor: [-3, -76],
     
 });
-
 // parsing zipcode
 
 
