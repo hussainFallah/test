@@ -1,6 +1,6 @@
 
 function getAllCars(){
-let jText=fetch('http://localhost:5500/cars.json')
+let jText=fetch('https://github.com/hussainFallah/test/cars.json')
 .then(response =>response.json())
 .then(jText=>jText["cars"])//json مو معتبرو 
 
