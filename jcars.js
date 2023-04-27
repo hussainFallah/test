@@ -1,6 +1,10 @@
+let carsLink=window.location.toString().split("/")
+carsLink.pop()
+carsLink.push("jZipCode.js")
+carsLink.join("/")
 
 function getAllCars(){
-let jText=fetch('http://localhost:5500/cars.json')
+let jText=fetch(carsLink)
 .then(response =>response.json())
 .then(jText=>jText["cars"])//json مو معتبرو 
 
