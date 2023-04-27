@@ -2,6 +2,7 @@
 let zipCodeLink=window.location.toString().split("/")
 zipCodeLink.pop()
 zipCodeLink.push("jZipCode.js")
+zipCodeLink.join("/")
 let zipcoder={
   
 zipcode:fetch(zipCodeLink)
