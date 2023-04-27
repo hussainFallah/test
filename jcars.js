@@ -1,7 +1,6 @@
 
-
 function getAllCars(){
-let jText=fetch('https://hussainfallah.github.io/test/jZipCode.js')
+let jText=fetch('http://localhost:5500/cars.json')
 .then(response =>response.json())
 .then(jText=>jText["cars"])//json مو معتبرو 
 
