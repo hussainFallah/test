@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cars map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <input type="text" placeholder="&lt;zipcode&gt;" id="zipCodeText">
+        <button id="zipCodeButton">serch by zipCode</button>
+        <div id="infoPannel" class="hidden">
+            <button id="infoPannelClosser">X</button>
+            <div id="pannelTextContainer"></div>
+        </div>
+    <div id="mapid" style="height: 500px;"></div>
+</div>
+
+
+<script src="jZipCode.js"></script>
+<script src="jcars.js"></script>
+<script src="icons.js"></script>
+<script src="pannelcontroller.js"></script>
+<script src="mapController.js"></script>
+<script src="mousePositionHandler.js"></script>
+<script src="carsonclick.js"></script>
+<script src="main.js"></script>
+
+</body>
+
+</html>
