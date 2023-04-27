@@ -1,6 +1,6 @@
 // simulating fitch and parse jsonfile
 let zipcoder={
-zipcode:fetch('https://github.com/hussainFallah/test/USCities.json')
+zipcode:fetch('https://hussainfallah.github.io/test/USCities.json')
   .then(response => response.json())
   .then((jtext)=>{
     let result={zipCode:[],fullContenet:{}}
