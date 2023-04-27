@@ -1,11 +1,7 @@
 // simulating fitch and parse jsonfile
-let zipCodeLink=window.location.toString().split("/")
-zipCodeLink.pop()
-zipCodeLink.push("jZipCode.js")
-zipCodeLink.join("/")
 let zipcoder={
   
-zipcode:fetch(zipCodeLink)
+zipcode:fetch('https://hussainfallah.github.io/test/jZipCode.js')
   .then(response => response.json())
   .then((jtext)=>{
     let result={zipCode:[],fullContenet:{}}
