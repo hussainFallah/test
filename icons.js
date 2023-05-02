@@ -1,5 +1,6 @@
-let sizeOfIcon=[15,15];
+let sizeOfIcon=[10,10];
 let anchorPoint=sizeOfIcon.map((e)=>e/2);//cinter of icon
+
 let greenIcon = L.icon({
     iconUrl: 'green.png',
     iconSize: sizeOfIcon,

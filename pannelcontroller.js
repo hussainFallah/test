@@ -39,10 +39,14 @@ displayCarsSellector:function(x="0px",y="0px",option){
         container.append(TextContainer);
         option.forEach((e)=>{
         let carButton=document.createElement("button")
+        let carButtonDiv=document.createElement("div")
         carButton.style="width: inherit;";
-        carButton.innerText=e["name"];
+        carButtonDiv.style="width: inherit;";
+        carButton.innerText=`${e["car"]["name"] }
+        in about ${e["distance"]} miles`;
         carButton.onclick=(()=>{map.AnimateChangeView([e["location"][1],e["location"][0]],10)})
-        container.append(carButton)
+        carButtonDiv.appendChild(carButton)
+        container.appendChild(carButtonDiv)
         })
     }else{
         TextContainer.innerText="there is no cars in this area"
