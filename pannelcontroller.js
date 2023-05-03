@@ -44,7 +44,7 @@ displayCarsSellector:function(x="0px",y="0px",option){
         carButtonDiv.style="width: inherit;";
         carButton.innerText=`${e["car"]["name"] }
         in about ${e["distance"]} miles`;
-        carButton.onclick=(()=>{map.AnimateChangeView([e["location"][1],e["location"][0]],10)})
+        carButton.onclick=(()=>{map.AnimateChangeView([e["car"]["location"][1],e["car"]["location"][0]],10)})
         carButtonDiv.appendChild(carButton)
         container.appendChild(carButtonDiv)
         })

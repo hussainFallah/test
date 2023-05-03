@@ -31,3 +31,7 @@ let blueIcon = L.icon({
     popupAnchor: [-3, -76],
     
 });
+function carIcon(car){
+    let icon=car.typeCar==="sprinter"?blueIcon:car.typeCar==="large"?yellowIcon:greenIcon//didn't add red;
+    return icon;
+}
