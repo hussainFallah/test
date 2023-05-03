@@ -19,4 +19,4 @@ let zip={
         console.log(zResult);
         return zResult;
     },
-}//
+}
