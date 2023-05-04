@@ -1,6 +1,6 @@
 let zip={
     getLocationUsingZipCode:function(zipcode){
-        let zResult=fetch(`http://api.zippopotam.us/us/${zipcode}`)
+        let zResult=fetch(`https://api.zippopotam.us/us/${zipcode}`)
         .then((res)=>{
             return res.json()})
         .then(res=>{
