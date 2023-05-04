@@ -72,7 +72,7 @@ popup :function(position=this.startingPosition,message="text is't deffined<br />
     .setContent(message)
     .openOn(this.map);
 },
-AnimateChangeView:function(position=this.startingPosition,zoom){
+AnimateChangeView:function(position=this.startingPosition,zoom=this.startingZoom){
     this.map.flyTo(position,zoom);
     return true;
 },
@@ -81,6 +81,9 @@ drowCircle:function(position=this.startingPosition,radiasInMiles=100){
         this.map.removeLayer(this.circle);
     };
     this.circle=L.circle(position,{radius:radiasInMiles*1609.344}).addTo(this.map);
+},
+focusOnCircle:function(Circle=this.circle){
+    this.map.fitBounds(Circle.getBounds());
 },
 };
 

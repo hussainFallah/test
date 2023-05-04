@@ -38,15 +38,9 @@ let cars=displayAllCars();
             pannel.display("0px","0px","please enter a valid zipCode")
             return
         }
-        
-        if (a.length===1) {
-            a=a[0];
-            console.log(a);
-        }else{
-            a.forEach((e=>{console.log(e)}))
-            alert("there are multible cities")/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        }
-        let newPosition=[+a["latitude"],+a["longitude"]];
+        let isprossesed=false;
+        function prossesSearch(a,isprossesed){
+            let newPosition=[+a["latitude"],+a["longitude"]];
         
         map.drowCircle(newPosition,distanceValue)
         let newzoom=10;//فرضاً
@@ -59,7 +53,8 @@ let cars=displayAllCars();
         zip_code ${a.zip_code}
         `
         
-        map.AnimateChangeView(newPosition,newzoom);
+        map.AnimateChangeView(newPosition);
+        map.focusOnCircle();
         map.popup(newPosition,message)
         let activeCars=[];
         cars.then((cars)=>{
@@ -116,6 +111,20 @@ let cars=displayAllCars();
                 pannel.displayCarsSellector("0px","0px",items);////////////////
             });
         });
+        
+        }
+        if (a.length===1) {
+            a=a[0];
+            prossesSearch(a,isprossesed)
+        }else{
+            a.forEach((e=>{console.log(e)}))
+            Promise.race(pannel.displayMultiChoice("0px","0px",a))
+            .then((position)=>{
+                prossesSearch(position,isprossesed)
+                pannel.hide();
+            });
+        }
+        
     });
 });
 let stopSerchingButton= document.getElementById("stopSerching");
