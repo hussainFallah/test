@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(35, 34, 34, 0.524);
+    align-items: center;
+}
+#log-in-container{
+    width: 12em;
+    height: 12em;
+    background-color: rgb(19, 17, 17);
+    color :white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+}
+
+#log-in-container {
+    display: flex;
+    justify-content: center center;
+    align-items: center center;
+}
+.logInInput{
+    padding: 0.5em;
+    margin: 1.3em;
+    border: 1px black;
+}
+#logInSubmit{
+    font-size: large;
+    position: absolute;
+    left: 5.5em;
+    bottom: 1em;
+    background-color: green;
+}

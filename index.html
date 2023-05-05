@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cars map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <link rel="stylesheet" href="map/style.css">
+    <link rel="stylesheet" href="carsTable/style.css">
+    <link rel="stylesheet" href="mainStayle.css">
+
+</head>
+<body>
+            <div class="top-bar">
+                <h1>Cars's Map</h1>
+            </div>
+            <div class="sidebar">
+                <ul>
+                    <li class="sidBarElement sellected"><a href="#">Map</a></li>
+                    <li class="sidBarElement"><a>Drivers</a></li>
+                    <li class="sidBarElement"><a>Users</a></li>
+                    <li class="sidBarElement"><a>Logout</a></li>
+                </ul>
+            </div>
+<div id="mainContainer">
+
+<div id="serchByZipcode">
+    <input type="text" placeholder="&lt;zipcode&gt;" id="zipCodeText">
+    <select name="distance" id="distance">
+        <option value="100">100 miles</option>
+        <option value="200">200 miles</option>
+        <option value="300">300 miles</option>
+        <option value="400">400 miles</option>
+        <option value="500">500 miles</option>
+        <option value="600">600 miles</option>
+    </select>
+    <button id="zipCodeButton">serch by zipCode</button>
+</div>
+<div id="infoPannel" class="hidden">
+    <button id="infoPannelClosser">X</button>
+    <div id="pannelTextContainer"></div>
+</div>
+<div id="mapid"></div>
+<div><button id="stopserching">stop serching</button>
+</div>
+
+</div>
+
+
+
+
+<script src="map/zipCoder.js"></script>
+<script src="map/jcars.js"></script>
+<script src="map/icons.js"></script>
+<script src="map/pannelcontroller.js"></script>
+<script src="map/mapController.js"></script>
+<script src="map/mousePositionHandler.js"></script>
+<script src="map/carsonclick.js"></script>
+<script src="map/distanceCalculator.js"></script>
+<script src="map/main.js"></script>
+
+
+<script src="carsTable/tableController.js"></script>
+<script src="carsTable/carsSubmitter.js"></script>
+<script src="carsTable/main.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
