@@ -1,7 +1,5 @@
-function mainMap(){let mId=document.getElementById("mapid");
-let sBar=document.getElementById("sideBar");
-let mapPosition =mId.getBoundingClientRect();
-// sBar.style.paddingTop=`${mapPosition.top}px`;
+function mainMap(){
+
 
 
 

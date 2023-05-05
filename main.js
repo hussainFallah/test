@@ -1,9 +1,34 @@
-mainMap();
-
-console.log(window.innerWidth)//for setting if the sidbar will be closed or opened
-window.onresize=((e)=>{console.log(e["target"]["innerWidth"])});//for setting if the sidbar will be closed or opened
-
 let container=document.getElementById("mainContainer");
+let sidBar=document.querySelector(".sidebar");
+let sideBarTogole=document.querySelector('.sidebar-toggle');
+prossesWindowSize(window.innerWidth);
+
+sideBarTogole.onclick=(()=>{
+    sideBarTogole.classList.toggle('active');
+    sideBarTogole.classList.toggle("hide");
+    sidBar.classList.toggle('show');
+});
+
+function prossesWindowSize(innerWidth){
+    if(innerWidth<=900){
+        container.style.left="0.5em";
+        sidBar.classList.remove("show");
+        sideBarTogole.classList.remove('active');
+        sideBarTogole.classList.add("hide");
+        sideBarTogole.style="display: block;";
+    }else{
+        container.style.left="15em";
+        sidBar.classList.add("show");
+        sideBarTogole.classList.add('active');
+        sideBarTogole.classList.remove("hide");
+        sideBarTogole.style="display:none;";
+    }
+};
+
+window.onresize=((e)=>{console.log(e["target"]["innerWidth"]);
+prossesWindowSize(window.innerWidth);});//for setting if the sidbar will be closed or opened
+
+
 let onClickFunctions=[];
 function mapButton(){
 
@@ -29,13 +54,13 @@ function mapButton(){
     </div>`;
     mainMap();
 };
-
+mapButton();
 onClickFunctions.push(mapButton);
 
 function driversButton(){
-        container.innerHTML=`
-        
-<div id="formContainer" class="outPage">
+    container.innerHTML=`
+    <button id="createCar">Create</button>
+<div id="formContainer">
     <form action="">
         <div class="formInput">
             <label for="availableDate">

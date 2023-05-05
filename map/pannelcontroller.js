@@ -8,6 +8,7 @@ isdisplayed:false,
 
 
 display:function(x="0px",y="0px",text="text is't deffined"){
+    this.infoPannel=document.getElementById("infoPannel");
     infoPannel.innerHtml="";
     this.xPosition=x;
     this.yPosition=y;
@@ -24,6 +25,7 @@ display:function(x="0px",y="0px",text="text is't deffined"){
     return infoPannel;
 },
 displayCarsSellector:function(x="0px",y="0px",option){
+    this.infoPannel=document.getElementById("infoPannel");
     infoPannel.innerHtml="";
     this.xPosition=x;
     this.yPosition=y;
@@ -70,6 +72,7 @@ hide:function(){
     return false;
 },
 displayMultiChoice:function(x="0px",y="0px",places){
+    this.infoPannel=document.getElementById("infoPannel");
 this.infoPannel.innerHtml="";
     this.xPosition=x;
     this.yPosition=y;

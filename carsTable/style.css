@@ -61,10 +61,29 @@ tr:hover {
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+    z-index: 5;
 
 
 }
-
+.sidebar.show {
+    transform: translateX(0%);
+}
+.sidebar-toggle {
+    position: fixed;
+    top: 1.5em;
+    left:0em;
+    z-index: 7;
+    transition: transform 0.33s ease-in-out;
+    transform: translateX(13.5em);
+}
+.sidebar-toggle.hide{
+    transform :translateX(0.5em);
+}
+.sidebar-toggle:focus {
+    outline: none;
+}
 .sidebar ul {
     list-style-type: none;
     padding: 0;
@@ -107,7 +126,7 @@ position: fixed;
 left: 0em;
 right: 0em;
 top:0px;
-z-index: 3;
+z-index: 6;
 margin-top: 0;
 background-color: #001529;
 }
@@ -117,4 +136,89 @@ background-color: #001529;
 #nextPreviosContainer{
     position: absolute;
     right: 0em;
+}
+#createCar{
+position: fixed;
+    top: .5em;
+    right: .35em;
+    z-index: 4;
+    background-color: #4CAF50;
+    font-size: xx-large;
+
+}
+
+#formContainer {
+    width: 70%;
+    padding: 1%;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    position: absolute;
+    left: 0%;
+    z-index: 3;
+
+
+
+
+
+    transition: transform 0.43s ease-in-out;
+    transform: translateX(-200%);
+
+}
+
+#formContainer.visible {
+    transform: translateX(0%);
+    /* move the div into view */
+}
+.outPage {
+    opacity: 0;
+    /* hide the div initially */
+}
+
+#formContainer.outPage {
+
+    left: -100%;
+}
+
+.sidebar-toggle {
+    position: fixed;
+    width: 3em;
+    height: 3em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.line:first-of-type {
+    top: 50%;
+transform: translate(-50%,-500%)
+}
+
+.line:last-of-type {
+    top: 50%;
+transform: translate(-50%, 500%)
+}
+
+.sidebar-toggle.active .line:first-of-type {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.sidebar-toggle.active .line:last-of-type {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.sidebar-toggle.active .line:nth-of-type(2) {
+    transform: translate(-50%, -50%) scale(0);
 }

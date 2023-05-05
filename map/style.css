@@ -54,36 +54,7 @@ select {
     right: auto;
 }
 
-#formContainer {
-    width: 70%;
-    padding: 1%;
-    background-color: rgb(31, 30, 30);
-    position: absolute;
-    left: -1000px;
-    z-index: 3;
 
-
-    transform: translateX(0px);
-    /* adjust for centering */
-
-    transition: left .8s ease-out;
-    /* animate the top position */
-}
-
-#formContainer.visible {
-    left: 0px;
-    /* move the div into view */
-}
-
-.outPage {
-    opacity: 0;
-    /* hide the div initially */
-}
-
-#formContainer.outPage {
-
-    left: -1000px;
-}
 
 .visible {
     opacity: 1;

@@ -13,40 +13,26 @@
 
 </head>
 <body>
-            <div class="top-bar">
-                <h1>Cars's Map</h1>
-            </div>
-            <div class="sidebar">
-                <ul>
-                    <li class="sidBarElement sellected"><a href="#">Map</a></li>
-                    <li class="sidBarElement"><a>Drivers</a></li>
-                    <li class="sidBarElement"><a>Users</a></li>
-                    <li class="sidBarElement"><a>Logout</a></li>
-                </ul>
-            </div>
-<div id="mainContainer">
-
-<div id="serchByZipcode">
-    <input type="text" placeholder="&lt;zipcode&gt;" id="zipCodeText">
-    <select name="distance" id="distance">
-        <option value="100">100 miles</option>
-        <option value="200">200 miles</option>
-        <option value="300">300 miles</option>
-        <option value="400">400 miles</option>
-        <option value="500">500 miles</option>
-        <option value="600">600 miles</option>
-    </select>
-    <button id="zipCodeButton">serch by zipCode</button>
+<div class="top-bar">
+    <h1>Cars's Map</h1>
 </div>
-<div id="infoPannel" class="hidden">
-    <button id="infoPannelClosser">X</button>
-    <div id="pannelTextContainer"></div>
-</div>
-<div id="mapid"></div>
-<div><button id="stopserching">stop serching</button>
+<button class="sidebar-toggle hide">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+</button>
+<div class="sidebar">
+    
+    <ul>
+        <li class="sidBarElement sellected"><a href="#">Map</a></li>
+        <li class="sidBarElement"><a>Drivers</a></li>
+        <li class="sidBarElement"><a>Users</a></li>
+        <li class="sidBarElement"><a>Logout</a></li>
+    </ul>
 </div>
 
-</div>
+
+<div id="mainContainer"></div>
 
 
 
@@ -63,7 +49,6 @@
 
 
 <script src="carsTable/tableController.js"></script>
-<script src="carsTable/carsSubmitter.js"></script>
 <script src="carsTable/main.js"></script>
 
 <script src="main.js"></script>
