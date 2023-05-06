@@ -18,7 +18,7 @@ reFresh:function(){
     let raws=[];
     let rawsArray=[];
     getAllCars().then((cars)=>{
-        cars.forEach(car => {
+        cars.forEach((car,i) => {
             let tableRaw=document.createElement("tr");
             tableRaw.innerHTML=`<tr>
                             <td>${car["active"]===true?"✅":"❌"}</td>
@@ -31,8 +31,30 @@ reFresh:function(){
                             <td>${car["locationName"]}</td>
                             <td>${car["dateAvailable"]}</td>
                             <td>${car["note"]}</td>
-                            <td><button class="edit-btn">Edit</button></td>
-                    </tr>`
+                    </tr>`;
+            let editButton=document.createElement("button");
+            editButton.classList.add("edit-btn");
+            editButton.innerText="Edit";
+            editButton.onclick=(()=>{
+                document.getElementById("createCar").click(); 
+                document.querySelector("#availableDate").value=car["dateAvailable"];
+                document.querySelector("#id").value=car["id"];
+                document.querySelector("#name").value=car["name"];
+                document.querySelector("#owner").value=car["owner"];
+                document.querySelector("#phoneNumber").value=car["phone"];
+                document.querySelector("#carType").value=car["typeCar"];
+                document.querySelector("#dimension").value=car["dimension"];
+                document.querySelector("#capacity").value=car["capacity"];
+                document.querySelector("#status").value=car["status"];
+                document.querySelector("#Zip\ Code").value=car["zipCode"];
+                document.querySelector("#location\ name").value=car["locationName"];
+                document.querySelector("#Note").value=car["note"];
+
+                //////////////////////////////////////////////add to form and edit it
+            })
+            let td=document.createElement("td");
+            td.appendChild(editButton);
+            tableRaw.appendChild(td);
                     raws.push(tableRaw)
     })
 

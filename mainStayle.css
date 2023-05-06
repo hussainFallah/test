@@ -2,8 +2,8 @@
 
 position: absolute;
 left: 15em;
-right: 0.2em;
+right:auto;
 top: 5em;
-bottom: 0em;
+bottom: auto;
 padding: 0px;
 }
