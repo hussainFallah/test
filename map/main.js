@@ -37,20 +37,20 @@ let cars=displayAllCars();
             return
         }
         let isprossesed=false;
-        function prossesSearch(a,isprossesed){
+        function prossesSearch(a,isprossesed,fullData){
             let newPosition=[+a["latitude"],+a["longitude"]];
         
         map.drowCircle(newPosition,distanceValue)
         let newzoom=10;//فرضاً
         let message=
-        `city ${a.city}</br>
-        county ${a.county}</br>
+        `city ${a["place name"]}</br>
+        country ${fullData["country"]}</br>
         latitude ${a.latitude}</br>
         longitude ${a.longitude}</br>
         state ${a.state}</br>
-        zip_code ${a.zip_code}
+        zip_code ${serchValue}
         `
-        
+        console.log( message)//////////////////////////////
         map.AnimateChangeView(newPosition);
         map.focusOnCircle();
         map.popup(newPosition,message)
@@ -111,14 +111,13 @@ let cars=displayAllCars();
         });
         
         }
-        if (a.length===1) {
-            a=a[0];
-            prossesSearch(a,isprossesed)
+        if (a["places"].length===1) {
+            prossesSearch(a["places"][0],isprossesed,a)
         }else{
-            a.forEach((e=>{console.log(e)}))
-            Promise.race(pannel.displayMultiChoice("0px","0px",a))
+            a["places"].forEach((e=>{console.log(e)}))
+            Promise.race(pannel.displayMultiChoice("0px","0px",a["places"]))
             .then((position)=>{
-                prossesSearch(position,isprossesed)
+                prossesSearch(position,isprossesed,a)
                 pannel.hide();
             });
         }

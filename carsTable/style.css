@@ -235,3 +235,80 @@ transform: translate(-50%, 500%)
     overflow: hidden;
     /* hide any overflow from the panel */
 }
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slot {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 15px;
+    -webkit-transition: .4s;
+    transition: .2s;
+}
+
+.circle {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .2s;
+}
+
+input:checked+.circle {
+    -webkit-transform: translateX(28px);
+    -ms-transform: translateX(28px);
+    transform: translateX(28px);
+    background-color: green;
+}
+
+.slot:has(input:checked) {
+    background-color: aqua;
+}
+.formInput:has(.toggle){
+position: relative;
+top: 3em;
+left: 3em;
+}
+
+#StatusToggleId{
+        position: relative;
+            top: -3.5em;
+            left: -3em;
+}
+
+.copy-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.copy-btn.success {
+    background-color: #28a745;
+}
+
+.copy-btn.success::after {
+    content: '\2714';
+    margin-left: 5px;
+}

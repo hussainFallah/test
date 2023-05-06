@@ -8,10 +8,8 @@ let zip={
                 console.log("no data was found");
                 return -1;
             }
-            let places=res["places"];
-            return places;
+            return res;
         }).catch((e)=>console.log(e));
-        console.log(zResult);
         return zResult;
     },
 }

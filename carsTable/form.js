@@ -24,11 +24,13 @@ function showFormButtonClicked(e){
       e.target.innerText="Create";
       e.target.style.backgroundColor="#4CAF50";
       document.querySelectorAll(".formInput input").forEach((e,i,a)=>{
-        if(i!=a.length-1){
-          e.value=""}
-          else{
-            e.setAttribute("disabled",true);
-          }
+      if(i===0){
+        e.checked=false;
+      }else if(i!=a.length-1){
+        e.value=""}
+      else{
+        e.setAttribute("disabled",true);
+      }
       });
     let disablebuttons=Array.from(document.getElementsByClassName("edit-btn"));
       disablebuttons.forEach(e=>{e.removeAttribute("disabled")});

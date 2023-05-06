@@ -37,6 +37,7 @@ reFresh:function(){
             editButton.innerText="Edit";
             editButton.onclick=(()=>{
                 document.getElementById("createCar").click(); 
+                document.querySelector("#formContainer > form > div.formInput.toggle > label > input[type=checkbox]").checked=car["active"];
                 document.querySelector("#availableDate").value=car["dateAvailable"];
                 document.querySelector("#id").value=car["id"];
                 document.querySelector("#name").value=car["name"];
@@ -46,8 +47,8 @@ reFresh:function(){
                 document.querySelector("#dimension").value=car["dimension"];
                 document.querySelector("#capacity").value=car["capacity"];
                 document.querySelector("#status").value=car["status"];
-                document.querySelector("#Zip\ Code").value=car["zipCode"];
-                document.querySelector("#location\ name").value=car["locationName"];
+                document.getElementById("Zip Code").value=car["zipCode"];
+                document.getElementById("location name").value=car["locationName"];
                 document.querySelector("#Note").value=car["note"];
 
                 //////////////////////////////////////////////add to form and edit it

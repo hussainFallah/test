@@ -40,15 +40,28 @@ displayCarsSellector:function(x="0px",y="0px",option){
         TextContainer.innerText="this is the cars list in this area";
         container.append(TextContainer);
         option.forEach((e)=>{
-        let carButton=document.createElement("button")
-        let carButtonDiv=document.createElement("div")
-        carButton.style="width: inherit;";
-        carButtonDiv.style="width: inherit;";
-        carButton.innerText=`${e["car"]["name"] }
+        let carButton=document.createElement("button");
+        let carP=document.createElement("p");
+        let carButtonDiv=document.createElement("div");
+        carP.innerText=`${e["car"]["name"] }
         in about ${e["distance"]} miles`;
-        carButton.onclick=(()=>{map.AnimateChangeView([e["car"]["location"][1],e["car"]["location"][0]],10)})
-        carButtonDiv.appendChild(carButton)
-        container.appendChild(carButtonDiv)
+        carP.style="width: inherit;";
+        carButtonDiv.style="width: inherit;";
+        carButtonDiv.style.backgroundColor="yellow";
+        carButtonDiv.style.margin="1em";
+        carButtonDiv.style.padding="1em";
+        carButton.innerText=`Copy To CleapBourd`;
+        carButton.classList.add("copy-btn");
+        carButton.onclick=((element)=>{
+            copyToClipboard(
+`Location: ${e["car"]["locationName"]}
+distance: about ${e["distance"]} miles
+Dimension: ${e["car"]["dimension"]}
+Rate $`,element.target);
+        })
+        carButtonDiv.appendChild(carP);
+        carButtonDiv.appendChild(carButton);
+        container.appendChild(carButtonDiv);
         })
     }else{
         TextContainer.innerText="there is no cars in this area"

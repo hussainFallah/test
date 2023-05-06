@@ -77,6 +77,13 @@ function driversButton(){
     <div class="panel-wrapper">
     <div id="formContainer">
         <form action="">
+            <div class="formInput toggle">
+                <p id="StatusToggleId">Status:</p>
+                <label class="toggle slot">
+                    <input type="checkbox" name="status">
+                    <span class="circle"></span>
+                </label>
+            </div>
             <div class="formInput">
                 <label for="availableDate">
                     <p>Date available:</p>
@@ -214,3 +221,16 @@ for (let i = 0; i < sidBarElements.length; i++) {
 };
 
 
+function copyToClipboard(text,button){
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      console.log('Text copied to clipboard');
+        button.innerHTML = 'Copied!';
+        button.classList.add('success');
+    })
+    .catch((err) => {
+      console.error('Error copying text: ', err);
+        button.innerHTML = 'something Went Wrong!';
+        button.classList.add('fail');
+    });
+};

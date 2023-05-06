@@ -4,102 +4,120 @@
     {
       "_id": "62cc1f4923bbc0000f466215",
       "id": 4,
-      "location": [-75.0189385, 40.119424],
-      "name": "dr Roman Zurabishvili ( ow 300 Maks ) LG & PJ\t22ft",
+      "location": [
+        -94.81887,
+        38.883886
+      ],
+      "name": "dr Roman Zurabishvili(( ow 300 Maks ) LG & PJ\t22ft",
       "owner": "",
-      "dateAvailable": "2023-04-26T18:00:13.168Z",
+      "dateAvailable": "2023-05-03T16:00:13.168Z",
       "phone": "123",
       "typeCar": "large",
       "dimension": "260*97*96(93-95)",
       "capacity": 7000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 19116,
-      "locationName": "Philadelphia, Pennsylvania 19116, United States",
-      "active": false,
+      "zipCode": 66061,
+      "locationName": "Olathe, Kansas 66061, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62f54155fa8b1c0e77f5aa30",
       "id": 5,
-      "location": [-82.716125, 27.916508],
+      "location": [
+        -103.621814,
+        48.146546
+      ],
       "name": "dr Azamat Mukagow(Gotcha) ( ow 300 ) LG PJ",
       "owner": "ow 300 Maks",
-      "dateAvailable": "2023-03-14T16:00:28.049Z",
+      "dateAvailable": "2023-05-03T18:00:28.049Z",
       "phone": "123",
       "typeCar": "large",
       "dimension": "248*97*96(93*95)",
       "capacity": 7000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33760,
-      "locationName": "Clearwater, Florida 33760, United States",
+      "zipCode": 58801,
+      "locationName": "Williston, North Dakota 58801, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "6451586f8bbeac0646ed9f14",
+      "id": 25,
+      "location": [
+        -81.475966,
+        28.415553
+      ],
+      "name": "dr.Lenar (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": "2023-05-08T13:00:27.853Z",
+      "phone": "-",
+      "typeCar": "large",
+      "dimension": "260*98*103 (94*96)",
+      "capacity": 8000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 32819,
+      "locationName": "Orlando, Florida 32819, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645158d88bbeac0646ed9f96",
+      "id": 26,
+      "location": [
+        -75.117951,
+        40.120666
+      ],
+      "name": "dr.Ulan (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "large",
+      "dimension": "272*98*103 (94*97)",
+      "capacity": 8000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 19001,
+      "locationName": "Abington, Pennsylvania 19001, United States",
       "active": false,
       "note": "",
       "__v": 0
     },
     {
-      "_id": "636bfcbd2e9622d816d9d93e",
-      "id": 20,
-      "location": [-71.463227, 42.992169],
-      "name": "Large Straight unit 16(ow 380) LG/PJ",
-      "owner": "380",
-      "dateAvailable": null,
-      "phone": "-",
-      "typeCar": "large",
-      "dimension": "261*97*109(97/104)",
-      "capacity": 10000,
-      "status": "NO_BORDER",
-      "home": "",
-      "zipCode": 3105,
-      "locationName": "Manchester, New Hampshire 03105, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "63851612928ef0b3efdcf243",
-      "id": 21,
-      "location": [-106.779808, 32.314035],
-      "name": "u 17 ( ow 380) Large PJ LG",
-      "owner": "ow 380",
-      "dateAvailable": null,
-      "phone": "123",
-      "typeCar": "large",
-      "dimension": "260/98/103 ( 94/96 )",
-      "capacity": 8000,
-      "status": "NO_BORDER",
-      "home": "",
-      "zipCode": 88001,
-      "locationName": "Las Cruces, New Mexico 88001, United States",
-      "active": true,
-      "note": "to PA,NJ,NY           КРОМЕ!!  WA, CO, MT, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
       "_id": "63518b0b0512195c298a88d1",
       "id": 50,
-      "location": [-93.552456, 45.18886],
+      "location": [
+        -117.304562,
+        33.169786
+      ],
       "name": "ow 050 Harsimran Bhatia ",
       "owner": "",
       "dateAvailable": null,
       "phone": "1",
       "typeCar": "large",
-      "dimension": "191/91/76 (88/72)",
+      "dimension": "162x97x71 (DO 89x71)",
       "capacity": 9500,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 55374,
-      "locationName": "Rogers, Minnesota 55374, United States",
-      "active": true,
+      "zipCode": 92010,
+      "locationName": "Carlsbad, California 92010, United States",
+      "active": false,
       "note": "НЕТ СДЕСЬ ЭТОГО ТРАКА!!!!!",
       "__v": 0
     },
     {
       "_id": "63518b2b0512195c298a88f1",
       "id": 51,
-      "location": [-74.488487, 40.497604],
+      "location": [
+        -78.16055,
+        35.465994
+      ],
       "name": "dr Ji-Sean (ow 050)",
       "owner": "",
       "dateAvailable": "2023-04-27T12:26:40.504Z",
@@ -109,8 +127,8 @@
       "capacity": 9500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 8873,
-      "locationName": "Somerset, New Jersey 08873, United States",
+      "zipCode": 27569,
+      "locationName": "Princeton, North Carolina 27569, United States",
       "active": true,
       "note": "noLG/PJ   TEAM",
       "__v": 0
@@ -118,7 +136,10 @@
     {
       "_id": "63518b490512195c298a8913",
       "id": 52,
-      "location": [-75.680595, 41.411779],
+      "location": [
+        -75.680595,
+        41.411779
+      ],
       "name": "dr Dkye (ow 050) LG PJ",
       "owner": "",
       "dateAvailable": "2023-04-14T12:10:05.887Z",
@@ -137,7 +158,10 @@
     {
       "_id": "63518b650512195c298a8935",
       "id": 53,
-      "location": [-87.941461, 42.008798],
+      "location": [
+        -87.941461,
+        42.008798
+      ],
       "name": "dr Gia (ow 050) LG PJ",
       "owner": "",
       "dateAvailable": null,
@@ -156,26 +180,32 @@
     {
       "_id": "63518b7f0512195c298a8951",
       "id": 54,
-      "location": [-76.30721, 40.157125],
-      "name": "dr Irakli (ow 050)",
+      "location": [
+        -93.762444,
+        41.483324
+      ],
+      "name": "dr Irakli (ow 050) LG PJ",
       "owner": "",
-      "dateAvailable": "2023-05-02T12:39:00.670Z",
+      "dateAvailable": "2023-05-05T12:39:00.670Z",
       "phone": "1",
       "typeCar": "large",
       "dimension": "312x97x97(94x92,5)",
       "capacity": 10000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 17543,
-      "locationName": "Lititz, Pennsylvania 17543, United States",
-      "active": true,
+      "zipCode": 50061,
+      "locationName": "Cumming, Iowa 50061, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63518b9a0512195c298a8971",
       "id": 55,
-      "location": [-79.088845, 35.848351],
+      "location": [
+        -79.088845,
+        35.848351
+      ],
       "name": "dr Calvin ( Shane ) (ow 050) LG PJ",
       "owner": "",
       "dateAvailable": "2023-01-23T21:00:07.462Z",
@@ -194,26 +224,32 @@
     {
       "_id": "63518bb40512195c298a898f",
       "id": 56,
-      "location": [-97.575326, 37.659736],
+      "location": [
+        -97.243587,
+        37.702742
+      ],
       "name": "dr Besik (ow 050) LG PJ",
       "owner": "",
-      "dateAvailable": "2023-04-26T14:18:04.252Z",
+      "dateAvailable": "2023-05-03T14:18:04.252Z",
       "phone": "1",
       "typeCar": "large",
       "dimension": "312x97x97(94x96)",
       "capacity": 10000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 67052,
-      "locationName": "Goddard, Kansas 67052, United States",
-      "active": true,
+      "zipCode": 67206,
+      "locationName": "Wichita, Kansas 67206, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63518be70512195c298a89cb",
       "id": 58,
-      "location": [-111.940009, 33.425506],
+      "location": [
+        -112.207683,
+        33.434834
+      ],
       "name": "dr Vakhtang (ow 050) LG PJ",
       "owner": "",
       "dateAvailable": "2023-05-03T12:06:33.023Z",
@@ -223,46 +259,140 @@
       "capacity": 10000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 85,
-      "locationName": "Tempe, Arizona 85281, United States",
-      "active": true,
+      "zipCode": 85043,
+      "locationName": "Phoenix, Arizona 85043, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63518c200512195c298a8a07",
       "id": 60,
-      "location": [-74.228201, 40.577327],
+      "location": [
+        -74.184032,
+        40.34511
+      ],
       "name": "dr Jason(ow 050) LG PJ",
       "owner": "",
-      "dateAvailable": "2023-04-27T13:40:00.405Z",
+      "dateAvailable": "2023-05-03T13:40:00.405Z",
       "phone": "1",
       "typeCar": "large",
       "dimension": "312x97x97(94x92,5)",
       "capacity": 10000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 7008,
-      "locationName": "Carteret, New Jersey 07008, United States",
+      "zipCode": 7733,
+      "locationName": "Holmdel, New Jersey 07733, United States",
       "active": true,
       "note": "Local 150-200 miles",
       "__v": 0
     },
     {
+      "_id": "6455396e9d562a421ec08434",
+      "id": 70,
+      "location": [
+        -73.951507,
+        40.587593
+      ],
+      "name": "Unit 11 (Igor S.) LG/PJ",
+      "owner": "Igor S.",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "large",
+      "dimension": "240*98*87 (98*84)",
+      "capacity": 7500,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 11235,
+      "locationName": "Brooklyn, New York 11235, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645539b99d562a421ec08470",
+      "id": 71,
+      "location": [
+        -84.241861,
+        35.590078
+      ],
+      "name": "Unit 12 (Igor S.) LG/PJ",
+      "owner": "Igor S",
+      "dateAvailable": "2023-05-08T12:00:38.338Z",
+      "phone": "-",
+      "typeCar": "large",
+      "dimension": "260*98*97 (97*94)",
+      "capacity": 7500,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 37885,
+      "locationName": "Vonore, Tennessee 37885, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "64553b459d562a421ec085a5",
+      "id": 72,
+      "location": [
+        -86.399717,
+        39.762823
+      ],
+      "name": "Unit 14 (Igor S.) LG/PJ",
+      "owner": "Igor S.",
+      "dateAvailable": "2023-05-08T12:00:07.719Z",
+      "phone": "-",
+      "typeCar": "large",
+      "dimension": "267*98*97 (98*94)",
+      "capacity": 7500,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 46123,
+      "locationName": "Avon, Indiana 46123, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "64553c059d562a421ec08637",
+      "id": 73,
+      "location": [
+        -73.951507,
+        40.587593
+      ],
+      "name": "Unit 15 (Igor S.)",
+      "owner": "Igor S",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "large",
+      "dimension": "271*98*97 (97*94)",
+      "capacity": 7500,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 11235,
+      "locationName": "Brooklyn, New York 11235, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
       "_id": "644ad7419fdb565028f4d640",
       "id": 110,
-      "location": [-122.336494, 47.608655],
+      "location": [
+        -86.510824,
+        40.279766
+      ],
       "name": "ow Vasiliy",
       "owner": "",
-      "dateAvailable": "2023-05-03T16:00:56.410Z",
+      "dateAvailable": "2023-05-08T13:00:56.410Z",
       "phone": "-",
       "typeCar": "sprinter",
       "dimension": "178-51-71",
       "capacity": 3500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 98101,
-      "locationName": "Seattle, Washington 98101, United States",
+      "zipCode": 46041,
+      "locationName": "Frankfort, Indiana 46041, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -270,7 +400,10 @@
     {
       "_id": "62cc2f4823bbc0000f4663df",
       "id": 122,
-      "location": [-111.610922, 40.166857],
+      "location": [
+        -111.610922,
+        40.166857
+      ],
       "name": "122  ow Vitaliy",
       "owner": "",
       "dateAvailable": null,
@@ -289,7 +422,10 @@
     {
       "_id": "62cc2f8c23bbc0000f4663e7",
       "id": 124,
-      "location": [-72.082003, 42.095591],
+      "location": [
+        -72.082003,
+        42.095591
+      ],
       "name": "Leonid ULITKA ",
       "owner": "",
       "dateAvailable": null,
@@ -301,14 +437,17 @@
       "home": "",
       "zipCode": 1566,
       "locationName": "Sturbridge, Massachusetts 01566, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cdc944d69d280f3d0c7670",
       "id": 125,
-      "location": [-96.8616219, 46.817636],
+      "location": [
+        -94.212552,
+        45.552587
+      ],
       "name": "dr Vitali Brazhynski ( ow 300 )",
       "owner": "ow 300  ",
       "dateAvailable": "2023-04-28T14:00:33.365Z",
@@ -318,8 +457,8 @@
       "capacity": 4000,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 58104,
-      "locationName": "Fargo, North Dakota 58104, United States",
+      "zipCode": 56301,
+      "locationName": "Saint Cloud, Minnesota 56301, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -327,7 +466,10 @@
     {
       "_id": "63c168090d7315177183ac43",
       "id": 126,
-      "location": [-74.345299, 43.050895],
+      "location": [
+        -74.345299,
+        43.050895
+      ],
       "name": "Anatoly yafimenko( ow 300 )",
       "owner": "ow 300",
       "dateAvailable": "2023-05-01T13:04:03.293Z",
@@ -346,7 +488,10 @@
     {
       "_id": "62cc32dd23bbc0000f466567",
       "id": 133,
-      "location": [-83.287152, 36.206427],
+      "location": [
+        -75.490475,
+        39.683447
+      ],
       "name": "Valerie Padurian",
       "owner": "",
       "dateAvailable": null,
@@ -356,8 +501,8 @@
       "capacity": 2500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 37813,
-      "locationName": "Morristown, Tennessee 37813, United States",
+      "zipCode": 8023,
+      "locationName": "Deepwater, New Jersey 08023, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -365,7 +510,10 @@
     {
       "_id": "639cf7adf6fc99c56969e74d",
       "id": 140,
-      "location": [-80.375305, 26.062911],
+      "location": [
+        -74.149605,
+        40.583456
+      ],
       "name": "Natali/Alex (ow 140) lg ",
       "owner": "140",
       "dateAvailable": "2023-04-28T12:08:33.965Z",
@@ -375,27 +523,30 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33331,
-      "locationName": "Weston, Florida 33331, United States",
-      "active": false,
-      "note": "To NJ",
+      "zipCode": 10314,
+      "locationName": "Staten Island, New York 10314, United States",
+      "active": true,
+      "note": "To Fl",
       "__v": 0
     },
     {
       "_id": "639cf7ebf6fc99c56969e755",
       "id": 141,
-      "location": [-106.208151, 31.691777],
+      "location": [
+        -83.030203,
+        42.580312
+      ],
       "name": "dr. Erdni Kharkebinov (ow 140)",
       "owner": "140",
-      "dateAvailable": "2023-04-28T11:09:00.824Z",
+      "dateAvailable": "2023-05-04T19:00:00.824Z",
       "phone": "1",
       "typeCar": "sprinter",
       "dimension": "145-48-72(60/72)",
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 79928,
-      "locationName": "Horizon City, Texas 79928, United States",
+      "zipCode": 48312,
+      "locationName": "Sterling Heights, Michigan 48312, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -403,7 +554,10 @@
     {
       "_id": "639cf8c9f6fc99c56969e796",
       "id": 142,
-      "location": [-83.627932, 41.557118],
+      "location": [
+        -74.149605,
+        40.583456
+      ],
       "name": "dr. Assemgul Orazbekova(ow 140)",
       "owner": "140",
       "dateAvailable": "2023-04-28T14:19:31.999Z",
@@ -413,16 +567,19 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 43551,
-      "locationName": "Perrysburg, Ohio 43551, United States",
+      "zipCode": 10314,
+      "locationName": "Staten Island, New York 10314, United States",
       "active": true,
-      "note": "To Nj",
+      "note": "To Fl",
       "__v": 0
     },
     {
       "_id": "639cf849f6fc99c56969e75d",
       "id": 143,
-      "location": [-79.764771, 40.569789],
+      "location": [
+        -90.422595,
+        32.259278
+      ],
       "name": "dr. Ivan Makoveev(ow 140)",
       "owner": "140",
       "dateAvailable": "2023-04-28T11:19:56.472Z",
@@ -432,16 +589,19 @@
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 15068,
-      "locationName": "New Kensington, Pennsylvania 15068, United States",
-      "active": true,
+      "zipCode": 39154,
+      "locationName": "Raymond, Mississippi 39154, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "639cf90af6fc99c56969e7ad",
       "id": 144,
-      "location": [-84.294654, 37.747857],
+      "location": [
+        -87.035283,
+        35.615072
+      ],
       "name": " dr. Musa Abkarov (ow 140)",
       "owner": "140",
       "dateAvailable": "2023-04-28T12:09:38.235Z",
@@ -451,8 +611,8 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 40475,
-      "locationName": "Richmond, Kentucky 40475, United States",
+      "zipCode": 38401,
+      "locationName": "Columbia, Tennessee 38401, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -460,7 +620,10 @@
     {
       "_id": "6442a1edb7219127c67bf41d",
       "id": 145,
-      "location": [-117.290136, 34.135076],
+      "location": [
+        -117.290136,
+        34.135076
+      ],
       "name": "145 (ow 140)",
       "owner": "140",
       "dateAvailable": "2023-04-21T14:46:02.938Z",
@@ -479,7 +642,10 @@
     {
       "_id": "62cc34b923bbc0000f466614",
       "id": 190,
-      "location": [-82.45436, 27.099919],
+      "location": [
+        -82.45436,
+        27.099919
+      ],
       "name": "Alexandr Linnik\t",
       "owner": "",
       "dateAvailable": null,
@@ -491,14 +657,17 @@
       "home": "",
       "zipCode": 34285,
       "locationName": "Venice, Florida 34285, United States",
-      "active": true,
+      "active": false,
       "note": "LOCAL",
       "__v": 0
     },
     {
       "_id": "63192ff0ca941bfd2a53df40",
       "id": 202,
-      "location": [-87.870897, 41.955864],
+      "location": [
+        -87.870897,
+        41.955864
+      ],
       "name": "Veaceslav Grisaev   [ LG & PJ ]",
       "owner": "",
       "dateAvailable": "2022-09-22T13:00:00.708Z",
@@ -517,7 +686,10 @@
     {
       "_id": "6352c3c69a20969a94a230f4",
       "id": 203,
-      "location": [-79.51, 36.1],
+      "location": [
+        -79.51,
+        36.1
+      ],
       "name": "ow Ibrahim ",
       "owner": "",
       "dateAvailable": "2022-11-15T13:50:53.834Z",
@@ -536,7 +708,10 @@
     {
       "_id": "62cc369123bbc0000f46663a",
       "id": 204,
-      "location": [-88.134793, 41.912529],
+      "location": [
+        -81.588456,
+        40.031183
+      ],
       "name": "Yaroslav Poliskiy\t(204)",
       "owner": "",
       "dateAvailable": null,
@@ -546,8 +721,8 @@
       "capacity": 3000,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 60188,
-      "locationName": "Carol Stream, Illinois 60188, United States",
+      "zipCode": 43725,
+      "locationName": "Cambridge, Ohio 43725, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -555,7 +730,10 @@
     {
       "_id": "62cc377723bbc0000f466648",
       "id": 205,
-      "location": [-87.870897, 41.955864],
+      "location": [
+        -87.870897,
+        41.955864
+      ],
       "name": "dr David (ow 547 Sergey) ",
       "owner": "547 Sergey",
       "dateAvailable": "2023-04-21T13:22:13.299Z",
@@ -574,7 +752,10 @@
     {
       "_id": "63515fb50512195c298a5d7c",
       "id": 208,
-      "location": [-84.558831, 38.209797],
+      "location": [
+        -81.364248,
+        28.455962
+      ],
       "name": "dr Kakha (ow 209) ",
       "owner": "",
       "dateAvailable": "2023-04-19T14:19:43.685Z",
@@ -584,8 +765,8 @@
       "capacity": 4500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 40324,
-      "locationName": "Georgetown, Kentucky 40324, United States",
+      "zipCode": 32809,
+      "locationName": "Orlando, Florida 32809, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -593,7 +774,10 @@
     {
       "_id": "62cc93d271377f25837d0552",
       "id": 209,
-      "location": [-73.971777, 40.596909],
+      "location": [
+        -70.811986,
+        42.113157
+      ],
       "name": "ow 209 Malhazi  (Imeda)",
       "owner": "",
       "dateAvailable": "2023-03-13T14:00:59.052Z",
@@ -603,27 +787,30 @@
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 11223,
-      "locationName": "Brooklyn, New York 11223, United States",
-      "active": true,
+      "zipCode": 2339,
+      "locationName": "Hanover, Massachusetts 02339, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "6418862686da8e29410cd42c",
       "id": 209.1,
-      "location": [-75.086562, 40.653989],
+      "location": [
+        -111.068378,
+        45.700987
+      ],
       "name": "Mirian (ow 209)",
       "owner": "209",
-      "dateAvailable": "2023-04-19T15:12:15.544Z",
+      "dateAvailable": "2023-05-09T15:12:15.544Z",
       "phone": "1",
       "typeCar": "box truck",
       "dimension": "168-90-92",
       "capacity": 4500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 8804,
-      "locationName": "Bloomsbury, New Jersey 08804, United States",
+      "zipCode": 59718,
+      "locationName": "Bozeman, Montana 59718, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -631,8 +818,11 @@
     {
       "_id": "62cc947471377f25837d0567",
       "id": 210,
-      "location": [-75.381279, 40.610598],
-      "name": "ow Georgiy (210)",
+      "location": [
+        -74.002726,
+        40.604183
+      ],
+      "name": "ow Siarhei Babko (210)",
       "owner": "",
       "dateAvailable": "2023-04-28T23:01:27.228Z",
       "phone": "9295306644",
@@ -641,35 +831,41 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 18015,
-      "locationName": "Bethlehem, Pennsylvania 18015, United States",
+      "zipCode": 11214,
+      "locationName": "Brooklyn, New York 11214, United States",
       "active": false,
-      "note": "Need loads towards NYC please.",
+      "note": "to RUMFORD, RI 02916",
       "__v": 0
     },
     {
       "_id": "63c963e4aa1a8a1e62e37f28",
       "id": 210.1,
-      "location": [-99.4754089, 27.584778],
+      "location": [
+        -77.4659,
+        37.399127
+      ],
       "name": "driver Kote ( ow 210 )",
       "owner": "210",
-      "dateAvailable": "2023-04-29T16:02:27.864Z",
+      "dateAvailable": "2023-05-05T22:02:27.864Z",
       "phone": "123",
       "typeCar": "box truck",
       "dimension": "169*90*92(87*91)",
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 78045,
-      "locationName": "Laredo, Texas 78045, United States",
-      "active": false,
-      "note": "ANY LOAD INCLUDING BORDERS!",
+      "zipCode": 23237,
+      "locationName": "North Chesterfield, Virginia 23237, United States",
+      "active": true,
+      "note": "",
       "__v": 0
     },
     {
       "_id": "631f6a815df2c48a6f781b1d",
       "id": 214,
-      "location": [-117.311036, 47.664201],
+      "location": [
+        -117.311036,
+        47.664201
+      ],
       "name": "ow Nicolae Cabac",
       "owner": "",
       "dateAvailable": null,
@@ -688,7 +884,10 @@
     {
       "_id": "62cc954c71377f25837d0587",
       "id": 215,
-      "location": [-80.569239, 41.156446],
+      "location": [
+        -81.49043,
+        41.03832
+      ],
       "name": "215 ARCHIL Tchintcharauli",
       "owner": "",
       "dateAvailable": "2023-03-24T12:00:23.457Z",
@@ -698,8 +897,8 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 44425,
-      "locationName": "Hubbard, Ohio 44425, United States",
+      "zipCode": 44306,
+      "locationName": "Akron, Ohio 44306, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -707,7 +906,10 @@
     {
       "_id": "63ce9b87b51a39abcd92435d",
       "id": 216,
-      "location": [-80.569239, 41.156446],
+      "location": [
+        -76.16412,
+        39.509556
+      ],
       "name": "Levani ( ow 215 Archil )",
       "owner": "215",
       "dateAvailable": "2023-03-21T13:00:13.700Z",
@@ -717,8 +919,8 @@
       "capacity": 4200,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 44425,
-      "locationName": "Hubbard, Ohio 44425, United States",
+      "zipCode": 21001,
+      "locationName": "Aberdeen, Maryland 21001, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -726,7 +928,10 @@
     {
       "_id": "62cc961171377f25837d05a5",
       "id": 217,
-      "location": [-86.118926, 39.978802],
+      "location": [
+        -86.118926,
+        39.978802
+      ],
       "name": "dr Dorel ( ow 218 Andrey )",
       "owner": "ow 218 Andrey",
       "dateAvailable": null,
@@ -745,7 +950,10 @@
     {
       "_id": "62cc965471377f25837d05b3",
       "id": 218,
-      "location": [-87.931094, 42.138889],
+      "location": [
+        -88.557167,
+        44.009838
+      ],
       "name": "Andrei Marchis (ENG)(ow 218)",
       "owner": "",
       "dateAvailable": "2023-04-27T12:00:16.163Z",
@@ -755,8 +963,8 @@
       "capacity": 4000,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 60090,
-      "locationName": "Wheeling, Illinois 60090, United States",
+      "zipCode": 54902,
+      "locationName": "Oshkosh, Wisconsin 54902, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -764,18 +972,21 @@
     {
       "_id": "62d54fc8e879532a6c3baa9a",
       "id": 222,
-      "location": [-70.968635, 42.462812],
+      "location": [
+        -77.998891,
+        39.932589
+      ],
       "name": "dr Kurban (Rasul)(ow 225 Maga) ",
       "owner": "225 Magomed",
-      "dateAvailable": "2023-04-28T13:00:00.645Z",
+      "dateAvailable": null,
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "165x88.5x78(82x73)",
       "capacity": 3500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 1905,
-      "locationName": "Lynn, Massachusetts 01905, United States",
+      "zipCode": 17233,
+      "locationName": "McConnellsburg, Pennsylvania 17233, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -783,26 +994,32 @@
     {
       "_id": "63ee3be349d297d283e85d4d",
       "id": 223,
-      "location": [-90.42352, 38.756606],
+      "location": [
+        -123.105932,
+        44.636507
+      ],
       "name": "dr Rustam (ow 225 Magamed)",
       "owner": "",
-      "dateAvailable": "2023-05-01T12:00:36.452Z",
+      "dateAvailable": null,
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "165x88.5x78(82x73)",
       "capacity": 3500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 63044,
-      "locationName": "Bridgeton, Missouri 63044, United States",
-      "active": false,
+      "zipCode": 97321,
+      "locationName": "Albany, Oregon 97321, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc97de71377f25837d05ee",
       "id": 224,
-      "location": [-86.681684, 33.648362],
+      "location": [
+        -86.681684,
+        33.648362
+      ],
       "name": "Farhad ( ow 225 Magamed ) ",
       "owner": "ow 225",
       "dateAvailable": null,
@@ -821,18 +1038,21 @@
     {
       "_id": "62cc983371377f25837d05fc",
       "id": 225,
-      "location": [-84.91237, 41.5336],
+      "location": [
+        -87.78257,
+        42.040586
+      ],
       "name": "dr Marat(Asif) ( ow 225 Magamed )",
       "owner": "ow 225",
-      "dateAvailable": "2023-04-20T13:13:15.643Z",
+      "dateAvailable": null,
       "phone": "7179918315",
       "typeCar": "box truck",
       "dimension": "165x88.5x78(82x73)",
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 46742,
-      "locationName": "Hamilton, Indiana 46742, United States",
+      "zipCode": 60053,
+      "locationName": "Morton Grove, Illinois 60053, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -840,7 +1060,10 @@
     {
       "_id": "62cc988e71377f25837d060c",
       "id": 226,
-      "location": [-122.246591, 47.898238],
+      "location": [
+        -121.208887,
+        37.785064
+      ],
       "name": "dr Petr(Osman) ( ow 225 Magamed )",
       "owner": "ow 225 Mahomed",
       "dateAvailable": "2023-05-01T13:00:07.575Z",
@@ -850,8 +1073,8 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 98204,
-      "locationName": "Everett, Washington 98204, United States",
+      "zipCode": 95337,
+      "locationName": "Manteca, California 95337, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -859,7 +1082,10 @@
     {
       "_id": "62cc997b71377f25837d0640",
       "id": 227,
-      "location": [-85.715825, 37.988594],
+      "location": [
+        -88.095577,
+        42.013215
+      ],
       "name": "dr Murad ( ow 225 Magamed ) E-Truck",
       "owner": "ow 225 Magamed",
       "dateAvailable": "2023-04-28T12:00:00.697Z",
@@ -869,8 +1095,8 @@
       "capacity": 6500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 40165,
-      "locationName": "Shepherdsville, Kentucky 40165, United States",
+      "zipCode": 60193,
+      "locationName": "Schaumburg, Illinois 60193, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -878,7 +1104,10 @@
     {
       "_id": "62cc9a0971377f25837d0656",
       "id": 228,
-      "location": [-83.180054, 42.140655],
+      "location": [
+        -84.413998,
+        39.26977
+      ],
       "name": "dr Kamal ( ow 225 Magamed )",
       "owner": "ow 225 Magamed",
       "dateAvailable": "2023-04-23T14:06:15.244Z",
@@ -888,16 +1117,19 @@
       "capacity": 3500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 48183,
-      "locationName": "Trenton, Michigan 48183, United States",
-      "active": true,
+      "zipCode": 45241,
+      "locationName": "Sharonville, Ohio 45241, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc9a7a71377f25837d067f",
       "id": 229,
-      "location": [-80.960364, 34.307647],
+      "location": [
+        -82.655876,
+        34.520808
+      ],
       "name": "dr Ibragim ( ow 225 Magamed )",
       "owner": "ow 225 Magamed",
       "dateAvailable": "2023-04-20T12:00:02.177Z",
@@ -907,17 +1139,20 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 29130,
-      "locationName": "Ridgeway, South Carolina 29130, United States",
-      "active": true,
+      "zipCode": 29622,
+      "locationName": "Anderson, South Carolina 29622, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc9ade71377f25837d0694",
       "id": 230,
-      "location": [-80.148379, 25.981203],
-      "name": "dr Dima( ow 225 Magamed )",
+      "location": [
+        -77.998891,
+        39.932589
+      ],
+      "name": "dr Kurban( ow 225 Magamed )",
       "owner": "ow 225 Magamed",
       "dateAvailable": "2023-05-02T17:00:00.214Z",
       "phone": "(347) 841-8104",
@@ -926,16 +1161,19 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33009,
-      "locationName": "Hallandale Beach, Florida 33009, United States",
-      "active": false,
+      "zipCode": 17233,
+      "locationName": "McConnellsburg, Pennsylvania 17233, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "630d19aa9148b76ed0420316",
       "id": 232,
-      "location": [-70.928661, 42.527873],
+      "location": [
+        -70.928661,
+        42.527873
+      ],
       "name": "dr Mikhail (ow 232 Pasha)",
       "owner": "ow 232 Pasha",
       "dateAvailable": null,
@@ -954,7 +1192,10 @@
     {
       "_id": "635fdbbdfb1ba6da62c9e95c",
       "id": 233,
-      "location": [-80.580005, 35.409418],
+      "location": [
+        -94.461532,
+        39.169486
+      ],
       "name": "unit 1 ( ow 232 )",
       "owner": "ow 232",
       "dateAvailable": null,
@@ -964,8 +1205,8 @@
       "capacity": 4500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 28025,
-      "locationName": "Concord, North Carolina 28025, United States",
+      "zipCode": 64161,
+      "locationName": "Kansas City, Missouri 64161, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -973,7 +1214,10 @@
     {
       "_id": "636518131947266d9367b0ac",
       "id": 234,
-      "location": [-73.445856, 40.732881],
+      "location": [
+        -73.445856,
+        40.732881
+      ],
       "name": "unit 2 ( 232 pavel )",
       "owner": "232 pavel",
       "dateAvailable": "2023-05-02T12:05:28.522Z",
@@ -985,14 +1229,17 @@
       "home": "",
       "zipCode": 11735,
       "locationName": "Farmingdale, New York 11735, United States",
-      "active": true,
+      "active": false,
       "note": "Looking load to Cleveland, OH area.",
       "__v": 0
     },
     {
       "_id": "63120116c54fed8f98f25631",
       "id": 235,
-      "location": [-99.500968, 27.589009],
+      "location": [
+        -99.500968,
+        27.589009
+      ],
       "name": "ow Vaja",
       "owner": "",
       "dateAvailable": "2022-09-02T13:10:52.861Z",
@@ -1011,7 +1258,10 @@
     {
       "_id": "63120152c54fed8f98f2566f",
       "id": 236,
-      "location": [-122.123877, 47.669414],
+      "location": [
+        -122.123877,
+        47.669414
+      ],
       "name": "dr Denis (ow 235 Vaja)",
       "owner": "",
       "dateAvailable": "2022-09-19T17:00:31.361Z",
@@ -1030,7 +1280,10 @@
     {
       "_id": "6312018bc54fed8f98f256bf",
       "id": 237,
-      "location": [-80.827249, 35.242809],
+      "location": [
+        -80.827249,
+        35.242809
+      ],
       "name": "dr Zviad (ow 235 vaja)",
       "owner": "",
       "dateAvailable": "2022-09-13T17:00:53.034Z",
@@ -1049,7 +1302,10 @@
     {
       "_id": "631201b9c54fed8f98f25703",
       "id": 238,
-      "location": [-84.85219, 35.131477],
+      "location": [
+        -84.85219,
+        35.131477
+      ],
       "name": "dr Beka  (ow 235 Vaja)",
       "owner": "",
       "dateAvailable": "2022-09-20T13:00:37.075Z",
@@ -1068,26 +1324,32 @@
     {
       "_id": "631201f7c54fed8f98f25757",
       "id": 239,
-      "location": [-87.931094, 42.138889],
+      "location": [
+        -122.747982,
+        38.426837
+      ],
       "name": "Arti (ow 239) PJ",
       "owner": "",
-      "dateAvailable": "2023-04-21T23:00:19.573Z",
+      "dateAvailable": "2023-05-05T13:00:18.407Z",
       "phone": "3129759599",
       "typeCar": "box truck",
       "dimension": "168/87.6/76.8/",
       "capacity": 4500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 60090,
-      "locationName": "Wheeling, Illinois 60090, United States",
+      "zipCode": 95407,
+      "locationName": "Santa Rosa, California 95407, United States",
       "active": true,
-      "note": "Partial to CA 2 standart palets",
+      "note": "",
       "__v": 0
     },
     {
       "_id": "63360ca31ca56eea54b7dd5c",
       "id": 241,
-      "location": [-122.719421, 45.411114],
+      "location": [
+        -112.081649,
+        40.703163
+      ],
       "name": "dr 241 Ihar Chernik (ow 240 Slava)",
       "owner": " (ow 240 Slava)",
       "dateAvailable": null,
@@ -1097,8 +1359,8 @@
       "capacity": 2500,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 97035,
-      "locationName": "Lake Oswego, Oregon 97035, United States",
+      "zipCode": 84044,
+      "locationName": "Magna, Utah 84044, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -1106,7 +1368,10 @@
     {
       "_id": "63360ba01ca56eea54b7dca1",
       "id": 242,
-      "location": [-110.711909, 32.047742],
+      "location": [
+        -110.711909,
+        32.047742
+      ],
       "name": "dr 242 Yevhen Khmyz  (ow 240 Slava)",
       "owner": " (ow 240 Slava)",
       "dateAvailable": null,
@@ -1125,7 +1390,10 @@
     {
       "_id": "62cc9f9571377f25837d0769",
       "id": 244,
-      "location": [-83.05977, 42.465036],
+      "location": [
+        -83.05977,
+        42.465036
+      ],
       "name": "unit # 4 ow 542 Andrey LG and PJ",
       "owner": "ow 542 Andrey",
       "dateAvailable": null,
@@ -1144,7 +1412,10 @@
     {
       "_id": "62cc9fff71377f25837d0779",
       "id": 245,
-      "location": [-81.83511, 41.314473],
+      "location": [
+        -81.83511,
+        41.314473
+      ],
       "name": "dr Vadim uint # 3 ( ow 542 Andriy Syniutka  )PJ",
       "owner": "ow 542 Andriy Syniutka",
       "dateAvailable": "2023-04-14T13:51:22.556Z",
@@ -1163,7 +1434,10 @@
     {
       "_id": "62cca09471377f25837d078d",
       "id": 246,
-      "location": [-88.071735, 41.910307],
+      "location": [
+        -88.071735,
+        41.910307
+      ],
       "name": "dr Gerel ( ow 246  Tenzin )",
       "owner": "",
       "dateAvailable": "2023-01-30T13:01:54.198Z",
@@ -1182,7 +1456,10 @@
     {
       "_id": "62cca0e571377f25837d0795",
       "id": 250,
-      "location": [-77.48749, 39.043719],
+      "location": [
+        -77.48749,
+        39.043719
+      ],
       "name": "Romeo Naboev (250)",
       "owner": "",
       "dateAvailable": "2023-04-10T12:03:35.559Z",
@@ -1201,7 +1478,10 @@
     {
       "_id": "62e7e1db74a045b2b5695f21",
       "id": 251,
-      "location": [-90.020802, 38.556871],
+      "location": [
+        -90.020802,
+        38.556871
+      ],
       "name": "ow Gasay (251)",
       "owner": "251",
       "dateAvailable": null,
@@ -1213,33 +1493,39 @@
       "home": "",
       "zipCode": 62223,
       "locationName": "Belleville, Illinois 62223, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62e7e25d74a045b2b5695fd3",
       "id": 252,
-      "location": [-80.148379, 25.981203],
+      "location": [
+        -115.304426,
+        36.134325
+      ],
       "name": "dr Ismail ( ow 251 Gasay )",
       "owner": "251",
-      "dateAvailable": null,
+      "dateAvailable": "2023-05-04T20:00:00.419Z",
       "phone": "(754) 221-6843",
       "typeCar": "box truck",
       "dimension": "165x88.5x78(82.5x73)",
       "capacity": 5000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33009,
-      "locationName": "Hallandale Beach, Florida 33009, United States",
-      "active": false,
+      "zipCode": 88901,
+      "locationName": "Las Vegas, Nevada 88901, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62fcd4a670bcef60375aaef3",
       "id": 253,
-      "location": [-118.257118, 33.975914],
+      "location": [
+        -118.257118,
+        33.975914
+      ],
       "name": "dr Ibragim (Beslan) ( ow 251 Gasay )",
       "owner": "",
       "dateAvailable": null,
@@ -1258,7 +1544,10 @@
     {
       "_id": "633dddec0c9f068436ea1abd",
       "id": 255,
-      "location": [-75.044513, 40.055187],
+      "location": [
+        -75.044513,
+        40.055187
+      ],
       "name": "dr 255 Irakl",
       "owner": "",
       "dateAvailable": null,
@@ -1270,14 +1559,17 @@
       "home": "",
       "zipCode": 19152,
       "locationName": "Philadelphia, Pennsylvania 19152, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cca1bc71377f25837d07a3",
       "id": 259,
-      "location": [-122.564707, 45.486198],
+      "location": [
+        -122.564707,
+        45.486198
+      ],
       "name": "Danyil Havrylovych LG, PG",
       "owner": "",
       "dateAvailable": null,
@@ -1289,25 +1581,28 @@
       "home": "",
       "zipCode": 97266,
       "locationName": "Portland, Oregon 97266, United States",
-      "active": false,
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cca47671377f25837d07eb",
       "id": 268,
-      "location": [-72.859545, 41.390931],
+      "location": [
+        -111.940009,
+        33.425506
+      ],
       "name": "Sergey Gaponyuk",
       "owner": "",
-      "dateAvailable": "2023-05-02T13:00:14.842Z",
+      "dateAvailable": "2023-05-08T15:00:14.842Z",
       "phone": "(916) 802-6952",
       "typeCar": "box truck",
       "dimension": "146*92*72(88*72)",
       "capacity": 2500,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 6473,
-      "locationName": "North Haven, Connecticut 06473, United States",
+      "zipCode": 85281,
+      "locationName": "Tempe, Arizona 85281, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -1315,18 +1610,21 @@
     {
       "_id": "62cca58b71377f25837d07fe",
       "id": 270,
-      "location": [-74.077721, 40.620421],
+      "location": [
+        -95.412133,
+        30.00254
+      ],
       "name": "OW VAJIKO TSITSAGI",
       "owner": "",
-      "dateAvailable": "2023-04-24T13:16:02.011Z",
+      "dateAvailable": "2023-05-08T13:31:02.512Z",
       "phone": "(929) 384-3844",
       "typeCar": "box truck",
       "dimension": "169x91x90",
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 10304,
-      "locationName": "Staten Island, New York 10304, United States",
+      "zipCode": 77073,
+      "locationName": "Houston, Texas 77073, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -1334,18 +1632,21 @@
     {
       "_id": "62cca67471377f25837d080c",
       "id": 272,
-      "location": [-90.012591, 34.988982],
+      "location": [
+        -74.077721,
+        40.620421
+      ],
       "name": "dr Mikheil ( ow 270 Vaja )",
       "owner": "ow 270 Vaja",
-      "dateAvailable": null,
+      "dateAvailable": "2023-05-04T13:31:50.214Z",
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "169x91x90",
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 38671,
-      "locationName": "Southaven, Mississippi 38671, United States",
+      "zipCode": 10304,
+      "locationName": "Staten Island, New York 10304, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -1353,7 +1654,10 @@
     {
       "_id": "63c939e9aa1a8a1e62e364b5",
       "id": 282.1,
-      "location": [-74.977038, 40.092609],
+      "location": [
+        -74.977038,
+        40.092609
+      ],
       "name": "Dr Archill (ow282)",
       "owner": "282",
       "dateAvailable": "2023-01-19T13:12:52.200Z",
@@ -1372,7 +1676,10 @@
     {
       "_id": "63c94249aa1a8a1e62e366e8",
       "id": 282.11,
-      "location": [-74.977038, 40.092609],
+      "location": [
+        -74.977038,
+        40.092609
+      ],
       "name": "Dr Archill (ow282)",
       "owner": "282",
       "dateAvailable": "2023-01-19T13:12:52.200Z",
@@ -1391,7 +1698,10 @@
     {
       "_id": "63cfda58c69f0bb3e5c4ac49",
       "id": 282.12,
-      "location": [-97.589329, 30.238323],
+      "location": [
+        -79.266962,
+        36.095972
+      ],
       "name": "Dr Giorgi&Jemal (ow282)",
       "owner": "282",
       "dateAvailable": "2023-04-28T11:34:39.536Z",
@@ -1401,16 +1711,19 @@
       "capacity": 8000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 78725,
-      "locationName": "Austin, Texas 78725, United States",
+      "zipCode": 27302,
+      "locationName": "Mebane, North Carolina 27302, United States",
       "active": false,
-      "note": "",
+      "note": "PJ",
       "__v": 0
     },
     {
       "_id": "63c93ab0aa1a8a1e62e364c9",
       "id": 282.2,
-      "location": [-81.038988, 40.029237],
+      "location": [
+        -81.038988,
+        40.029237
+      ],
       "name": "Iuri TENT (ow282)",
       "owner": "282",
       "dateAvailable": "2023-02-17T11:40:18.379Z",
@@ -1429,27 +1742,33 @@
     {
       "_id": "63c93b6eaa1a8a1e62e364dd",
       "id": 282.3,
-      "location": [-83.35271, 42.36837],
+      "location": [
+        -82.934738,
+        39.827739
+      ],
       "name": "Dr Zviad TENT (ow282)",
       "owner": "282",
-      "dateAvailable": "2023-04-28T12:00:00.562Z",
+      "dateAvailable": "2023-05-04T15:00:00.562Z",
       "phone": "1",
       "typeCar": "box truck",
       "dimension": "169x90x91",
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 48150,
-      "locationName": "Livonia, Michigan 48150, United States",
-      "active": false,
+      "zipCode": 43217,
+      "locationName": "Groveport, Ohio 43217, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63c93bf8aa1a8a1e62e364fb",
       "id": 282.4,
-      "location": [-96.890282, 32.953735],
-      "name": "Dr Shota TENT (ow282)",
+      "location": [
+        -83.049644,
+        42.392815
+      ],
+      "name": "Dr mikheil TENT (ow282)",
       "owner": "282",
       "dateAvailable": "2023-04-24T21:21:55.517Z",
       "phone": "-",
@@ -1458,16 +1777,19 @@
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 75006,
-      "locationName": "Carrollton, Texas 75006, United States",
-      "active": false,
+      "zipCode": 48212,
+      "locationName": "Hamtramck, Michigan 48212, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63c93c55aa1a8a1e62e3651b",
       "id": 282.5,
-      "location": [-82.101248, 39.328924],
+      "location": [
+        -82.101248,
+        39.328924
+      ],
       "name": "Dr Beqa HARD (ow282)",
       "owner": "282",
       "dateAvailable": "2023-04-28T11:34:00.011Z",
@@ -1486,7 +1808,10 @@
     {
       "_id": "63c93ccdaa1a8a1e62e3653d",
       "id": 282.6,
-      "location": [-73.945234, 40.632704],
+      "location": [
+        -73.945234,
+        40.632704
+      ],
       "name": "Dr Besiki TENT (ow282)",
       "owner": "282",
       "dateAvailable": null,
@@ -1505,7 +1830,10 @@
     {
       "_id": "63c93d2faa1a8a1e62e36557",
       "id": 282.7,
-      "location": [-73.946878, 40.628523],
+      "location": [
+        -73.946878,
+        40.628523
+      ],
       "name": "Dr Nukri HARD (ow282)",
       "owner": "282",
       "dateAvailable": "2023-03-22T12:00:00.483Z",
@@ -1517,14 +1845,17 @@
       "home": "",
       "zipCode": 11210,
       "locationName": "Brooklyn, New York 11210, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63c93fdfaa1a8a1e62e365e1",
       "id": 282.8,
-      "location": [-71.373953, 42.865087],
+      "location": [
+        -95.2196,
+        29.785103
+      ],
       "name": "Dr Jaba TENT(ow282)",
       "owner": "282",
       "dateAvailable": "2023-01-19T19:01:45.244Z",
@@ -1534,8 +1865,8 @@
       "capacity": 4500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 3053,
-      "locationName": "Londonderry, New Hampshire 03053, United States",
+      "zipCode": 77013,
+      "locationName": "Houston, Texas 77013, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -1543,7 +1874,10 @@
     {
       "_id": "63c94078aa1a8a1e62e36601",
       "id": 282.9,
-      "location": [-81.22806, 28.593131],
+      "location": [
+        -81.22806,
+        28.593131
+      ],
       "name": "Dr Bichi Kencho (ow282)",
       "owner": "282",
       "dateAvailable": "2023-01-19T13:04:59.103Z",
@@ -1562,7 +1896,10 @@
     {
       "_id": "642b32fc9e521cd1d7b23935",
       "id": 283,
-      "location": [-81.7912779, 41.432057],
+      "location": [
+        -87.943178,
+        41.953838
+      ],
       "name": "Nugzari Hard side(ow 282)",
       "owner": "282",
       "dateAvailable": "2023-04-28T15:10:22.025Z",
@@ -1572,8 +1909,8 @@
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 44135,
-      "locationName": "Cleveland, Ohio 44135, United States",
+      "zipCode": 60106,
+      "locationName": "Bensenville, Illinois 60106, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -1581,7 +1918,10 @@
     {
       "_id": "62ccaa2971377f25837d08b8",
       "id": 287,
-      "location": [-112.073815, 33.453617],
+      "location": [
+        -112.073815,
+        33.453617
+      ],
       "name": "dr George ( ow 218 Andrey )",
       "owner": "ow 218 Andrey",
       "dateAvailable": null,
@@ -1600,7 +1940,10 @@
     {
       "_id": "62ccaa8271377f25837d08d2",
       "id": 288,
-      "location": [-87.887392, 42.041582],
+      "location": [
+        -87.887392,
+        42.041582
+      ],
       "name": "dr Danut Oceanu ( ow 218 Andrey )",
       "owner": "ow 218 Andrey",
       "dateAvailable": null,
@@ -1619,7 +1962,10 @@
     {
       "_id": "62ccab0e71377f25837d0926",
       "id": 289,
-      "location": [-87.753529, 42.03567],
+      "location": [
+        -87.753529,
+        42.03567
+      ],
       "name": "dr Ioan ( ow 218 Andrey )",
       "owner": "ow 218 Andrey",
       "dateAvailable": "2023-02-01T07:00:00.243Z",
@@ -1638,8 +1984,11 @@
     {
       "_id": "62ccab8471377f25837d095f",
       "id": 290,
-      "location": [-98.408194, 29.532832],
-      "name": "dr Valentin ( ow 218 Andrey ) TEAM",
+      "location": [
+        -98.408194,
+        29.532832
+      ],
+      "name": "dr Valentin ( ow 218 Andrey ) ",
       "owner": "ow 218 Andrey",
       "dateAvailable": "2023-05-03T14:15:03.888Z",
       "phone": "-",
@@ -1650,14 +1999,17 @@
       "home": "",
       "zipCode": 78265,
       "locationName": "San Antonio, Texas 78265, United States",
-      "active": true,
-      "note": "",
+      "active": false,
+      "note": "West only",
       "__v": 0
     },
     {
       "_id": "62ccac6271377f25837d09a3",
       "id": 293,
-      "location": [-75.499157, 40.605739],
+      "location": [
+        -87.150852,
+        40.760873
+      ],
       "name": "dr Leri (Kakha)( ow 295 Nick )",
       "owner": "ow 295 Nick",
       "dateAvailable": "2023-03-21T12:32:51.658Z",
@@ -1667,8 +2019,8 @@
       "capacity": 5000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 18104,
-      "locationName": "Allentown, Pennsylvania 18104, United States",
+      "zipCode": 47977,
+      "locationName": "Remington, Indiana 47977, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -1676,7 +2028,10 @@
     {
       "_id": "62ccad1571377f25837d09c1",
       "id": 294,
-      "location": [-77.1244129, 38.807378],
+      "location": [
+        -77.1244129,
+        38.807378
+      ],
       "name": "dr Muxa( ow 295 Nick )",
       "owner": "ow 295 Nick",
       "dateAvailable": "2023-04-27T15:00:56.057Z",
@@ -1695,7 +2050,10 @@
     {
       "_id": "62ccae2d71377f25837d0a55",
       "id": 295,
-      "location": [-90.323135, 29.946872],
+      "location": [
+        -84.345787,
+        33.741943
+      ],
       "name": " dr Zura (Niko) ( ow 295ow  )",
       "owner": "",
       "dateAvailable": null,
@@ -1705,35 +2063,41 @@
       "capacity": 4800,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 70087,
-      "locationName": "Saint Rose, Louisiana 70087, United States",
+      "zipCode": 30316,
+      "locationName": "Atlanta, Georgia 30316, United States",
       "active": false,
-      "note": "NO BORDER!!!!",
+      "note": "trying to go to NY NJ CT NO BORDER!!!!",
       "__v": 0
     },
     {
       "_id": "62ccae9371377f25837d0a82",
       "id": 296,
-      "location": [-112.081649, 40.703163],
+      "location": [
+        -86.762506,
+        39.286712
+      ],
       "name": "dr Soslan tamayev",
       "owner": "",
-      "dateAvailable": "2023-04-14T14:25:19.093Z",
+      "dateAvailable": "2023-05-03T13:54:45.335Z",
       "phone": "(773) 750-1393",
       "typeCar": "box truck",
       "dimension": "150x92x79(88x76)",
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 84044,
-      "locationName": "Magna, Utah 84044, United States",
+      "zipCode": 47460,
+      "locationName": "Spencer, Indiana 47460, United States",
       "active": true,
-      "note": "в сторону NY(паршал на 3 палеты)",
+      "note": "To chicago area",
       "__v": 0
     },
     {
       "_id": "62ccb80571377f25837d0c2c",
       "id": 297,
-      "location": [-149.442564, 61.582422],
+      "location": [
+        -149.442564,
+        61.582422
+      ],
       "name": "ow Zamir Malbakhov",
       "owner": "",
       "dateAvailable": null,
@@ -1752,7 +2116,10 @@
     {
       "_id": "62ccb91471377f25837d0c7e",
       "id": 299,
-      "location": [-84.198912, 39.818266],
+      "location": [
+        -84.198912,
+        39.818266
+      ],
       "name": "ow Alex Prok",
       "owner": "",
       "dateAvailable": "2022-12-24T12:56:52.943Z",
@@ -1771,7 +2138,10 @@
     {
       "_id": "62cdc786d69d280f3d0c74f5",
       "id": 300,
-      "location": [-122.234439, 47.380677],
+      "location": [
+        -122.199614,
+        47.446533
+      ],
       "name": "dr Merdan rejepnazarov ( ow 300 )",
       "owner": "ow 300  Andrey & Maks ",
       "dateAvailable": "2023-04-27T17:00:00.557Z",
@@ -1781,16 +2151,19 @@
       "capacity": 5000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 98032,
-      "locationName": "Kent, Washington 98032, United States",
-      "active": true,
+      "zipCode": 98055,
+      "locationName": "Renton, Washington 98055, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63dbe6271f8f3c3b4f82cf93",
       "id": 300.1,
-      "location": [-82.999465, 42.466638],
+      "location": [
+        -77.899986,
+        34.355724
+      ],
       "name": "Muslim (ow 300)",
       "owner": "300",
       "dateAvailable": "2023-05-01T15:00:45.117Z",
@@ -1800,19 +2173,22 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "-",
-      "zipCode": 48089,
-      "locationName": "Warren, Michigan 48089, United States",
-      "active": true,
+      "zipCode": 28429,
+      "locationName": "Castle Hayne, North Carolina 28429, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cdc7e4d69d280f3d0c7532",
       "id": 301,
-      "location": [-75.0189385, 40.119424],
+      "location": [
+        -75.0189385,
+        40.119424
+      ],
       "name": "dr Elguja tkhelia ( ow 300 )",
       "owner": "ow 300  Andrey & Maks ",
-      "dateAvailable": "2023-04-20T13:00:14.558Z",
+      "dateAvailable": "2023-05-04T14:00:14.558Z",
       "phone": "3474130806",
       "typeCar": "box truck",
       "dimension": "181-98-96(95-95)",
@@ -1828,18 +2204,21 @@
     {
       "_id": "62cdc839d69d280f3d0c757a",
       "id": 302,
-      "location": [-108.49607, 45.787496],
+      "location": [
+        -79.658638,
+        36.107358
+      ],
       "name": "dr Evgeni venskevich ( ow 300 ) ",
       "owner": "ow 300  Andrey & Maks ",
-      "dateAvailable": "2023-04-26T16:00:11.429Z",
+      "dateAvailable": "2023-05-05T15:00:11.429Z",
       "phone": "2673673809",
       "typeCar": "box truck",
       "dimension": "152-86-72",
       "capacity": 3600,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 59101,
-      "locationName": "Billings, Montana 59101, United States",
+      "zipCode": 27301,
+      "locationName": "McLeansville, North Carolina 27301, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -1847,18 +2226,21 @@
     {
       "_id": "62cdc871d69d280f3d0c75b6",
       "id": 303,
-      "location": [-81.303879, 28.598087],
+      "location": [
+        -98.183622,
+        26.194796
+      ],
       "name": "dr Ihor kozak ( ow 300 )",
       "owner": "ow 300  Andrey & Maks ",
-      "dateAvailable": "2023-04-27T15:00:00.520Z",
+      "dateAvailable": "2023-05-05T15:00:00.520Z",
       "phone": "4452377728",
       "typeCar": "box truck",
       "dimension": "181*98*96(95*95)",
       "capacity": 5000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 32792,
-      "locationName": "Winter Park, Florida 32792, United States",
+      "zipCode": 78577,
+      "locationName": "Pharr, Texas 78577, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -1866,7 +2248,10 @@
     {
       "_id": "62ccd46371377f25837d14fb",
       "id": 304,
-      "location": [-85.171238, 41.017472],
+      "location": [
+        -83.08022,
+        43.326969
+      ],
       "name": "dr Andrei Gazdziewicz (ow 300 Maks  )",
       "owner": "",
       "dateAvailable": "2023-05-01T15:00:33.144Z",
@@ -1876,16 +2261,19 @@
       "capacity": 5000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 46809,
-      "locationName": "Fort Wayne, Indiana 46809, United States",
-      "active": false,
+      "zipCode": 48453,
+      "locationName": "Marlette, Michigan 48453, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cdc8d9d69d280f3d0c7610",
       "id": 305,
-      "location": [-87.839471, 35.617292],
+      "location": [
+        -96.239005,
+        41.146927
+      ],
       "name": "dr Konstantin ansimov ( ow 300 )",
       "owner": "ow 300  Andrey & Maks ",
       "dateAvailable": "2023-04-20T13:00:56.637Z",
@@ -1895,8 +2283,8 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 37096,
-      "locationName": "Linden, Tennessee 37096, United States",
+      "zipCode": 68028,
+      "locationName": "Gretna, Nebraska 68028, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -1904,56 +2292,65 @@
     {
       "_id": "62cdc9b6d69d280f3d0c76ca",
       "id": 306,
-      "location": [-106.646572, 31.858873],
+      "location": [
+        -80.000275,
+        40.438847
+      ],
       "name": "dr Igor zubal ( ow 300 )",
       "owner": "ow 300  Andrey & Maks ",
-      "dateAvailable": "2023-05-01T15:00:49.223Z",
+      "dateAvailable": "2023-05-03T15:00:49.223Z",
       "phone": "8454056501",
       "typeCar": "box truck",
       "dimension": "161-97-96(93-95)",
       "capacity": 5000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 88008,
-      "locationName": "Santa Teresa, New Mexico 88008, United States",
-      "active": false,
+      "zipCode": 15222,
+      "locationName": "Pittsburgh, Pennsylvania 15222, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62d868074bbd71587d4bd3df",
       "id": 307,
-      "location": [-78.870879, 35.996007],
+      "location": [
+        -96.239005,
+        41.146927
+      ],
       "name": "dr Gocha tedoradze (Dzhamlail)(ow 300 Maks) ",
       "owner": "owner 300 Maks&Andrey",
-      "dateAvailable": "2023-05-01T13:00:45.894Z",
+      "dateAvailable": "2023-05-04T18:00:45.894Z",
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "181-98-96 (95-95)",
       "capacity": 5000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 27703,
-      "locationName": "Durham, North Carolina 27703, United States",
-      "active": false,
+      "zipCode": 68028,
+      "locationName": "Gretna, Nebraska 68028, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "6391e59ae665fc07249402e6",
       "id": 308,
-      "location": [-80.409908, 25.789968],
+      "location": [
+        -73.746521,
+        40.678159
+      ],
       "name": "dr Egor schurin (ow 300)",
       "owner": "",
-      "dateAvailable": "2023-05-01T14:00:56.326Z",
+      "dateAvailable": "2023-05-04T17:00:56.326Z",
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "159-97-93",
       "capacity": 3500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33182,
-      "locationName": "Miami, Florida 33182, United States",
+      "zipCode": 11413,
+      "locationName": "Queens, New York 11413, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -1961,7 +2358,10 @@
     {
       "_id": "634069bfa3898b3fff43bd45",
       "id": 309,
-      "location": [-87.931094, 42.138889],
+      "location": [
+        -80.685344,
+        37.105678
+      ],
       "name": "dr Bekkhan Team (ow 300 Maks)",
       "owner": "ow 300 Maks",
       "dateAvailable": "2023-05-01T14:00:58.821Z",
@@ -1971,16 +2371,19 @@
       "capacity": 5000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 60090,
-      "locationName": "Wheeling, Illinois 60090, United States",
-      "active": true,
+      "zipCode": 24084,
+      "locationName": "Dublin, Virginia 24084, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63442f2bbf8d9da4f46f3fcc",
       "id": 310,
-      "location": [-75.804085, 40.264537],
+      "location": [
+        -75.804085,
+        40.264537
+      ],
       "name": "dr Ihor pertsovych TENT (ow 300 Maks)",
       "owner": "ow 300  Andrey & Maks ",
       "dateAvailable": "2023-05-01T15:00:00.387Z",
@@ -1999,18 +2402,21 @@
     {
       "_id": "634e975fe09082f47c95180b",
       "id": 311,
-      "location": [-97.25241, 32.98071],
+      "location": [
+        -79.990965,
+        35.894738
+      ],
       "name": "dr Renar Seagal (ow 300)  team ",
       "owner": "",
-      "dateAvailable": "2023-04-27T13:07:22.990Z",
+      "dateAvailable": "2023-05-03T15:07:22.990Z",
       "phone": "6792356335",
       "typeCar": "box truck",
       "dimension": "159-97-93",
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 76177,
-      "locationName": "Fort Worth, Texas 76177, United States",
+      "zipCode": 27370,
+      "locationName": "Trinity, North Carolina 27370, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -2018,10 +2424,13 @@
     {
       "_id": "63bdad79afc5f0d7a82fefbe",
       "id": 312,
-      "location": [-118.331437, 34.100158],
+      "location": [
+        -118.331437,
+        34.100158
+      ],
       "name": "ow Daud Magimadov TENT  (312)",
       "owner": "ow 318",
-      "dateAvailable": "2023-05-02T13:26:26.365Z",
+      "dateAvailable": null,
       "phone": "+1 (323) 943-0067",
       "typeCar": "box truck",
       "dimension": "160/90/90",
@@ -2037,7 +2446,10 @@
     {
       "_id": "644ff49e253cfbb5197828f9",
       "id": 312.2,
-      "location": [-87.931094, 42.138889],
+      "location": [
+        -87.931094,
+        42.138889
+      ],
       "name": "Daud 2 (312)",
       "owner": "312",
       "dateAvailable": "2023-05-01T17:17:04.365Z",
@@ -2049,14 +2461,17 @@
       "home": "",
       "zipCode": 60090,
       "locationName": "Wheeling, Illinois 60090, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "6391ea7be665fc07249405ee",
       "id": 313,
-      "location": [-87.440972, 46.281056],
+      "location": [
+        -87.440972,
+        46.281056
+      ],
       "name": "dr Abdula (ow 318)",
       "owner": "",
       "dateAvailable": "2023-03-23T12:43:10.831Z",
@@ -2075,26 +2490,32 @@
     {
       "_id": "6391e9b0e665fc072494054c",
       "id": 314,
-      "location": [-93.552456, 45.18886],
+      "location": [
+        -111.096231,
+        33.293945
+      ],
       "name": "dr Said (ow 318)",
       "owner": "",
-      "dateAvailable": "2023-04-26T16:12:18.387Z",
+      "dateAvailable": "2023-05-04T13:12:18.387Z",
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "170*97*84 (95*84)",
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 55374,
-      "locationName": "Rogers, Minnesota 55374, United States",
-      "active": false,
-      "note": "",
+      "zipCode": 85173,
+      "locationName": "Superior, Arizona 85173, United States",
+      "active": true,
+      "note": "TO CA ONLY",
       "__v": 0
     },
     {
       "_id": "6373a0fd9c17de221f41f224",
       "id": 315,
-      "location": [-83.533164, 41.688141],
+      "location": [
+        -81.638179,
+        41.239777
+      ],
       "name": "dr Rizakhan  (ow 318 Shikhabid)",
       "owner": "",
       "dateAvailable": "2023-05-03T00:00:40.468Z",
@@ -2104,27 +2525,30 @@
       "capacity": 4000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 43608,
-      "locationName": "Toledo, Ohio 43608, United States",
-      "active": true,
+      "zipCode": 44286,
+      "locationName": "Richfield, Ohio 44286, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc91f771377f25837d0510",
       "id": 316,
-      "location": [-111.658534, 40.233844],
+      "location": [
+        -76.700895,
+        39.90675
+      ],
       "name": "dr Tamerlan (ow 318 Shikhabid)",
       "owner": "",
-      "dateAvailable": "2023-04-28T16:14:26.053Z",
+      "dateAvailable": "2023-05-05T13:14:26.053Z",
       "phone": "6193178681",
       "typeCar": "box truck",
       "dimension": "170/97/71 (door 89/71)",
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 84601,
-      "locationName": "Provo, Utah 84601, United States",
+      "zipCode": 17403,
+      "locationName": "York, Pennsylvania 17403, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -2132,26 +2556,32 @@
     {
       "_id": "62cc924271377f25837d051a",
       "id": 317,
-      "location": [-93.119421, 44.937434],
+      "location": [
+        -98.338685,
+        40.924271
+      ],
       "name": "dr Artem(ow 318 Shikhabid)",
       "owner": "",
-      "dateAvailable": "2023-05-03T12:00:00.808Z",
+      "dateAvailable": "2023-05-04T13:00:00.808Z",
       "phone": "+18186995545",
       "typeCar": "box truck",
       "dimension": "169*90*91",
       "capacity": 4500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 55102,
-      "locationName": "Saint Paul, Minnesota 55102, United States",
-      "active": true,
+      "zipCode": 68801,
+      "locationName": "Grand Island, Nebraska 68801, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc928971377f25837d0528",
       "id": 318,
-      "location": [-118.242766, 34.053691],
+      "location": [
+        -118.242766,
+        34.053691
+      ],
       "name": "dr Sultan (ow 318 Shikhabid)",
       "owner": "",
       "dateAvailable": "2023-03-23T18:00:00.114Z",
@@ -2170,7 +2600,10 @@
     {
       "_id": "62cc92ca71377f25837d0530",
       "id": 319,
-      "location": [-77.417844, 37.533197],
+      "location": [
+        -77.417844,
+        37.533197
+      ],
       "name": "dr Kamil (ow 318 Shikhabid)",
       "owner": "",
       "dateAvailable": "2023-04-28T15:00:00.846Z",
@@ -2189,18 +2622,21 @@
     {
       "_id": "635fea1afb1ba6da62c9fb31",
       "id": 320,
-      "location": [-93.598641, 41.631905],
+      "location": [
+        -122.67852,
+        45.528379
+      ],
       "name": "ow 320 Ibragim ",
       "owner": "",
-      "dateAvailable": "2023-05-02T18:30:48.301Z",
+      "dateAvailable": "2023-05-05T18:00:48.301Z",
       "phone": "323-499-68-48",
       "typeCar": "box truck",
       "dimension": "200-95-77 ( 94 - 70 )",
       "capacity": 4500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 50313,
-      "locationName": "Des Moines, Iowa 50313, United States",
+      "zipCode": 97208,
+      "locationName": "Portland, Oregon 97208, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -2208,26 +2644,32 @@
     {
       "_id": "62cc967f71377f25837d05c0",
       "id": 331,
-      "location": [-81.86236, 41.010055],
+      "location": [
+        -112.110812,
+        33.7577
+      ],
       "name": "dr Maks (kuban) PJ TEAM unit",
       "owner": "",
-      "dateAvailable": "2023-05-01T13:37:36.827Z",
+      "dateAvailable": "2023-05-04T19:00:00.827Z",
       "phone": "7727107969",
       "typeCar": "box truck",
       "dimension": "160x94x84(94*83)",
       "capacity": 3500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 44273,
-      "locationName": "Seville, Ohio 44273, United States",
+      "zipCode": 85085,
+      "locationName": "Phoenix, Arizona 85085, United States",
       "active": true,
-      "note": "Team",
+      "note": "Team   partial to MI",
       "__v": 0
     },
     {
       "_id": "63f8ce9e8d06e8188a80c0c3",
       "id": 333.1,
-      "location": [-89.939579, 35.051318],
+      "location": [
+        -89.939579,
+        35.051318
+      ],
       "name": "Gagik ow(298)",
       "owner": "298",
       "dateAvailable": "2023-03-29T17:00:05.452Z",
@@ -2246,26 +2688,32 @@
     {
       "_id": "62dfd6d4e7b792a000a05a3f",
       "id": 334,
-      "location": [-88.104044, 41.539735],
+      "location": [
+        -104.915003,
+        39.541996
+      ],
       "name": "ow 334 Maksym Ipatov PJ ",
       "owner": "",
-      "dateAvailable": null,
+      "dateAvailable": "2023-05-08T12:13:47.646Z",
       "phone": "7207240264",
       "typeCar": "box truck",
       "dimension": "150*92*76(88*76)",
       "capacity": 3200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 60435,
-      "locationName": "Joliet, Illinois 60435, United States",
-      "active": true,
+      "zipCode": 80130,
+      "locationName": "Highlands Ranch, Colorado 80130, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc980371377f25837d05f4",
       "id": 336,
-      "location": [-80.682871, 33.34877],
+      "location": [
+        -80.682871,
+        33.34877
+      ],
       "name": "ow Alastan",
       "owner": "",
       "dateAvailable": null,
@@ -2284,7 +2732,10 @@
     {
       "_id": "62cc984971377f25837d0604",
       "id": 340,
-      "location": [-121.074327, 38.656119],
+      "location": [
+        -110.936082,
+        31.340213
+      ],
       "name": "dr Slava  (ow 530 Lasha ) ",
       "owner": "",
       "dateAvailable": "2022-07-11T21:37:24.559Z",
@@ -2294,16 +2745,19 @@
       "capacity": 5000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 95762,
-      "locationName": "El Dorado Hills, California 95762, United States",
-      "active": false,
-      "note": "",
+      "zipCode": 85621,
+      "locationName": "Nogales, Arizona 85621, United States",
+      "active": true,
+      "note": "НЕТ ТУТ ЭТОГО ТРАКА",
       "__v": 0
     },
     {
       "_id": "62cc98b271377f25837d0621",
       "id": 341,
-      "location": [-121.785154, 47.495946],
+      "location": [
+        -121.785154,
+        47.495946
+      ],
       "name": "dr Denis ( ow 530 Lasha )",
       "owner": "",
       "dateAvailable": "2022-07-11T21:38:40.071Z",
@@ -2322,7 +2776,10 @@
     {
       "_id": "62cc990571377f25837d0630",
       "id": 342,
-      "location": [-97.29, 37.64],
+      "location": [
+        -97.29,
+        37.64
+      ],
       "name": "dr Vasilii (ow 342 Igor) ",
       "owner": "",
       "dateAvailable": null,
@@ -2341,7 +2798,10 @@
     {
       "_id": "62cc994671377f25837d0638",
       "id": 343,
-      "location": [-122.422647, 47.249049],
+      "location": [
+        -122.422647,
+        47.249049
+      ],
       "name": "Dr 1 ow 342 Igor ",
       "owner": "",
       "dateAvailable": null,
@@ -2360,7 +2820,10 @@
     {
       "_id": "62cc998b71377f25837d0646",
       "id": 344,
-      "location": [-122.501677, 45.516255],
+      "location": [
+        -122.501677,
+        45.516255
+      ],
       "name": "dr Pavel ow 342 Igor",
       "owner": "",
       "dateAvailable": null,
@@ -2379,7 +2842,10 @@
     {
       "_id": "62cc99fe71377f25837d0650",
       "id": 345,
-      "location": [-122.17, 37.44],
+      "location": [
+        -122.17,
+        37.44
+      ],
       "name": "dr Vladislav ow 342 Igor",
       "owner": "",
       "dateAvailable": null,
@@ -2398,7 +2864,10 @@
     {
       "_id": "635c0dcdd042c2ab4450aee4",
       "id": 346,
-      "location": [-75.585164, 41.482427],
+      "location": [
+        -75.585164,
+        41.482427
+      ],
       "name": "Marina (ow 342 Igor)",
       "owner": "ow 342 Igor",
       "dateAvailable": null,
@@ -2417,7 +2886,10 @@
     {
       "_id": "63e509869a4b67ffdbf55545",
       "id": 351,
-      "location": [-80.227841, 26.06743],
+      "location": [
+        -80.227841,
+        26.06743
+      ],
       "name": "dr Vasiliy (ow 353)",
       "owner": "",
       "dateAvailable": null,
@@ -2436,7 +2908,10 @@
     {
       "_id": "62cc9a4171377f25837d0677",
       "id": 352,
-      "location": [-74.711826, 40.146221],
+      "location": [
+        -74.711826,
+        40.146221
+      ],
       "name": "dr Pavlo ( ow Ilya 353 ) ",
       "owner": "",
       "dateAvailable": null,
@@ -2448,14 +2923,17 @@
       "home": "",
       "zipCode": 8505,
       "locationName": "Bordentown, New Jersey 08505, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc9a8b71377f25837d068a",
       "id": 353,
-      "location": [-122.501677, 45.516255],
+      "location": [
+        -122.501677,
+        45.516255
+      ],
       "name": "ow Ilya Lovinskiy US CIT",
       "owner": "",
       "dateAvailable": null,
@@ -2474,7 +2952,10 @@
     {
       "_id": "62cc9ae371377f25837d069a",
       "id": 354,
-      "location": [-96.997785, 32.745965],
+      "location": [
+        -96.997785,
+        32.745965
+      ],
       "name": "dr Daniil ( ow 353 Ilya )",
       "owner": "",
       "dateAvailable": "2023-03-21T13:00:06.592Z",
@@ -2486,14 +2967,17 @@
       "home": "",
       "zipCode": 75050,
       "locationName": "Grand Prairie, Texas 75050, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc9b2c71377f25837d06a2",
       "id": 355,
-      "location": [-81.981773, 35.046508],
+      "location": [
+        -81.981773,
+        35.046508
+      ],
       "name": "dr Yevgeniy ( ow 353 Ilya )",
       "owner": "",
       "dateAvailable": "2023-04-05T12:04:19.055Z",
@@ -2512,7 +2996,10 @@
     {
       "_id": "6334662e49a0568ed0739693",
       "id": 356,
-      "location": [-122.230181, 47.307537],
+      "location": [
+        -122.230181,
+        47.307537
+      ],
       "name": "dr Artem ( ow 353 Ilua )",
       "owner": "",
       "dateAvailable": null,
@@ -2531,7 +3018,10 @@
     {
       "_id": "635ac81f97be7c5704352996",
       "id": 357,
-      "location": [-122.230181, 47.307537],
+      "location": [
+        -122.230181,
+        47.307537
+      ],
       "name": "dr Sergei (ow353)",
       "owner": "",
       "dateAvailable": null,
@@ -2550,7 +3040,10 @@
     {
       "_id": "62cc9b9b71377f25837d06b8",
       "id": 358,
-      "location": [-104.791683, 39.524153],
+      "location": [
+        -104.791683,
+        39.524153
+      ],
       "name": "ow Igor and  ow Aslan ",
       "owner": "",
       "dateAvailable": "2022-07-11T21:51:35.317Z",
@@ -2569,7 +3062,10 @@
     {
       "_id": "62cc9c1f71377f25837d06d1",
       "id": 361,
-      "location": [-74.996491, 40.083482],
+      "location": [
+        -74.996491,
+        40.083482
+      ],
       "name": "dr Nugzar (Zaur)(ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": null,
@@ -2581,14 +3077,17 @@
       "home": "",
       "zipCode": 19154,
       "locationName": "Philadelphia, Pennsylvania 19154, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc9c6e71377f25837d06df",
       "id": 362,
-      "location": [-82.18067, 35.629009],
+      "location": [
+        -82.18067,
+        35.629009
+      ],
       "name": "dr Daviti (Vaxo) (ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": "2023-03-17T12:04:38.993Z",
@@ -2607,7 +3106,10 @@
     {
       "_id": "62cc9cac71377f25837d06ed",
       "id": 363,
-      "location": [-122.379178, 40.90515],
+      "location": [
+        -122.379178,
+        40.90515
+      ],
       "name": "dr Giorgi.G (ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": "2023-04-24T15:00:46.513Z",
@@ -2619,14 +3121,17 @@
       "home": "",
       "zipCode": 96051,
       "locationName": "Lakehead, California 96051, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc9ce771377f25837d06f5",
       "id": 364,
-      "location": [-82.477905, 34.618447],
+      "location": [
+        -82.477905,
+        34.618447
+      ],
       "name": "dr Victor (ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": "2023-03-17T15:00:00.141Z",
@@ -2645,7 +3150,10 @@
     {
       "_id": "62cc9d2771377f25837d0707",
       "id": 365,
-      "location": [-79.299757, 40.333959],
+      "location": [
+        -79.299757,
+        40.333959
+      ],
       "name": "dr Giorgi B (ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": "2023-04-27T16:00:51.490Z",
@@ -2657,14 +3165,17 @@
       "home": "",
       "zipCode": 1562,
       "locationName": "Spencer, Massachusetts 01562, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc9d7171377f25837d0711",
       "id": 366,
-      "location": [-72.823155, 41.457042],
+      "location": [
+        -72.823155,
+        41.457042
+      ],
       "name": "dr Makho (ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": "2023-03-03T14:02:41.793Z",
@@ -2683,7 +3194,10 @@
     {
       "_id": "62cc9dc571377f25837d0719",
       "id": 367,
-      "location": [-77.4134, 38.923009],
+      "location": [
+        -77.4134,
+        38.923009
+      ],
       "name": "dr Giorgi K (ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": "2023-03-02T13:00:00.533Z",
@@ -2702,7 +3216,10 @@
     {
       "_id": "62cc9e0771377f25837d0721",
       "id": 368,
-      "location": [-87.865618, 41.935308],
+      "location": [
+        -87.865618,
+        41.935308
+      ],
       "name": "dr Nikoloz (Lasha) (ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": "2023-04-28T13:30:11.008Z",
@@ -2714,14 +3231,17 @@
       "home": "",
       "zipCode": 60131,
       "locationName": "Franklin Park, Illinois 60131, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cc9e9e71377f25837d0741",
       "id": 369,
-      "location": [-81.305476, 28.698706],
+      "location": [
+        -81.305476,
+        28.698706
+      ],
       "name": "dr Otari (ow 360 Georgiy)",
       "owner": "",
       "dateAvailable": "2023-03-20T06:00:23.137Z",
@@ -2740,7 +3260,10 @@
     {
       "_id": "63972d972d8f9f3607bbcb58",
       "id": 370,
-      "location": [-90.118446, 38.581092],
+      "location": [
+        -90.118446,
+        38.581092
+      ],
       "name": "dr Gela (ow 360)",
       "owner": "",
       "dateAvailable": "2023-03-03T16:00:02.553Z",
@@ -2759,7 +3282,10 @@
     {
       "_id": "63c55a0b4b1add37b5764ee2",
       "id": 371,
-      "location": [-81.601226, 41.398594],
+      "location": [
+        -81.601226,
+        41.398594
+      ],
       "name": "Imeda ( ow 360 )",
       "owner": "ow 360",
       "dateAvailable": "2023-04-28T12:00:10.404Z",
@@ -2771,25 +3297,28 @@
       "home": "",
       "zipCode": 44125,
       "locationName": "Garfield Heights, Ohio 44125, United States",
-      "active": true,
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "638a0dacd0f6f7e28aef2a97",
       "id": 373,
-      "location": [-83.030203, 42.580312],
+      "location": [
+        -76.724137,
+        39.192885
+      ],
       "name": "dr Beslan khazhieva( 373 Ramly )",
       "owner": "ow 373 Ramly",
-      "dateAvailable": "2023-05-03T12:00:55.604Z",
+      "dateAvailable": "2023-05-04T16:00:55.604Z",
       "phone": "123",
       "typeCar": "box truck",
       "dimension": "165x94.5x77 ( 88x71)",
       "capacity": 4000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 48312,
-      "locationName": "Sterling Heights, Michigan 48312, United States",
+      "zipCode": 21076,
+      "locationName": "Hanover, Maryland 21076, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -2797,37 +3326,43 @@
     {
       "_id": "639761902d8f9f3607bc13eb",
       "id": 374,
-      "location": [-84.144105, 34.002857],
+      "location": [
+        -122.234439,
+        47.380677
+      ],
       "name": "dr Aslan (373 Ramly)",
       "owner": "(ow 373)",
-      "dateAvailable": "2023-05-04T12:40:18.235Z",
+      "dateAvailable": "2023-05-06T13:40:18.235Z",
       "phone": "123",
       "typeCar": "box truck",
       "dimension": "165x94.5x77 ( 88x71)",
       "capacity": 4500,
       "status": "NO_BORDER",
       "home": "12",
-      "zipCode": 30096,
-      "locationName": "Duluth, Georgia 30096, United States",
-      "active": true,
+      "zipCode": 98032,
+      "locationName": "Kent, Washington 98032, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63b32ca8b2eda5f6eeb567c9",
       "id": 375,
-      "location": [-82.615575, 41.242422],
+      "location": [
+        -73.914167,
+        40.708056
+      ],
       "name": "dr Ibragim (Ow 373 Ramli) ",
       "owner": "373",
-      "dateAvailable": null,
+      "dateAvailable": "2023-05-08T14:00:00.664Z",
       "phone": "123",
       "typeCar": "box truck",
       "dimension": "160x97x95 (93.5x92.5)",
       "capacity": 4500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 44857,
-      "locationName": "Norwalk, Ohio 44857, United States",
+      "zipCode": 11385,
+      "locationName": "Queens, New York 11385, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -2835,254 +3370,98 @@
     {
       "_id": "63b82ad944853db5652efe20",
       "id": 376,
-      "location": [-90.868312, 38.824414],
+      "location": [
+        -86.273083,
+        39.827835
+      ],
       "name": "Beslan Edilov ( ow 373 )",
       "owner": "373",
-      "dateAvailable": "2023-05-02T13:39:24.991Z",
+      "dateAvailable": "2023-05-04T13:39:24.991Z",
       "phone": "123",
       "typeCar": "box truck",
       "dimension": "163x88x71 ( 82x66 )",
       "capacity": 4200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 63385,
-      "locationName": "Wentzville, Missouri 63385, United States",
-      "active": false,
+      "zipCode": 46254,
+      "locationName": "Indianapolis, Indiana 46254, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "642ac47a540d9fc160f63835",
       "id": 377,
-      "location": [-106.575739, 35.160592],
+      "location": [
+        -118.53612,
+        34.168808
+      ],
       "name": "dr Oleg (ow 373 Ramly)",
       "owner": "ow 373 Ramly",
-      "dateAvailable": "2023-05-02T12:39:56.098Z",
+      "dateAvailable": "2023-05-03T19:39:56.098Z",
       "phone": "123",
       "typeCar": "box truck",
       "dimension": "156x86x84 (81x81)",
       "capacity": 4500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 87109,
-      "locationName": "Albuquerque, New Mexico 87109, United States",
-      "active": true,
-      "note": "ONLY LONG",
+      "zipCode": 91356,
+      "locationName": "Tarzana, California 91356, United States",
+      "active": false,
+      "note": "",
       "__v": 0
     },
     {
       "_id": "642db66db540c2804f4cde05",
       "id": 378,
-      "location": [-118.276332, 34.036786],
+      "location": [
+        -112.207683,
+        33.434834
+      ],
       "name": "Sultan (ow 373)",
       "owner": "373",
-      "dateAvailable": "2023-05-04T12:40:41.514Z",
+      "dateAvailable": "2023-05-04T13:40:41.514Z",
       "phone": "21",
       "typeCar": "box truck",
       "dimension": "170/97/71(89/71)",
       "capacity": 4200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 90015,
-      "locationName": "Los Angeles, California 90015, United States",
+      "zipCode": 85043,
+      "locationName": "Phoenix, Arizona 85043, United States",
+      "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "6453df032c39090e96bc7e92",
+      "id": 381,
+      "location": [
+        -81.471656,
+        41.502767
+      ],
+      "name": "ow Abdula ",
+      "owner": "-",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "162*97*71 (89*71)",
+      "capacity": 4000,
+      "status": "NO_BORDER",
+      "home": "",
+      "zipCode": 44124,
+      "locationName": "Mayfield Heights, Ohio 44124, United States",
       "active": true,
       "note": "",
       "__v": 0
     },
     {
-      "_id": "632df17e8e8d19fd8b3f2d2e",
-      "id": 380,
-      "location": [-82.599329, 39.713675],
-      "name": "ow 380",
-      "owner": "",
-      "dateAvailable": null,
-      "phone": "2158170135",
-      "typeCar": "box truck",
-      "dimension": "1x1x1",
-      "capacity": 1,
-      "status": "GREEN_CARD",
-      "home": "",
-      "zipCode": 43130,
-      "locationName": "Lancaster, Ohio 43130, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df1c68e8d19fd8b3f2daa",
-      "id": 381,
-      "location": [-96.892845, 33.005295],
-      "name": "dr unit 1 (ow 380) ",
-      "owner": "",
-      "dateAvailable": "2022-12-30T09:20:04.651Z",
-      "phone": "1",
-      "typeCar": "box truck",
-      "dimension": "152x91x84(85x77)",
-      "capacity": 4000,
-      "status": "NO_BORDER",
-      "home": "17815",
-      "zipCode": 75007,
-      "locationName": "Carrollton, Texas 75007, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df20c8e8d19fd8b3f2e1a",
-      "id": 382,
-      "location": [-73.665683, 41.001764],
-      "name": "dr Albert u2 (ow 380)",
-      "owner": "",
-      "dateAvailable": null,
-      "phone": "1",
-      "typeCar": "box truck",
-      "dimension": "152x92x84(85x77)",
-      "capacity": 4000,
-      "status": "GREEN_CARD",
-      "home": "",
-      "zipCode": 10573,
-      "locationName": "Port Chester, New York 10573, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df24d8e8d19fd8b3f2e8a",
-      "id": 383,
-      "location": [-82.8824, 39.966803],
-      "name": "dr u3 (ow 380)",
-      "owner": "",
-      "dateAvailable": null,
-      "phone": "1",
-      "typeCar": "box truck",
-      "dimension": "157x91x90(87x84)",
-      "capacity": 4000,
-      "status": "NO_BORDER",
-      "home": "",
-      "zipCode": 43213,
-      "locationName": "Columbus, Ohio 43213, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df28e8e8d19fd8b3f2ef5",
-      "id": 384,
-      "location": [-83.749387, 41.764152],
-      "name": "dr Orhan u4 (ow 380)",
-      "owner": "",
-      "dateAvailable": null,
-      "phone": "1",
-      "typeCar": "box truck",
-      "dimension": "150x92x72(87x72)",
-      "capacity": 4000,
-      "status": "NO_BORDER",
-      "home": "",
-      "zipCode": 49267,
-      "locationName": "Ottawa Lake, Michigan 49267, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df2c88e8d19fd8b3f2f52",
-      "id": 385,
-      "location": [-87.01821, 34.566706],
-      "name": "dr Kanatbek u5 (ow 380)",
-      "owner": "",
-      "dateAvailable": null,
-      "phone": "4457875220",
-      "typeCar": "box truck",
-      "dimension": "151x91x83(86x76)",
-      "capacity": 4000,
-      "status": "NO_BORDER",
-      "home": "",
-      "zipCode": 35603,
-      "locationName": "Decatur, Alabama 35603, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df31f8e8d19fd8b3f2fe2",
-      "id": 386,
-      "location": [-81.651708, 30.350736],
-      "name": "dr Kostya u6 (ow 380)",
-      "owner": "",
-      "dateAvailable": null,
-      "phone": "1",
-      "typeCar": "box truck",
-      "dimension": "172x92x94(87x91)",
-      "capacity": 3500,
-      "status": "GREEN_CARD",
-      "home": "",
-      "zipCode": 32206,
-      "locationName": "Jacksonville, Florida 32206, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df34f8e8d19fd8b3f3028",
-      "id": 387,
-      "location": [-97.143625, 34.174261],
-      "name": "dr unit 7 (ow 380)",
-      "owner": "",
-      "dateAvailable": null,
-      "phone": "1",
-      "typeCar": "box truck",
-      "dimension": "145x90x83(86x79)",
-      "capacity": 4000,
-      "status": "NO_BORDER",
-      "home": "",
-      "zipCode": 73401,
-      "locationName": "Ardmore, Oklahoma 73401, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df37c8e8d19fd8b3f3068",
-      "id": 388,
-      "location": [-106.208151, 31.691777],
-      "name": "dr unit 8 (ow 380)",
-      "owner": "",
-      "dateAvailable": null,
-      "phone": "1",
-      "typeCar": "box truck",
-      "dimension": "144x92x82(87x77)",
-      "capacity": 4000,
-      "status": "NO_BORDER",
-      "home": "",
-      "zipCode": 79928,
-      "locationName": "Horizon City, Texas 79928, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
-      "_id": "632df1b58e8d19fd8b3f2d8a",
-      "id": 390,
-      "location": [-75.565806, 40.55786],
-      "name": "390 Ismail u9 (ow 380)",
-      "owner": "Ilchinbek",
-      "dateAvailable": null,
-      "phone": "+380991951000",
-      "typeCar": "box truck",
-      "dimension": "153/91/78(85/70)",
-      "capacity": 3000,
-      "status": "NO_BORDER",
-      "home": "",
-      "zipCode": 18106,
-      "locationName": "Allentown, Pennsylvania 18106, United States",
-      "active": false,
-      "note": "КРОМЕ!!  WA, CO, MT, ID, WY, OR, NV, NE",
-      "__v": 0
-    },
-    {
       "_id": "632df26f8e8d19fd8b3f2ebe",
       "id": 391,
-      "location": [-97.145764, 33.244077],
+      "location": [
+        -97.145764,
+        33.244077
+      ],
       "name": "unit 10 (ow 380)",
       "owner": "Ilchinbek",
       "dateAvailable": "2022-09-23T17:49:43.445Z",
@@ -3101,7 +3480,10 @@
     {
       "_id": "632df2c48e8d19fd8b3f2f48",
       "id": 392,
-      "location": [-97.145764, 33.244077],
+      "location": [
+        -97.145764,
+        33.244077
+      ],
       "name": "Unit 11 (ow 380)",
       "owner": "Ilchinbek",
       "dateAvailable": "2022-09-23T17:53:12.098Z",
@@ -3120,7 +3502,10 @@
     {
       "_id": "632df3918e8d19fd8b3f3088",
       "id": 393,
-      "location": [-75.555186, 40.51593],
+      "location": [
+        -75.555186,
+        40.51593
+      ],
       "name": "Unit 12 (ow 380)",
       "owner": "Ilchinbek",
       "dateAvailable": null,
@@ -3139,7 +3524,10 @@
     {
       "_id": "632df3f28e8d19fd8b3f3118",
       "id": 394,
-      "location": [-74.996837, 40.008445],
+      "location": [
+        -74.996837,
+        40.008445
+      ],
       "name": "Unit 13 (ow 380)",
       "owner": "",
       "dateAvailable": null,
@@ -3158,7 +3546,10 @@
     {
       "_id": "632df4818e8d19fd8b3f31f2",
       "id": 395,
-      "location": [-78.256683, 42.901171],
+      "location": [
+        -78.256683,
+        42.901171
+      ],
       "name": "Unit 14(ow 380) LG/PJ",
       "owner": "",
       "dateAvailable": "2022-09-23T18:00:37.396Z",
@@ -3177,7 +3568,10 @@
     {
       "_id": "632df4d38e8d19fd8b3f3280",
       "id": 396,
-      "location": [-87.574188, 38.205044],
+      "location": [
+        -87.574188,
+        38.205044
+      ],
       "name": "Unit 15(ow 380) PJ",
       "owner": "Ilchinbek",
       "dateAvailable": null,
@@ -3196,7 +3590,10 @@
     {
       "_id": "62cc9fce71377f25837d0771",
       "id": 401,
-      "location": [-115.117603, 36.26454],
+      "location": [
+        -115.117603,
+        36.26454
+      ],
       "name": "dr Konstantin ( ow 400 Vadim )",
       "owner": "",
       "dateAvailable": null,
@@ -3215,18 +3612,21 @@
     {
       "_id": "62cca09271377f25837d0787",
       "id": 402,
-      "location": [-87.963467, 42.157772],
+      "location": [
+        -117.61978,
+        34.064262
+      ],
       "name": "dr Vasiliy ( ow 400 Vadim )",
       "owner": "",
-      "dateAvailable": "2023-04-21T14:20:48.707Z",
+      "dateAvailable": "2023-05-04T12:00:16.795Z",
       "phone": "4074506025",
       "typeCar": "box truck",
       "dimension": "150*92*78",
       "capacity": 2500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 60089,
-      "locationName": "Buffalo Grove, Illinois 60089, United States",
+      "zipCode": 91761,
+      "locationName": "Ontario, California 91761, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -3234,7 +3634,10 @@
     {
       "_id": "6324b23fc80189fc88da6e59",
       "id": 403,
-      "location": [-97.678806, 30.508592],
+      "location": [
+        -88.134793,
+        41.912529
+      ],
       "name": "dr Andrii (ow 403)",
       "owner": "",
       "dateAvailable": "2023-04-21T13:11:12.422Z",
@@ -3244,8 +3647,8 @@
       "capacity": 6000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 78664,
-      "locationName": "Round Rock, Texas 78664, United States",
+      "zipCode": 60188,
+      "locationName": "Carol Stream, Illinois 60188, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -3253,7 +3656,10 @@
     {
       "_id": "6324b455c80189fc88da722b",
       "id": 404,
-      "location": [-85.483581, 39.337272],
+      "location": [
+        -87.764742,
+        41.997568
+      ],
       "name": "dr Oleh (ow 403 Misha)",
       "owner": "ow 403 Misha",
       "dateAvailable": "2023-04-21T13:51:28.093Z",
@@ -3263,8 +3669,8 @@
       "capacity": 6000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 47240,
-      "locationName": "Greensburg, Indiana 47240, United States",
+      "zipCode": 60646,
+      "locationName": "Chicago, Illinois 60646, United States",
       "active": false,
       "note": "True DH",
       "__v": 0
@@ -3272,7 +3678,10 @@
     {
       "_id": "6324b525c80189fc88da73ae",
       "id": 405,
-      "location": [-87.741712, 41.420034],
+      "location": [
+        -78.5782919,
+        35.870978
+      ],
       "name": "dr Taras (ow 403 Misha) ",
       "owner": "ow 403 Misha",
       "dateAvailable": null,
@@ -3282,8 +3691,8 @@
       "capacity": 6000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 60449,
-      "locationName": "Monee, Illinois 60449, United States",
+      "zipCode": 27616,
+      "locationName": "Raleigh, North Carolina 27616, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -3291,7 +3700,10 @@
     {
       "_id": "6324bacac80189fc88da7d18",
       "id": 406,
-      "location": [-87.839188, 41.745677],
+      "location": [
+        -87.839188,
+        41.745677
+      ],
       "name": "dr Ivan (ow Igor 406)",
       "owner": "",
       "dateAvailable": null,
@@ -3310,7 +3722,10 @@
     {
       "_id": "6324ba1ac80189fc88da7c29",
       "id": 407,
-      "location": [-83.049644, 42.392815],
+      "location": [
+        -83.049644,
+        42.392815
+      ],
       "name": "dr Taras (ow 406 Igor)",
       "owner": "ow 406 Igor",
       "dateAvailable": null,
@@ -3329,7 +3744,10 @@
     {
       "_id": "635bdc30d042c2ab445072a5",
       "id": 408,
-      "location": [-83.049644, 42.392815],
+      "location": [
+        -83.049644,
+        42.392815
+      ],
       "name": "Ihor Kovpak (ow 406 Igor)",
       "owner": "ow 406 Igor",
       "dateAvailable": null,
@@ -3348,7 +3766,10 @@
     {
       "_id": "635bdcbed042c2ab44507347",
       "id": 409,
-      "location": [-83.049644, 42.392815],
+      "location": [
+        -83.049644,
+        42.392815
+      ],
       "name": "Nazar Boiko (ow 406 Igor)",
       "owner": "ow 406 Igor",
       "dateAvailable": null,
@@ -3367,18 +3788,21 @@
     {
       "_id": "630422a3b7f09423ea0aef90",
       "id": 410,
-      "location": [-76.574942, 39.401939],
+      "location": [
+        -97.489086,
+        25.914026
+      ],
       "name": "dr Vasiliy (ow 410  Ruslan )",
       "owner": "",
-      "dateAvailable": "2023-05-04T13:55:12.019Z",
+      "dateAvailable": "2023-05-08T12:00:12.019Z",
       "phone": "1.1",
       "typeCar": "box truck",
       "dimension": "150*90*84(85*77)",
       "capacity": 2200,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 2128,
-      "locationName": "East Boston, Massachusetts 02128, United States",
+      "zipCode": 78521,
+      "locationName": "Brownsville, Texas 78521, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -3386,18 +3810,21 @@
     {
       "_id": "62cca32371377f25837d07bb",
       "id": 411,
-      "location": [-93.552456, 45.18886],
+      "location": [
+        -118.01047,
+        33.716149
+      ],
       "name": "dr Petr  ( ow 410 Ruslan)",
       "owner": "",
-      "dateAvailable": "2023-05-02T14:38:53.502Z",
+      "dateAvailable": "2023-05-08T12:27:45.308Z",
       "phone": "9163423287",
       "typeCar": "box truck",
       "dimension": "150*91*86(86*79)",
       "capacity": 2200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 55374,
-      "locationName": "Rogers, Minnesota 55374, United States",
+      "zipCode": 92647,
+      "locationName": "Huntington Beach, California 92647, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -3405,18 +3832,21 @@
     {
       "_id": "62cca37371377f25837d07c3",
       "id": 412,
-      "location": [-91.736249, 35.250641],
+      "location": [
+        -88.421523,
+        41.357414
+      ],
       "name": "dr Aleksandr new driver (ow 410 Ruslan)",
       "owner": "",
-      "dateAvailable": "2023-05-04T10:39:45.595Z",
+      "dateAvailable": "2023-05-04T14:29:28.026Z",
       "phone": "2132579990",
       "typeCar": "box truck",
       "dimension": "150*86*96(82*90)",
       "capacity": 2200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 72143,
-      "locationName": "Searcy, Arkansas 72143, United States",
+      "zipCode": 60450,
+      "locationName": "Morris, Illinois 60450, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -3424,26 +3854,32 @@
     {
       "_id": "62cca3c871377f25837d07d3",
       "id": 413,
-      "location": [-123.194463, 45.210037],
+      "location": [
+        -108.49607,
+        45.787496
+      ],
       "name": "dr Oleg ( ow 410 Ruslan )",
       "owner": "",
-      "dateAvailable": "2023-04-24T12:01:35.784Z",
+      "dateAvailable": "2023-05-08T12:01:35.784Z",
       "phone": "9166026744",
       "typeCar": "box truck",
       "dimension": "150-82-90(90 door height)",
       "capacity": 3000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 97128,
-      "locationName": "McMinnville, Oregon 97128, United States",
-      "active": false,
+      "zipCode": 59101,
+      "locationName": "Billings, Montana 59101, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cca41971377f25837d07e1",
       "id": 414,
-      "location": [-117.034504, 32.582602],
+      "location": [
+        -117.034504,
+        32.582602
+      ],
       "name": "dr Pavel  (Danik)( ow 410 Ruslan)",
       "owner": "",
       "dateAvailable": "2023-04-28T16:00:00.888Z",
@@ -3462,37 +3898,43 @@
     {
       "_id": "62d5c993079c043d4b140882",
       "id": 415,
-      "location": [-118.449215, 34.307625],
+      "location": [
+        -121.329951,
+        38.708236
+      ],
       "name": "dr Radik (Ruslan)( ow 410 Ruslan)",
       "owner": "410 Ruslan",
-      "dateAvailable": "2023-04-28T16:00:09.728Z",
+      "dateAvailable": "2023-05-08T14:00:09.728Z",
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "150*90*87(87*84)",
       "capacity": 2200,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 91342,
-      "locationName": "Sylmar, California 91342, United States",
-      "active": false,
-      "note": "to  Sacramento",
+      "zipCode": 95843,
+      "locationName": "Antelope, California 95843, United States",
+      "active": true,
+      "note": "",
       "__v": 0
     },
     {
       "_id": "632e18428e8d19fd8b3f6aae",
       "id": 416,
-      "location": [-91.580448, 41.676404],
+      "location": [
+        -119.827639,
+        34.43583
+      ],
       "name": "dr Yurii  (Borisenko) )ow 410 Ruslan)",
       "owner": "ow 410 Ruslan",
-      "dateAvailable": "2023-05-03T14:30:00.074Z",
+      "dateAvailable": "2023-05-08T14:30:00.074Z",
       "phone": "9162338920",
       "typeCar": "box truck",
       "dimension": "150*91*85(82*79)",
       "capacity": 2200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 52241,
-      "locationName": "Coralville, Iowa 52241, United States",
+      "zipCode": 93117,
+      "locationName": "Goleta, California 93117, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -3500,45 +3942,54 @@
     {
       "_id": "642c7732b24617c7b3febe1e",
       "id": 417,
-      "location": [-117.395879, 34.07029],
+      "location": [
+        -121.329951,
+        38.708236
+      ],
       "name": "Yura (ow 410)",
       "owner": "410",
-      "dateAvailable": "2023-04-28T16:00:29.032Z",
+      "dateAvailable": "2023-05-08T13:00:29.032Z",
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "150*91*86(86*79) ",
       "capacity": 2200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 92316,
-      "locationName": "Bloomington, California 92316, United States",
-      "active": false,
-      "note": "to Sacramento",
+      "zipCode": 95843,
+      "locationName": "Antelope, California 95843, United States",
+      "active": true,
+      "note": "",
       "__v": 0
     },
     {
       "_id": "6437faaefb4ebd52994db536",
       "id": 418,
-      "location": [-115.304426, 36.134325],
+      "location": [
+        -117.405013,
+        34.152521
+      ],
       "name": "Alex Sosunov (ow 410)",
       "owner": "410",
-      "dateAvailable": "2023-05-04T12:42:05.500Z",
+      "dateAvailable": "2023-05-04T12:00:05.500Z",
       "phone": "-",
       "typeCar": "box truck",
       "dimension": "150*91*86(86*79)",
       "capacity": 2200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 88901,
-      "locationName": "Las Vegas, Nevada 88901, United States",
+      "zipCode": 92377,
+      "locationName": "Rialto, California 92377, United States",
       "active": true,
-      "note": "Local",
+      "note": "в Сакраменто нужно",
       "__v": 0
     },
     {
       "_id": "62fe3f1f769789f86ea3819c",
       "id": 421,
-      "location": [-94.7206619, 39.304395],
+      "location": [
+        -105.941835,
+        32.904647
+      ],
       "name": "dr Ivan (ow 420 Yuriy)",
       "owner": "420",
       "dateAvailable": "2023-03-27T03:00:00.119Z",
@@ -3548,8 +3999,8 @@
       "capacity": 2400,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 64153,
-      "locationName": "Kansas City, Missouri 64153, United States",
+      "zipCode": 88310,
+      "locationName": "Alamogordo, New Mexico 88310, United States",
       "active": false,
       "note": "to Fl",
       "__v": 0
@@ -3557,7 +4008,10 @@
     {
       "_id": "62cca7aa71377f25837d0835",
       "id": 422,
-      "location": [-104.96629, 39.785762],
+      "location": [
+        -104.96629,
+        39.785762
+      ],
       "name": "dr Mihail ( ow 420 Yuriy )",
       "owner": "",
       "dateAvailable": null,
@@ -3576,13 +4030,16 @@
     {
       "_id": "63934b3d9779c79601a95019",
       "id": 430,
-      "location": [-111.884101, 40.591615],
+      "location": [
+        -111.884101,
+        40.591615
+      ],
       "name": "ow Valentin (430)",
       "owner": "",
       "dateAvailable": null,
       "phone": "-",
       "typeCar": "box truck",
-      "dimension": "192x82x72",
+      "dimension": "192(160)x89x75(82-72)",
       "capacity": 3100,
       "status": "GREEN_CARD",
       "home": "",
@@ -3595,7 +4052,10 @@
     {
       "_id": "63934bc79779c79601a950b1",
       "id": 431,
-      "location": [-87.233609, 33.174285],
+      "location": [
+        -118.354711,
+        33.93869
+      ],
       "name": "dr Sergey Nyukeyev (ow 430)",
       "owner": "",
       "dateAvailable": "2023-04-24T12:27:57.635Z",
@@ -3605,27 +4065,30 @@
       "capacity": 3100,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 35490,
-      "locationName": "Vance, Alabama 35490, United States",
-      "active": true,
+      "zipCode": 90304,
+      "locationName": "Inglewood, California 90304, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63934c359779c79601a95129",
       "id": 432,
-      "location": [-82.974038, 42.435416],
+      "location": [
+        -77.666642,
+        36.180987
+      ],
       "name": "dr Sergey Stef (ow 430)",
       "owner": "",
       "dateAvailable": "2023-04-12T12:05:54.268Z",
       "phone": "-",
       "typeCar": "box truck",
-      "dimension": "192(160)*90*80 (85*77)",
+      "dimension": "192(153)*90*90 (87*84)",
       "capacity": 3100,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 48205,
-      "locationName": "Detroit, Michigan 48205, United States",
+      "zipCode": 27823,
+      "locationName": "Enfield, North Carolina 27823, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -3633,45 +4096,54 @@
     {
       "_id": "63934ca19779c79601a9518d",
       "id": 433,
-      "location": [-87.653265, 41.925694],
+      "location": [
+        -77.598858,
+        43.136388
+      ],
       "name": "dr Denis (ow 430)",
       "owner": "",
       "dateAvailable": "2023-04-20T11:03:00.000Z",
       "phone": "-",
       "typeCar": "box truck",
-      "dimension": "192(160)*89*75 (82*72)",
+      "dimension": "192(160)*90*80 (85*77)",
       "capacity": 3100,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 60614,
-      "locationName": "Chicago, Illinois 60614, United States",
-      "active": true,
+      "zipCode": 14620,
+      "locationName": "Rochester, New York 14620, United States",
+      "active": false,
       "note": "True DH ",
       "__v": 0
     },
     {
       "_id": "63934cf09779c79601a951d3",
       "id": 434,
-      "location": [-115.135955, 36.10525],
+      "location": [
+        -117.873221,
+        33.749495
+      ],
       "name": "dr Riste LG/PJ (ow 430)",
       "owner": "",
-      "dateAvailable": "2023-05-03T12:43:49.633Z",
+      "dateAvailable": "2023-05-04T15:00:49.633Z",
       "phone": "-",
       "typeCar": "box truck",
-      "dimension": "153*90*90 (87*84)",
+      "dimension": "192(153)-92-72(80-71)",
       "capacity": 3100,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 89119,
-      "locationName": "Las Vegas, Nevada 89119, United States",
-      "active": true,
-      "note": "TO OR/WA",
+      "zipCode": 92701,
+      "locationName": "Santa Ana, California 92701, United States",
+      "active": false,
+      "note": "PARTIAL TO OR  fit 6 pallets easy 3000lbs",
       "__v": 0
     },
     {
       "_id": "63e547ff9a4b67ffdbf591a3",
       "id": 435,
-      "location": [-122.606758, 45.357343],
+      "location": [
+        -122.606758,
+        45.357343
+      ],
       "name": "dr (ow 430) LG/PJ",
       "owner": "430",
       "dateAvailable": null,
@@ -3690,7 +4162,10 @@
     {
       "_id": "63c00ba7588c4ea08bd4e068",
       "id": 440.1,
-      "location": [-87.874864, 41.805458],
+      "location": [
+        -87.874864,
+        41.805458
+      ],
       "name": "Unit 1 (ow440) Только Петя ",
       "owner": "430 Genadiy",
       "dateAvailable": "2023-01-27T06:52:10.500Z",
@@ -3709,7 +4184,10 @@
     {
       "_id": "63c00c44588c4ea08bd4e108",
       "id": 440.2,
-      "location": [-82.897778, 42.557877],
+      "location": [
+        -82.897778,
+        42.557877
+      ],
       "name": "Unit 2 LG (ow440)",
       "owner": "440 Gennadii",
       "dateAvailable": "2023-01-27T06:00:10.582Z",
@@ -3728,7 +4206,10 @@
     {
       "_id": "63c00c9f588c4ea08bd4e155",
       "id": 440.3,
-      "location": [-71.083401, 42.763428],
+      "location": [
+        -71.083401,
+        42.763428
+      ],
       "name": "Unit 3 LG/PJ (ow440) Только Петя",
       "owner": "440 Gennadii",
       "dateAvailable": null,
@@ -3747,7 +4228,10 @@
     {
       "_id": "63c00d5c588c4ea08bd4e1df",
       "id": 440.4,
-      "location": [-75.588815, 39.57789],
+      "location": [
+        -75.588815,
+        39.57789
+      ],
       "name": "Unit 4 LG/PJ (ow 440) Только Петя",
       "owner": "440 Gennadii",
       "dateAvailable": null,
@@ -3766,26 +4250,362 @@
     {
       "_id": "644933b434d79a1f20bcbc33",
       "id": 444,
-      "location": [-117.64843, 34.065846],
+      "location": [
+        -83.112985,
+        42.558446
+      ],
       "name": "dr Denis (call 355)",
       "owner": "VM",
-      "dateAvailable": null,
+      "dateAvailable": "2023-05-05T16:30:47.914Z",
       "phone": "-",
       "typeCar": "box truck",
-      "dimension": "191*91*76 (88*72)",
+      "dimension": "191*89*76 (86*72)",
       "capacity": 3500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 91764,
-      "locationName": "Ontario, California 91764, United States",
+      "zipCode": 48083,
+      "locationName": "Troy, Michigan 48083, United States",
       "active": true,
-      "note": "call 355 ",
+      "note": "call 355",
+      "__v": 0
+    },
+    {
+      "_id": "64514f928bbeac0646ed94b7",
+      "id": 450,
+      "location": [
+        -104.813031,
+        41.111763
+      ],
+      "name": "dr Almaz(Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": "2023-05-05T12:07:38.808Z",
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "152*91*84 (85*77)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 82007,
+      "locationName": "Cheyenne, Wyoming 82007, United States",
+      "active": false,
+      "note": " to PA needed",
+      "__v": 0
+    },
+    {
+      "_id": "6451500b8bbeac0646ed9552",
+      "id": 451,
+      "location": [
+        -75.35658,
+        39.9815
+      ],
+      "name": "dr. Mikol (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "152*92*84 (85*77)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 19008,
+      "locationName": "Broomall, Pennsylvania 19008, United States",
+      "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645150568bbeac0646ed95b6",
+      "id": 452,
+      "location": [
+        -96.997785,
+        32.745965
+      ],
+      "name": "dr. Murat (Easy Load)",
+      "owner": "Easy LOad",
+      "dateAvailable": "2023-05-04T21:23:08.545Z",
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "157*91*90 (87*84)",
+      "capacity": 4000,
+      "status": "NO_BORDER",
+      "home": "",
+      "zipCode": 75050,
+      "locationName": "Grand Prairie, Texas 75050, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645150a78bbeac0646ed962c",
+      "id": 453,
+      "location": [
+        -111.928559,
+        33.36221
+      ],
+      "name": "dr. Romazan (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": "2023-05-11T13:00:47.364Z",
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "150*92*72 (87*72)",
+      "capacity": 4500,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 85283,
+      "locationName": "Tempe, Arizona 85283, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645150ef8bbeac0646ed9690",
+      "id": 454,
+      "location": [
+        -85.184254,
+        35.088167
+      ],
+      "name": "dr. Anvar (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": "2023-05-04T11:58:26.814Z",
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "151*91*83 (86*76)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 37416,
+      "locationName": "Chattanooga, Tennessee 37416, United States",
+      "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "6451513e8bbeac0646ed96ee",
+      "id": 455,
+      "location": [
+        -87.902846,
+        30.523165
+      ],
+      "name": "dr. Konstantin (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": "2023-05-05T12:06:49.342Z",
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "172*92*94 (87*91)",
+      "capacity": 3800,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 36532,
+      "locationName": "Fairhope, Alabama 36532, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645151928bbeac0646ed975c",
+      "id": 456,
+      "location": [
+        -96.787246,
+        40.53778
+      ],
+      "name": "dr.Ruslan (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "146*90*83 (86*79)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 68368,
+      "locationName": "Hallam, Nebraska 68368, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645151db8bbeac0646ed97be",
+      "id": 457,
+      "location": [
+        -75.029417,
+        40.099503
+      ],
+      "name": "dr. Talant (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "148*92*80 (87*78)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 19115,
+      "locationName": "Philadelphia, Pennsylvania 19115, United States",
+      "active": true,
+      "note": "to IL needed",
+      "__v": 0
+    },
+    {
+      "_id": "645154798bbeac0646ed9ac2",
+      "id": 458,
+      "location": [
+        -75.117951,
+        40.120666
+      ],
+      "name": "dr. Nosir (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "153*91*78 (85*70)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 19001,
+      "locationName": "Abington, Pennsylvania 19001, United States",
+      "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645154cb8bbeac0646ed9b19",
+      "id": 459,
+      "location": [
+        -75.029417,
+        40.099503
+      ],
+      "name": "dr.Mikol (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "171*92*74 (87*73)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 19115,
+      "locationName": "Philadelphia, Pennsylvania 19115, United States",
+      "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645155018bbeac0646ed9b58",
+      "id": 460,
+      "location": [
+        -75.117951,
+        40.120666
+      ],
+      "name": "dr. Mikol (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "167*91*75 (87*72)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 19001,
+      "locationName": "Abington, Pennsylvania 19001, United States",
+      "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645155548bbeac0646ed9bb8",
+      "id": 461,
+      "location": [
+        -117.793415,
+        33.732067
+      ],
+      "name": "dr. Ilham (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": "2023-05-09T13:51:17.473Z",
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "156*91*82 (87*79)",
+      "capacity": 4000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 92782,
+      "locationName": "Tustin, California 92782, United States",
+      "active": true,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "6451564e8bbeac0646ed9cd0",
+      "id": 462,
+      "location": [
+        -75.117951,
+        40.120666
+      ],
+      "name": "dr.Mikol (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "148*90*79",
+      "capacity": 3800,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 19001,
+      "locationName": "Abington, Pennsylvania 19001, United States",
+      "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645156958bbeac0646ed9d28",
+      "id": 463,
+      "location": [
+        -75.117951,
+        40.120666
+      ],
+      "name": "dr. Mikol (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": null,
+      "phone": "-",
+      "typeCar": "large",
+      "dimension": "312*97*94 (94*94)",
+      "capacity": 8000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 19001,
+      "locationName": "Abington, Pennsylvania 19001, United States",
+      "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645156d58bbeac0646ed9d76",
+      "id": 464,
+      "location": [
+        -106.464634,
+        31.775415
+      ],
+      "name": "dr. Batraz (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": "2023-05-08T13:24:36.769Z",
+      "phone": "-",
+      "typeCar": "box truck",
+      "dimension": "167*91*75 (87*72)",
+      "capacity": 4500,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 79901,
+      "locationName": "El Paso, Texas 79901, United States",
+      "active": true,
+      "note": "",
       "__v": 0
     },
     {
       "_id": "62cca70671377f25837d081f",
       "id": 501,
-      "location": [-122.912721, 42.376782],
+      "location": [
+        -122.912721,
+        42.376782
+      ],
       "name": "ow Artur Binyaminov",
       "owner": "",
       "dateAvailable": "2023-03-14T12:00:00.459Z",
@@ -3804,7 +4624,10 @@
     {
       "_id": "632c744f83c317ff83997d21",
       "id": 502,
-      "location": [-88.059999, 44.449358],
+      "location": [
+        -88.059999,
+        44.449358
+      ],
       "name": "dr 502 Oleksandr TENT",
       "owner": "",
       "dateAvailable": "2023-03-16T06:10:56.496Z",
@@ -3823,7 +4646,10 @@
     {
       "_id": "6324ac1cc80189fc88da6431",
       "id": 504,
-      "location": [-84.140193, 34.20732],
+      "location": [
+        -97.133052,
+        33.215039
+      ],
       "name": "ow Rauf 504 (TENT)",
       "owner": "",
       "dateAvailable": null,
@@ -3833,16 +4659,19 @@
       "capacity": 3500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 30040,
-      "locationName": "Cumming, Georgia 30040, United States",
+      "zipCode": 76201,
+      "locationName": "Denton, Texas 76201, United States",
       "active": true,
-      "note": "",
+      "note": "To NY area",
       "__v": 0
     },
     {
       "_id": "6328878508c2c8f4e1c80181",
       "id": 505,
-      "location": [-95.179889, 29.816097],
+      "location": [
+        -95.179889,
+        29.816097
+      ],
       "name": "dr Evgeniy (ow Rauf 504) TENT",
       "owner": "",
       "dateAvailable": null,
@@ -3861,7 +4690,10 @@
     {
       "_id": "62d955f4dbea1b72912cbf06",
       "id": 511,
-      "location": [-81.163168, 32.149092],
+      "location": [
+        -81.163168,
+        32.149092
+      ],
       "name": "dr Evgeniy HARD (ow Mamed) telegram",
       "owner": "",
       "dateAvailable": null,
@@ -3880,7 +4712,10 @@
     {
       "_id": "63120252c54fed8f98f257c9",
       "id": 514,
-      "location": [-82.497241, 40.786832],
+      "location": [
+        -82.497241,
+        40.786832
+      ],
       "name": "dr Levan (ow 235 Vaja) ТЕНТ",
       "owner": "",
       "dateAvailable": "2022-09-19T16:00:00.318Z",
@@ -3899,7 +4734,10 @@
     {
       "_id": "631202a8c54fed8f98f2583c",
       "id": 515,
-      "location": [-75.555186, 40.51593],
+      "location": [
+        -75.555186,
+        40.51593
+      ],
       "name": "dr Goderzi (ow 235 Vaja) ТЕНТ",
       "owner": "",
       "dateAvailable": null,
@@ -3918,7 +4756,10 @@
     {
       "_id": "63628f81dc09d5796db6c0fb",
       "id": 516,
-      "location": [-98.924511, 33.450935],
+      "location": [
+        -97.6356929,
+        32.743563
+      ],
       "name": "dr Iosebi (New truck)(ow 209)",
       "owner": "209 Malhazi",
       "dateAvailable": "2023-05-04T12:00:19.809Z",
@@ -3928,27 +4769,30 @@
       "capacity": 4500,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 76370,
-      "locationName": "Megargel, Texas 76370, United States",
-      "active": true,
+      "zipCode": 76087,
+      "locationName": "Willow Park, Texas 76087, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62cca8a571377f25837d0861",
       "id": 522,
-      "location": [-82.761886, 27.876159],
-      "name": "ow 522 Iosif Kravchuk TENT",
+      "location": [
+        -83.536334,
+        42.524773
+      ],
+      "name": "ow 522 Iosif Kravchuk ",
       "owner": "",
-      "dateAvailable": "2023-03-17T06:18:39.447Z",
+      "dateAvailable": "2023-05-04T18:00:39.447Z",
       "phone": "4075902947",
       "typeCar": "box truck",
-      "dimension": "192-96-92(102)",
+      "dimension": "192-98-97",
       "capacity": 4000,
       "status": "US_CITIZEN",
       "home": "",
-      "zipCode": 33773,
-      "locationName": "Largo, Florida 33773, United States",
+      "zipCode": 48393,
+      "locationName": "Wixom, Michigan 48393, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -3956,7 +4800,10 @@
     {
       "_id": "63ac4ad06e06c85703861795",
       "id": 523,
-      "location": [-81.412633, 28.488169],
+      "location": [
+        -81.412633,
+        28.488169
+      ],
       "name": "dr 1 ( ow 522 )",
       "owner": "( ow 522 )",
       "dateAvailable": null,
@@ -3975,7 +4822,10 @@
     {
       "_id": "62cca90071377f25837d0878",
       "id": 530,
-      "location": [-81.399728, 28.465874],
+      "location": [
+        -81.399728,
+        28.465874
+      ],
       "name": "dr Vaja ( ow 530 Lasha  )",
       "owner": "",
       "dateAvailable": "2022-07-11T22:48:22.452Z",
@@ -3994,7 +4844,10 @@
     {
       "_id": "62cca94471377f25837d0882",
       "id": 531,
-      "location": [-112.207683, 33.434834],
+      "location": [
+        -112.207683,
+        33.434834
+      ],
       "name": "dr Anton(ow 530)",
       "owner": "",
       "dateAvailable": "2022-07-11T22:49:49.011Z",
@@ -4013,18 +4866,21 @@
     {
       "_id": "62cca98671377f25837d088a",
       "id": 535,
-      "location": [-81.638179, 41.239777],
+      "location": [
+        -108.550732,
+        39.063956
+      ],
       "name": "Jake (OW 535 ) LG PJ",
       "owner": "",
-      "dateAvailable": "2023-04-24T12:00:00.174Z",
+      "dateAvailable": "2023-05-09T13:20:00.235Z",
       "phone": "6466838574",
       "typeCar": "box truck",
       "dimension": "168/85/77",
       "capacity": 3000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 44286,
-      "locationName": "Richfield, Ohio 44286, United States",
+      "zipCode": 81501,
+      "locationName": "Grand Junction, Colorado 81501, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -4032,18 +4888,21 @@
     {
       "_id": "62cca9c171377f25837d0892",
       "id": 536,
-      "location": [-99.4754089, 27.584778],
+      "location": [
+        -103.064514,
+        44.133365
+      ],
       "name": "dr Georgy (OW 535  Georgiy) LG",
       "owner": "",
-      "dateAvailable": "2023-05-03T12:06:29.506Z",
+      "dateAvailable": "2023-05-08T14:00:00.506Z",
       "phone": "3174738007",
       "typeCar": "box truck",
       "dimension": "161/86/77(75 door height)",
       "capacity": 3000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 78045,
-      "locationName": "Laredo, Texas 78045, United States",
+      "zipCode": 57719,
+      "locationName": "Box Elder, South Dakota 57719, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -4051,7 +4910,10 @@
     {
       "_id": "62ccaa0371377f25837d08a8",
       "id": 537,
-      "location": [-81.1096, 32.0466],
+      "location": [
+        -81.1096,
+        32.0466
+      ],
       "name": "dr  Aslan   ( ow 535 Georgiy ) LG PJ",
       "owner": "",
       "dateAvailable": "2023-04-07T18:32:24.545Z",
@@ -4070,7 +4932,10 @@
     {
       "_id": "62ccaab671377f25837d08fa",
       "id": 538,
-      "location": [-94.52036, 39.200581],
+      "location": [
+        -94.52036,
+        39.200581
+      ],
       "name": "dr ASLAN (ow 535) ",
       "owner": "",
       "dateAvailable": null,
@@ -4089,7 +4954,10 @@
     {
       "_id": "632f55b0b008ba34ef67b591",
       "id": 539,
-      "location": [-117.170768, 34.067267],
+      "location": [
+        -117.170768,
+        34.067267
+      ],
       "name": "dr Vasko(ow 535)",
       "owner": "535",
       "dateAvailable": null,
@@ -4108,7 +4976,10 @@
     {
       "_id": "62ccab1171377f25837d092e",
       "id": 542,
-      "location": [-86.129351, 43.248458],
+      "location": [
+        -86.129351,
+        43.248458
+      ],
       "name": "dr Andrey ( unit#1) Ow  542",
       "owner": "",
       "dateAvailable": "2023-04-24T14:30:00.032Z",
@@ -4127,26 +4998,32 @@
     {
       "_id": "62ccab7371377f25837d0953",
       "id": 543,
-      "location": [-82.999465, 42.466638],
+      "location": [
+        -90.42352,
+        38.756606
+      ],
       "name": "dr Davlyat   ( unit #2 ) ow 542 Andrey Sinutka ",
       "owner": "",
-      "dateAvailable": "2023-04-06T11:00:00.165Z",
+      "dateAvailable": "2023-05-03T18:00:00.165Z",
       "phone": "7348972340",
       "typeCar": "box truck",
       "dimension": "169*90*100(68*90)",
       "capacity": 4400,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 48089,
-      "locationName": "Warren, Michigan 48089, United States",
-      "active": false,
+      "zipCode": 63044,
+      "locationName": "Bridgeton, Missouri 63044, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "62ccac1071377f25837d098b",
       "id": 547,
-      "location": [-115.122492, 35.998757],
+      "location": [
+        -115.122492,
+        35.998757
+      ],
       "name": "dr Sergei (ow Sergey 547) ",
       "owner": "",
       "dateAvailable": "2023-04-27T13:00:00.639Z",
@@ -4165,18 +5042,21 @@
     {
       "_id": "62ccac4671377f25837d099d",
       "id": 548,
-      "location": [-96.997785, 32.745965],
+      "location": [
+        -74.663242,
+        44.973936
+      ],
       "name": "dr Gia (ow 547 Sergey) TENT",
       "owner": "",
-      "dateAvailable": "2023-05-01T13:00:44.876Z",
+      "dateAvailable": "2023-05-06T16:00:44.876Z",
       "phone": "7734498840",
       "typeCar": "box truck",
       "dimension": "180*90*80(85*73)",
       "capacity": 6000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 75050,
-      "locationName": "Grand Prairie, Texas 75050, United States",
+      "zipCode": 13655,
+      "locationName": "Hogansburg, New York 13655, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -4184,18 +5064,21 @@
     {
       "_id": "630e1cd1499cc0a16ca6aab9",
       "id": 549,
-      "location": [-83.838574, 42.124515],
+      "location": [
+        -87.931094,
+        42.138889
+      ],
       "name": "Serapion (ow 547 Sergey)",
       "owner": "",
-      "dateAvailable": "2023-04-26T16:41:04.321Z",
+      "dateAvailable": "2023-05-09T14:00:54.366Z",
       "phone": "2246008085",
       "typeCar": "box truck",
       "dimension": "180*90*80(85*73)",
       "capacity": 6000,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 48176,
-      "locationName": "Saline, Michigan 48176, United States",
+      "zipCode": 60090,
+      "locationName": "Wheeling, Illinois 60090, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -4203,7 +5086,10 @@
     {
       "_id": "62ccad1c71377f25837d09c9",
       "id": 550,
-      "location": [-84.302167, 39.877555],
+      "location": [
+        -84.302167,
+        39.877555
+      ],
       "name": "Dr Коля (ow 550)",
       "owner": "",
       "dateAvailable": "2023-03-30T15:25:59.755Z",
@@ -4222,18 +5108,21 @@
     {
       "_id": "62ccadc571377f25837d0a0a",
       "id": 551,
-      "location": [-83.41687, 41.156998],
+      "location": [
+        -117.162773,
+        32.71742
+      ],
       "name": "dr Igor ( ow 550 Igor )",
       "owner": "",
-      "dateAvailable": "2023-05-01T15:29:56.703Z",
+      "dateAvailable": "2023-05-08T13:29:56.703Z",
       "phone": "(872) 400-0158",
       "typeCar": "box truck",
       "dimension": "170x88x90(88x100)",
       "capacity": 5200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 44830,
-      "locationName": "Fostoria, Ohio 44830, United States",
+      "zipCode": 92101,
+      "locationName": "San Diego, California 92101, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -4241,7 +5130,10 @@
     {
       "_id": "633dd3510c9f068436ea0c46",
       "id": 552,
-      "location": [-92.445318, 42.527412],
+      "location": [
+        -92.445318,
+        42.527412
+      ],
       "name": "dr 552 Kirill (ow 550 Igor)",
       "owner": "ow 550 Igor",
       "dateAvailable": "2023-03-31T12:05:30.525Z",
@@ -4260,7 +5152,10 @@
     {
       "_id": "6419a2ecb7133c46158b6117",
       "id": 553,
-      "location": [-95.2421879, 29.626795],
+      "location": [
+        -107.116251,
+        41.779175
+      ],
       "name": "Vadim (ow 550)",
       "owner": "550",
       "dateAvailable": "2023-05-01T14:00:17.349Z",
@@ -4270,16 +5165,19 @@
       "capacity": 5000,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 77075,
-      "locationName": "Houston, Texas 77075, United States",
-      "active": false,
+      "zipCode": 82334,
+      "locationName": "Sinclair, Wyoming 82334, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "642fff32005001f517bfc133",
       "id": 554,
-      "location": [-87.746445, 41.941382],
+      "location": [
+        -93.099366,
+        44.98425
+      ],
       "name": "Dr Vitaliy (ow 550)",
       "owner": "550",
       "dateAvailable": "2023-05-01T13:29:55.606Z",
@@ -4289,8 +5187,8 @@
       "capacity": 5200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 60641,
-      "locationName": "Chicago, Illinois 60641, United States",
+      "zipCode": 55117,
+      "locationName": "Saint Paul, Minnesota 55117, United States",
       "active": true,
       "note": "",
       "__v": 0
@@ -4298,26 +5196,32 @@
     {
       "_id": "638630e77d6bd82fd2704183",
       "id": 560,
-      "location": [-87.931094, 42.138889],
+      "location": [
+        -97.606374,
+        35.464779
+      ],
       "name": "Meder( ow 547 Sergey )  ",
       "owner": "ow 547 Sergey",
-      "dateAvailable": "2023-05-02T16:21:55.946Z",
+      "dateAvailable": "2023-05-05T19:21:55.946Z",
       "phone": "123",
       "typeCar": "box truck",
       "dimension": "170/90/90(100)",
       "capacity": 5500,
       "status": "NO_BORDER",
       "home": "",
-      "zipCode": 60090,
-      "locationName": "Wheeling, Illinois 60090, United States",
-      "active": true,
+      "zipCode": 73127,
+      "locationName": "Oklahoma City, Oklahoma 73127, United States",
+      "active": false,
       "note": "",
       "__v": 0
     },
     {
       "_id": "63500e39d50a18432b5fac18",
       "id": 569,
-      "location": [-106.31887, 31.76651],
+      "location": [
+        -106.31887,
+        31.76651
+      ],
       "name": "ow Vadim (569) ",
       "owner": "",
       "dateAvailable": "2023-04-20T11:00:00.092Z",
@@ -4336,7 +5240,10 @@
     {
       "_id": "62ccaebb71377f25837d0a94",
       "id": 570,
-      "location": [-83.112758, 42.598728],
+      "location": [
+        -83.112758,
+        42.598728
+      ],
       "name": "VASYL Sachovskyy",
       "owner": "",
       "dateAvailable": null,
@@ -4355,7 +5262,10 @@
     {
       "_id": "62fe5926769789f86ea3aa21",
       "id": 580,
-      "location": [-119.872663, 36.804245],
+      "location": [
+        -119.872663,
+        36.804245
+      ],
       "name": "ow Gor Sargsyan (TENT)",
       "owner": "",
       "dateAvailable": null,
@@ -4374,7 +5284,10 @@
     {
       "_id": "63b85d4344853db5652f1e16",
       "id": 621,
-      "location": [-76.1462499, 43.0946],
+      "location": [
+        -76.1462499,
+        43.0946
+      ],
       "name": "Davit 14 ft (Lana 620 telegram)",
       "owner": "620",
       "dateAvailable": "2023-03-09T06:35:56.020Z",
@@ -4393,7 +5306,10 @@
     {
       "_id": "63b85d8c44853db5652f1e4a",
       "id": 622,
-      "location": [-118.63071, 34.48269],
+      "location": [
+        -118.63071,
+        34.48269
+      ],
       "name": "Aleksei 24 FT (Lana 620 telegram) LG PJ True DH",
       "owner": "620",
       "dateAvailable": null,
@@ -4412,7 +5328,10 @@
     {
       "_id": "63bc1e886637df44da10c57b",
       "id": 623,
-      "location": [-83.044935, 42.920584],
+      "location": [
+        -83.044935,
+        42.920584
+      ],
       "name": "Amiran (Zaza) 14ft Tent ( ow 620 Lana )",
       "owner": "620 Lana",
       "dateAvailable": "2023-03-29T12:00:00.856Z",
@@ -4431,7 +5350,10 @@
     {
       "_id": "63bc1f806637df44da10c5be",
       "id": 624,
-      "location": [-122.963432, 46.659965],
+      "location": [
+        -122.963432,
+        46.659965
+      ],
       "name": "Vano 14ft TENT (ow 620 Lana)",
       "owner": "620",
       "dateAvailable": "2023-03-27T16:36:08.620Z",
@@ -4450,7 +5372,10 @@
     {
       "_id": "63bc1fe86637df44da10c5eb",
       "id": 625,
-      "location": [-74.003249, 40.760025],
+      "location": [
+        -74.003249,
+        40.760025
+      ],
       "name": "Denis 26ft (ow 620 Lana)",
       "owner": "620",
       "dateAvailable": "2023-01-11T06:00:30.638Z",
@@ -4469,8 +5394,11 @@
     {
       "_id": "645135d08bbeac0646ed750f",
       "id": 777,
-      "location": [-80.129774, 25.968943],
-      "name": "URAN SHAIBEKOV",
+      "location": [
+        -74.284591,
+        40.557605
+      ],
+      "name": "URAN SHAIBEKOV (Easy Load)",
       "owner": "Easy load",
       "dateAvailable": "2023-05-02T15:57:49.420Z",
       "phone": "1",
@@ -4479,8 +5407,8 @@
       "capacity": 9200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33180,
-      "locationName": "Aventura, Florida 33180, United States",
+      "zipCode": 7095,
+      "locationName": "Woodbridge, New Jersey 07095, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -4488,8 +5416,11 @@
     {
       "_id": "645136258bbeac0646ed7572",
       "id": 778,
-      "location": [-80.156281, 25.927577],
-      "name": "KANAGAT ALKUATOV",
+      "location": [
+        -80.156281,
+        25.927577
+      ],
+      "name": "KANAGAT ALKUATOV (Easy Load)",
       "owner": "Easy Load",
       "dateAvailable": "2023-05-02T16:10:26.261Z",
       "phone": "212",
@@ -4507,18 +5438,21 @@
     {
       "_id": "6451366c8bbeac0646ed75c5",
       "id": 779,
-      "location": [-80.143929, 26.052422],
-      "name": "AZIZBEK AZHAMANKULOV",
+      "location": [
+        -81.701635,
+        30.165471
+      ],
+      "name": "AZIZBEK AZHAMANKULOV (Easy Load)",
       "owner": "Easy Load",
-      "dateAvailable": "2023-05-02T16:11:42.910Z",
+      "dateAvailable": "2023-05-05T12:08:02.032Z",
       "phone": "1221",
       "typeCar": "large",
       "dimension": "274x97x104 / 96x94 / LG & PJ",
       "capacity": 9200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33004,
-      "locationName": "Dania Beach, Florida 33004, United States",
+      "zipCode": 32073,
+      "locationName": "Orange Park, Florida 32073, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -4526,18 +5460,21 @@
     {
       "_id": "645136ba8bbeac0646ed7623",
       "id": 780,
-      "location": [-80.156281, 25.927577],
-      "name": "TYNCHTYBEK ERGESHOV",
+      "location": [
+        -73.610116,
+        42.515915
+      ],
+      "name": "TYNCHTYBEK ERGESHOV (Easy Load)",
       "owner": "Easy Load",
-      "dateAvailable": "2023-05-02T16:12:31.732Z",
+      "dateAvailable": null,
       "phone": "12",
       "typeCar": "large",
       "dimension": "272x98x98 / 91x94  / LG & PJ",
       "capacity": 9200,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33160,
-      "locationName": "North Miami Beach, Florida 33160, United States",
+      "zipCode": 12123,
+      "locationName": "Nassau, New York 12123, United States",
       "active": false,
       "note": "",
       "__v": 0
@@ -4545,45 +5482,120 @@
     {
       "_id": "645136fe8bbeac0646ed7679",
       "id": 781,
-      "location": [-80.128649, 25.813156],
-      "name": "ULUKBEK",
+      "location": [
+        -77.044798,
+        38.915426
+      ],
+      "name": "ULUKBEK (Easy Load)",
       "owner": "SBO ",
-      "dateAvailable": "2023-05-02T16:14:05.917Z",
+      "dateAvailable": "2023-05-05T13:00:05.917Z",
       "phone": "12",
       "typeCar": "large",
       "dimension": "272x98x97  /  (92x89)  /  LG & PJ",
       "capacity": 7700,
       "status": "GREEN_CARD",
       "home": "",
-      "zipCode": 33140,
-      "locationName": "Miami Beach, Florida 33140, United States",
+      "zipCode": 20009,
+      "locationName": "Washington, District of Columbia 20009, United States",
       "active": false,
+      "note": "",
+      "__v": 0
+    },
+    {
+      "_id": "645139868bbeac0646ed79ab",
+      "id": 782,
+      "location": [
+        -81.245657,
+        41.724489
+      ],
+      "name": "dr. Ilias (Easy Load)",
+      "owner": "Easy Load",
+      "dateAvailable": "2023-05-05T12:07:21.283Z",
+      "phone": "1",
+      "typeCar": "large",
+      "dimension": "261x97x109 (97x104)",
+      "capacity": 8000,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 44077,
+      "locationName": "Painesville, Ohio 44077, United States",
+      "active": true,
       "note": "",
       "__v": 0
     },
     {
       "_id": "645137618bbeac0646ed770f",
       "id": 785,
-      "location": [-99.4754089, 27.584778],
-      "name": "Giorgi",
+      "location": [
+        -109.219454,
+        41.586056
+      ],
+      "name": "Giorgi (Easy Load)",
       "owner": "SBO",
-      "dateAvailable": "2023-05-02T16:16:10.745Z",
+      "dateAvailable": "2023-05-09T12:05:06.957Z",
       "phone": "1",
       "typeCar": "large",
       "dimension": "276х98х102  /  94х95  /  LG & PJ",
       "capacity": 7700,
-      "status": "GREEN_CARD",
+      "status": "NO_BORDER",
       "home": "",
-      "zipCode": 78045,
-      "locationName": "",
+      "zipCode": 82901,
+      "locationName": "Rock Springs, Wyoming 82901, United States",
       "active": false,
       "note": "",
       "__v": 0
     },
     {
+      "_id": "64513d0d8bbeac0646ed7e09",
+      "id": 790,
+      "location": [
+        -71.609436,
+        42.538951
+      ],
+      "name": "VASO",
+      "owner": "VASYL NEW TG",
+      "dateAvailable": "2023-05-08T13:50:42.515Z",
+      "phone": "1",
+      "typeCar": "large",
+      "dimension": "261x97x103(94/97)LG/PJ",
+      "capacity": 7500,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 1434,
+      "locationName": "Devens, Massachusetts 01434, United States",
+      "active": true,
+      "note": " VASYL NEW TG",
+      "__v": 0
+    },
+    {
+      "_id": "64513d548bbeac0646ed7e64",
+      "id": 791,
+      "location": [
+        -117.685921,
+        33.646926
+      ],
+      "name": "ANTON ",
+      "owner": "VASYl NEW TG",
+      "dateAvailable": "2023-05-03T12:00:06.722Z",
+      "phone": "112",
+      "typeCar": "large",
+      "dimension": "258x97x103(94/97)LG/PJ",
+      "capacity": 7500,
+      "status": "GREEN_CARD",
+      "home": "",
+      "zipCode": 92630,
+      "locationName": "Lake Forest, California 92630, United States",
+      "active": false,
+      "note": "звонить Mikhail Lukin RING Partial to CO 80205 del on 5/5",
+      "__v": 0
+    },
+    {
       "_id": "639344289779c79601a9498f",
       "id": 999,
-      "location": [-81.843157, 27.896379],
+      "location": [
+        -81.843157,
+        27.896379
+      ],
       "name": "dr Dmytro (ow 406)",
       "owner": "406",
       "dateAvailable": null,
@@ -4602,7 +5614,10 @@
     {
       "_id": "635bd570d042c2ab44506b5e",
       "id": 1000,
-      "location": [-99.500968, 27.589009],
+      "location": [
+        -99.500968,
+        27.589009
+      ],
       "name": "Vitali (ow 406)",
       "owner": "406",
       "dateAvailable": null,
@@ -4621,7 +5636,10 @@
     {
       "_id": "635bd5b4d042c2ab44506b8c",
       "id": 1001,
-      "location": [-88.316197, 42.241134],
+      "location": [
+        -88.316197,
+        42.241134
+      ],
       "name": "Alex ow 406",
       "owner": "406",
       "dateAvailable": null,
@@ -4640,7 +5658,10 @@
     {
       "_id": "63778fc0557490c42c83acfc",
       "id": 1002,
-      "location": [-83.049644, 42.392815],
+      "location": [
+        -83.049644,
+        42.392815
+      ],
       "name": "Ow 1002 Vova ",
       "owner": "1002",
       "dateAvailable": "2023-03-16T06:54:22.728Z",
@@ -4659,7 +5680,10 @@
     {
       "_id": "6377dd41557490c42c83ef73",
       "id": 1406,
-      "location": [-83.627932, 41.557118],
+      "location": [
+        -83.627932,
+        41.557118
+      ],
       "name": "Ow Misha (ow 403)",
       "owner": "403",
       "dateAvailable": null,
