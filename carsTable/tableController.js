@@ -32,21 +32,27 @@ reFresh:function(){
                             <td>${car["dateAvailable"]}</td>
                             <td>${car["note"]}</td>
                     </tr>`;
+            let editIcon=document.createElement("img");
+            editIcon.src="editIcon.png";
+            editIcon.classList.add("editIcon");
             let editButton=document.createElement("button");
             editButton.classList.add("edit-btn");
-            editButton.innerText="Edit";
+            editButton.appendChild(editIcon);
             editButton.onclick=(()=>{
                 document.getElementById("createCar").click(); 
                 document.querySelector("#formContainer > form > div.formInput.toggle > label > input[type=checkbox]").checked=car["active"];
-                document.querySelector("#availableDate").value=car["dateAvailable"];
+                
+                document.querySelector("#availableDate").value= convertTimeFromIso(car["dateAvailable"])
                 document.querySelector("#id").value=car["id"];
                 document.querySelector("#name").value=car["name"];
                 document.querySelector("#owner").value=car["owner"];
                 document.querySelector("#phoneNumber").value=car["phone"];
                 document.querySelector("#carType").value=car["typeCar"];
+                console.log(car["typeCar"]);
                 document.querySelector("#dimension").value=car["dimension"];
                 document.querySelector("#capacity").value=car["capacity"];
                 document.querySelector("#status").value=car["status"];
+                console.log(car["status"]);
                 document.getElementById("Zip Code").value=car["zipCode"];
                 document.getElementById("location name").value=car["locationName"];
                 document.querySelector("#Note").value=car["note"];
@@ -55,6 +61,12 @@ reFresh:function(){
             })
             let td=document.createElement("td");
             td.appendChild(editButton);
+            let deleteButton=document.createElement("button");
+            let deleteIcon=document.createElement("img");
+            deleteIcon.src="trashIcon.png";
+            deleteButton.appendChild(deleteIcon);
+            deleteButton.classList.add("deleteButton")
+            td.appendChild(deleteButton);
             tableRaw.appendChild(td);
                     raws.push(tableRaw)
     })
@@ -76,8 +88,8 @@ reFresh:function(){
             buttons.forEach((e)=>{e.removeAttribute("disabled")});
             mybutton.setAttribute("disabled",true);
             const rows = table.querySelectorAll('tr');
-            for (let i = 1; i < rows.length; i++) {
-                table.removeChild(rows[i]);
+            for (let index = 1; index < rows.length; index++) {
+                table.removeChild(rows[index]);
             }
             rawsArray[i].forEach(raw => {
                 table.appendChild(raw);
@@ -85,7 +97,7 @@ reFresh:function(){
         });
         nextPreviosContainer.appendChild(mybutton);
     })
-    rawsArray[1].forEach(raw => {
+    rawsArray[0].forEach(raw => {
         table.appendChild(raw);
     });
     buttons[0].setAttribute("disabled",true);

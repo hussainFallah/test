@@ -36,13 +36,16 @@ tr:hover {
     background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 8px 16px;
+    padding: 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
 }
 
 .edit-btn:hover {
@@ -300,15 +303,47 @@ left: 3em;
     color: #fff;
     border: none;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
 .copy-btn.success {
     background-color: #28a745;
+    
 }
+.copy-btn.fail {
+    background-color: red;
+
+}
+
+
 
 .copy-btn.success::after {
     content: '\2714';
     margin-left: 5px;
 }
+
+
+.editIcon{
+margin: 0px;
+position: relative;
+top: 0.1em;
+left: 0em;
+
+
+}
+
+.deleteButton{
+    padding: 0px;
+    align-content: center;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+.deleteButton:hover{
+background-color: rgb(202, 1, 1);
+
+}
+

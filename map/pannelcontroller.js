@@ -33,6 +33,7 @@ displayCarsSellector:function(x="0px",y="0px",option){
     this.infoPannel.style.top=this.yPosition;
     let container=document.getElementById("pannelTextContainer");
     let TextContainer=document.createElement("p");
+    TextContainer.style.color="#FFF";
     container.innerHTML="";
     
     if (option.length!==0) 
@@ -46,18 +47,17 @@ displayCarsSellector:function(x="0px",y="0px",option){
         carP.innerText=`${e["car"]["name"] }
         in about ${e["distance"]} miles`;
         carP.style="width: inherit;";
-        carButtonDiv.style="width: inherit;";
-        carButtonDiv.style.backgroundColor="yellow";
-        carButtonDiv.style.margin="1em";
-        carButtonDiv.style.padding="1em";
+        carButtonDiv.classList.add("carButtonDiv")
+        carButtonDiv.onclick=(()=>{map.AnimateChangeView(e["car"]["location"].reverse(),8)})
         carButton.innerText=`Copy To CleapBourd`;
         carButton.classList.add("copy-btn");
-        carButton.onclick=((element)=>{
+        carButton.onclick=((event)=>{
+            event.stopPropagation(event);
             copyToClipboard(
 `Location: ${e["car"]["locationName"]}
 distance: about ${e["distance"]} miles
 Dimension: ${e["car"]["dimension"]}
-Rate $`,element.target);
+Rate $`,event.target);
         })
         carButtonDiv.appendChild(carP);
         carButtonDiv.appendChild(carButton);

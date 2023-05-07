@@ -119,13 +119,13 @@ function driversButton(){
                     <p>Type:</p>
                 </label>
                 <select name="carType" id="carType">
-                    <option value="Boxtruck">
+                    <option value="box truck">
                         <p>Box truck</p>
                     </option>
-                    <option value="Large">
+                    <option value="large">
                         <p>Large</p>
                     </option>
-                    <option value="Sprinter">
+                    <option value="sprinter">
                         <p>Sprinter</p>
                     </option>
                 </select>
@@ -147,13 +147,13 @@ function driversButton(){
                     <p>Type:</p>
                 </label>
                 <select name="status" id="status">
-                    <option value="usCitizen">
+                    <option value="US_CITIZEN">
                         <p>US CITIZEN</p>
                     </option>
-                    <option value="greenCard">
+                    <option value="GREEN_CARD">
                         <p>GREEN CARD</p>
                     </option>
-                    <option value="noBorder">
+                    <option value="NO_BORDER">
                         <p>NO BORDER</p>
                     </option>
                 </select>
@@ -205,7 +205,6 @@ function driversButton(){
     };
 onClickFunctions.push(driversButton)
 onClickFunctions.push(driversButton)
-onClickFunctions.push(driversButton)
 
 
 let sidBarElements=sidBarLinks=document.getElementsByClassName("sidBarElement");
@@ -234,3 +233,28 @@ function copyToClipboard(text,button){
         button.classList.add('fail');
     });
 };
+function convertTimeFromIso(globaltime){
+    let date = new Date(globaltime);
+    // Format the date and time string in the correct format for the input
+    let dateString = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2) + 'T' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2);
+    // Set the value of the datetime-local input to the formatted date and time string
+    return dateString;
+}
+function convertTimeToIso(localTime){
+    // Create a new Date object from the selected date and time
+    var date = new Date(localTime);
+    // Get the ISO 8601 formatted string from the date object
+    var isoString = date.toISOString();
+    // Set the value of a variable or use the string as needed
+    return isoString;
+}
+function displayConnetionMessag(message="message Undefinde"){
+    let connectionMessageContainer=document.getElementById("connection-message-container");
+    let connectionMessage=document.getElementById("connection-message");
+    connectionMessage.innerText=message;
+    connectionMessageContainer.classList.remove("hidden");
+}
+function hideConnetionMessag(){
+    let connectionMessageContainer=document.getElementById("connection-message-container");
+    connectionMessageContainer.classList.add("hidden");
+}

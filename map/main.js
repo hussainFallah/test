@@ -26,14 +26,17 @@ let cars=displayAllCars();
         if(zipCodeText.value===""){
             pannel.display("0px","0px","pleas Enter a zipCode");
             return}
-        if(serchValue===-1){
-            pannel.display("0px","0px","pleas Enter a valid zipCode");
-            return;
-        }
+            if(serchValue===-1){
+                pannel.display("0px","0px","pleas Enter a valid zipCode");
+                return;
+            }
+            displayConnetionMessag("please wait while prossessing your request")
         zip.getLocationUsingZipCode(serchValue).then((a)=>{
+            displayConnetionMessag("connecting")
         // zipcoder.serchZipcode(serchValue).then((a)=>{
         if(a===-1){
             pannel.display("0px","0px","please enter a valid zipCode")
+            hideConnetionMessag()
             return
         }
         let isprossesed=false;
@@ -106,7 +109,8 @@ let cars=displayAllCars();
                         carIcon(e["car"])
                     );
                 })
-                pannel.displayCarsSellector("0px","0px",items);////////////////
+                pannel.displayCarsSellector("0px","0px",items);
+                hideConnetionMessag()
             });
         });
         
