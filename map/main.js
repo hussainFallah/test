@@ -33,6 +33,8 @@ let cars=displayAllCars();
             displayConnetionMessag("please wait while prossessing your request")
         zip.getLocationUsingZipCode(serchValue).then((a)=>{
             displayConnetionMessag("connecting")
+            let stopSearchButton=document.getElementById("stopserching");
+            stopSearchButton.classList.remove("hidden");
         // zipcoder.serchZipcode(serchValue).then((a)=>{
         if(a===-1){
             pannel.display("0px","0px","please enter a valid zipCode")
@@ -132,6 +134,7 @@ let stopSerchingButton= document.getElementById("stopserching");
 stopSerchingButton.onclick=(()=>{
     map.removeAllCars();
     displayAllCars();
+    stopSerchingButton.classList.add("hidden")
     
 })
 }

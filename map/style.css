@@ -69,8 +69,8 @@ div {padding: 0.35%;
 
 }
 
-input,
-select {
+form input,
+form select {
     width: 90%;
     height: 1.75rem;
     left: auto;
@@ -96,22 +96,35 @@ display: inline-block;
 width: 85%;
 vertical-align: top;
 }
-#zipCodeText,
+/* #zipCodeText,
 #distance,
 #zipCodeButton {
-    width: 15%;
-}
+
+} */
 .sidBarButton {
     width: 100%;
     padding: 2%;
     margin: 2%;
 }
 #stopserching{
-    margin: 1px;
-    padding:2px;
+    bottom: 3em;
+    padding:8px;
     font-size: medium;
     position: absolute;
     right: 1em;
+    z-index: 2;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #f00;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    opacity: 0.8;
+}
+#stopserching:hover{
+    background-color: #e33;
+}
+#stopserching.hidden{
+display: none;
 }
 
 .spinnerContainer {
@@ -214,4 +227,25 @@ vertical-align: top;
     overflow: hidden;
     z-index: 999;
     /* background-color: red; */
+}
+
+#search-container{
+    background-color: #777;
+    width: 25em;
+    padding: 5px;
+    border-radius: 6px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    opacity: 0.8;
+    position: absolute;
+    z-index: 2;
+    left: 4em;
+    top: 1.5em;
+}
+#search-container * {
+border-radius: 6px;
+border-style: none;
+height: 2em;
+margin: 3.4px;
+
 }

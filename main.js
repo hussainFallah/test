@@ -48,23 +48,25 @@ function mapButton(){
 
 
     container.innerHTML=`<div id="serchByZipcode">
-        <input type="text" placeholder="&lt;zipcode&gt;" id="zipCodeText">
-        <select name="distance" id="distance">
-            <option value="100">100 miles</option>
-            <option value="200">200 miles</option>
-            <option value="300">300 miles</option>
-            <option value="400">400 miles</option>
-            <option value="500">500 miles</option>
-            <option value="600">600 miles</option>
-        </select>
-        <button id="zipCodeButton">serch by zipCode</button>
+        <div id="search-container">
+            <input type="text" placeholder="&lt;zipcode&gt;" id="zipCodeText">
+            <select name="distance" id="distance">
+                <option value="100">100 miles</option>
+                <option value="200">200 miles</option>
+                <option value="300">300 miles</option>
+                <option value="400">400 miles</option>
+                <option value="500">500 miles</option>
+                <option value="600">600 miles</option>
+            </select>
+            <button id="zipCodeButton">serch by zipCode</button>
+        </div>
     </div>
     <div id="infoPannel" class="hidden">
         <button id="infoPannelClosser">X</button>
         <div id="pannelTextContainer"></div>
     </div>
     <div id="mapid"></div>
-    <div><button id="stopserching">stop serching</button>
+    <div><button id="stopserching" class="hidden">stop serching</button>
     </div>`;
     mainMap();
 };
