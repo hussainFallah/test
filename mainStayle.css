@@ -3,7 +3,7 @@
     position: absolute;
     left: 15em;
     top: 5em;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    width: 800px;
+    height: 800px;
     padding: 0px;
 }

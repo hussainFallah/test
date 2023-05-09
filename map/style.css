@@ -42,6 +42,18 @@ div {
 
 }
 
+#infoPannel.carsSellector {
+    left: 4em;
+    top: 4em;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 28em;
+}
+
+#infoPannel.carsSellector::-webkit-scrollbar {
+    display: none;
+}
+
 #mapid {
     z-index: 1;
     display: block;
@@ -228,7 +240,7 @@ form select {
 
 #connection-message-positionner {
     pointer-events: none;
-    position: absolute;
+    position: fixed;
     top: 4em;
     left: 34em;
     height: 6em;

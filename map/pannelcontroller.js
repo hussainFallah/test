@@ -26,6 +26,7 @@ display:function(x="0px",y="0px",text="text is't deffined"){
 },
 displayCarsSellector:function(x="0px",y="0px",option){
     this.infoPannel=document.getElementById("infoPannel");
+    this.infoPannel.classList.add("carsSellector")
     infoPannel.innerHtml="";
     this.xPosition=x;
     this.yPosition=y;
@@ -78,7 +79,8 @@ Rate $`,event.target);
 
 hide:function(){
     if(this.isdisplayed===true){
-        infoPannel.classList.add("hidden");
+        this.infoPannel.classList.add("hidden");
+        this.infoPannel.classList.remove("carsSellector")
         this.isdisplayed=false;
         return true;
     }

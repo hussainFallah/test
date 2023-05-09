@@ -126,6 +126,7 @@ let carsTable = {
 
             })
             this.setNextPreviosContainer()
+            this.setTablePage(this.tablePage);
         });
 
     },
