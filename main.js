@@ -1,53 +1,55 @@
-let container=document.getElementById("mainContainer");
-let sidBar=document.querySelector(".sidebar");
-let sideBarTogole=document.querySelector('.sidebar-toggle');
+let container = document.getElementById("mainContainer");
+let sidBar = document.querySelector(".sidebar");
+let sideBarTogole = document.querySelector('.sidebar-toggle');
 prossesWindowSize(window.innerWidth);
 
-sideBarTogole.onclick=(()=>{
+sideBarTogole.onclick = (() => {
     sideBarTogole.classList.toggle('active');
     sideBarTogole.classList.toggle("hide");
     sidBar.classList.toggle('show');
 });
 
-function prossesWindowSize(innerWidth){
-    if(innerWidth<=900){
-        container.style.left="0.5em";
+function prossesWindowSize(innerWidth) {
+    if (innerWidth <= 900) {
+        container.style.left = "0.5em";
         sidBar.classList.remove("show");
         sideBarTogole.classList.remove('active');
         sideBarTogole.classList.add("hide");
-        sideBarTogole.style="display: block;";
-    }else{
-        container.style.left="15em";
+        sideBarTogole.style = "display: block;";
+    } else {
+        container.style.left = "15em";
         sidBar.classList.add("show");
         sideBarTogole.classList.add('active');
         sideBarTogole.classList.remove("hide");
-        sideBarTogole.style="display:none;";
+        sideBarTogole.style = "display:none;";
     }
 };
 
-if(navigator.userAgentData && navigator.userAgentData.mobile){
+if (navigator.userAgentData && navigator.userAgentData.mobile) {
     // if mobile
-    window.addEventListener("orientationchange", function() {
-        if(window.orientation === undefined){
-    // Orientation not supported
-        }else {
-    // Portrait mode
-    prossesWindowSize(window.innerHeight);
-    }
-});
+    window.addEventListener("orientationchange", function () {
+        if (window.orientation === undefined) {
+            // Orientation not supported
+        } else {
+            // Portrait mode
+            prossesWindowSize(window.innerHeight);
+        }
+    });
 } else {
     // if not a mobile
-    window.onresize=((e)=>{console.log(e["target"]["innerWidth"]);
-    prossesWindowSize(window.innerWidth);});//for setting if the sidbar will be closed or opened
+    window.onresize = ((e) => {
+        console.log(e["target"]["innerWidth"]);
+        prossesWindowSize(window.innerWidth);
+    });//for setting if the sidbar will be closed or opened
 }
 
 
 
-let onClickFunctions=[];
-function mapButton(){
+let onClickFunctions = [];
+function mapButton() {
 
 
-    container.innerHTML=`<div id="serchByZipcode">
+    container.innerHTML = `<div id="serchByZipcode">
         <div id="search-container">
             <input type="text" placeholder="&lt;zipcode&gt;" id="zipCodeText">
             <select name="distance" id="distance">
@@ -73,8 +75,8 @@ function mapButton(){
 mapButton();
 onClickFunctions.push(mapButton);
 
-function driversButton(){
-    container.innerHTML=`
+function driversButton() {
+    container.innerHTML = `
     <button id="createCar">Create</button>
     <div class="panel-wrapper">
     <div id="formContainer">
@@ -202,47 +204,56 @@ function driversButton(){
                 </tr>
             </table>
         </div>
-        <div id="nextPreviosContainer"></div>`;
-        tableMain();
-    };
+        <div id="navigationButtonsContainer">
+            
+            <button id="leftButton"><p><i class="arrow left"></i></p></button>
+            <div id="nextPreviosContainer"></div>
+            <button id="rightButton"><p><i class="arrow right"></i></p></button>
+        </div>`;
+    tableMain();
+};
 onClickFunctions.push(driversButton)
-onClickFunctions.push(driversButton)
+function logOut() {
+    displayConnetionMessag("logging out not working right now");
+    setTimeout(() => { hideConnetionMessag() }, 1500)
+}
+onClickFunctions.push(logOut)
 
 
-let sidBarElements=sidBarLinks=document.getElementsByClassName("sidBarElement");
+let sidBarElements = sidBarLinks = document.getElementsByClassName("sidBarElement");
 
 for (let i = 0; i < sidBarElements.length; i++) {
     sidBarElements[i].addEventListener('click', () => {
-    for (let j = 0; j < sidBarElements.length; j++) {
-        sidBarElements[j].classList.remove("sellected");
-    }
-    sidBarElements[i].classList.add("sellected");
-    onClickFunctions[i]();
+        for (let j = 0; j < sidBarElements.length; j++) {
+            sidBarElements[j].classList.remove("sellected");
+        }
+        sidBarElements[i].classList.add("sellected");
+        onClickFunctions[i]();
     });
 };
 
 
-function copyToClipboard(text,button){
-  navigator.clipboard.writeText(text)
-    .then(() => {
-      console.log('Text copied to clipboard');
-        button.innerHTML = 'Copied!';
-        button.classList.add('success');
-    })
-    .catch((err) => {
-      console.error('Error copying text: ', err);
-        button.innerHTML = 'something Went Wrong!';
-        button.classList.add('fail');
-    });
+function copyToClipboard(text, button) {
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            console.log('Text copied to clipboard');
+            button.innerHTML = 'Copied!';
+            button.classList.add('success');
+        })
+        .catch((err) => {
+            console.error('Error copying text: ', err);
+            button.innerHTML = 'something Went Wrong!';
+            button.classList.add('fail');
+        });
 };
-function convertTimeFromIso(globaltime){
+function convertTimeFromIso(globaltime) {
     let date = new Date(globaltime);
     // Format the date and time string in the correct format for the input
     let dateString = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2) + 'T' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2);
     // Set the value of the datetime-local input to the formatted date and time string
     return dateString;
 }
-function convertTimeToIso(localTime){
+function convertTimeToIso(localTime) {
     // Create a new Date object from the selected date and time
     var date = new Date(localTime);
     // Get the ISO 8601 formatted string from the date object
@@ -250,13 +261,13 @@ function convertTimeToIso(localTime){
     // Set the value of a variable or use the string as needed
     return isoString;
 }
-function displayConnetionMessag(message="message Undefinde"){
-    let connectionMessageContainer=document.getElementById("connection-message-container");
-    let connectionMessage=document.getElementById("connection-message");
-    connectionMessage.innerText=message;
+function displayConnetionMessag(message = "message Undefinde") {
+    let connectionMessageContainer = document.getElementById("connection-message-container");
+    let connectionMessage = document.getElementById("connection-message");
+    connectionMessage.innerText = message;
     connectionMessageContainer.classList.remove("hidden");
 }
-function hideConnetionMessag(){
-    let connectionMessageContainer=document.getElementById("connection-message-container");
+function hideConnetionMessag() {
+    let connectionMessageContainer = document.getElementById("connection-message-container");
     connectionMessageContainer.classList.add("hidden");
 }

@@ -1,21 +1,23 @@
-div {padding: 0.35%;
+div {
+    padding: 0.35%;
     margin: 0.35%;
 }
 
 
-.carButtonDiv{
+.carButtonDiv {
     width: inherit;
-    background-color:yellow;
+    background-color: yellow;
     color: #121212;
-    margin:1em;
-    padding:1em;
-    border-radius:8px;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
     align-items: center;
     text-align: center;
-    cursor:zoom-in; 
+    cursor: zoom-in;
 }
-.carButtonDiv:hover{
-        background-color:greenyellow;
+
+.carButtonDiv:hover {
+    background-color: greenyellow;
 }
 
 #infoPannel {
@@ -23,32 +25,33 @@ div {padding: 0.35%;
     background-color: #121212;
     color: #fff;
     backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        /* for Safari */
-        opacity: 0.8;
-        /* set the opacity level */
+    -webkit-backdrop-filter: blur(5px);
+    /* for Safari */
+    opacity: 0.8;
+    /* set the opacity level */
     border-radius: 5px;
     padding: 10px;
     z-index: 2;
     width: 15em;
     height: fit-content;
-    
+
 }
 
 #infoPannel.hidden {
     display: none;
-    
+
 }
 
 #mapid {
     z-index: 1;
     display: block;
-    width: 70em;
-    height: 40em;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
 
 
 }
-#infoPannelClosser{
+
+#infoPannelClosser {
     background-color: red;
     border-radius: 50%;
     height: 25px;
@@ -83,19 +86,22 @@ form select {
     opacity: 1;
     /* show the div when visible class is added */
 }
+
 #sideBar {
     /* padding-top:6.5% ; */
-    padding-top:calc();
+    padding-top: calc();
     display: inline-block;
     width: 11%;
     height: 100%;
     vertical-align: top;
 }
+
 #main {
-display: inline-block;
-width: 85%;
-vertical-align: top;
+    display: inline-block;
+    width: 85%;
+    vertical-align: top;
 }
+
 /* #zipCodeText,
 #distance,
 #zipCodeButton {
@@ -106,9 +112,10 @@ vertical-align: top;
     padding: 2%;
     margin: 2%;
 }
-#stopserching{
+
+#stopserching {
     bottom: 3em;
-    padding:8px;
+    padding: 8px;
     font-size: medium;
     position: absolute;
     right: 1em;
@@ -120,11 +127,13 @@ vertical-align: top;
     -webkit-backdrop-filter: blur(2px);
     opacity: 0.8;
 }
-#stopserching:hover{
+
+#stopserching:hover {
     background-color: #e33;
 }
-#stopserching.hidden{
-display: none;
+
+#stopserching.hidden {
+    display: none;
 }
 
 .spinnerContainer {
@@ -229,7 +238,7 @@ display: none;
     /* background-color: red; */
 }
 
-#search-container{
+#search-container {
     background-color: #777;
     width: 25em;
     padding: 5px;
@@ -242,10 +251,11 @@ display: none;
     left: 4em;
     top: 1.5em;
 }
+
 #search-container * {
-border-radius: 6px;
-border-style: none;
-height: 2em;
-margin: 3.4px;
+    border-radius: 6px;
+    border-style: none;
+    height: 2em;
+    margin: 3.4px;
 
 }

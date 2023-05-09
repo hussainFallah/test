@@ -1,9 +1,9 @@
-#mainContainer{
+#mainContainer {
 
-position: absolute;
-left: 15em;
-right:auto;
-top: 5em;
-bottom: auto;
-padding: 0px;
+    position: absolute;
+    left: 15em;
+    top: 5em;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding: 0px;
 }

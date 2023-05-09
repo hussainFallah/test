@@ -1,6 +1,6 @@
 function mainMap(){
 
-
+let stopSearch=true;
 
 
 map.displayMap();
@@ -34,6 +34,7 @@ let cars=displayAllCars();
         zip.getLocationUsingZipCode(serchValue).then((a)=>{
             displayConnetionMessag("connecting")
             let stopSearchButton=document.getElementById("stopserching");
+            stopSearch=false;
             stopSearchButton.classList.remove("hidden");
         // zipcoder.serchZipcode(serchValue).then((a)=>{
         if(a===-1){
@@ -103,7 +104,8 @@ let cars=displayAllCars();
                 let sortedData=unsorttedData.sort((obj1, obj2) => obj2["distance"] - obj1["distance"]);
                 return sortedData.reverse();
             }).then((items)=>{
-                map.removeAllCars();
+                if(stopSearch===false){
+                    map.removeAllCars();
                 items.forEach(e=>{
                     map.addPoint(
                         [e["car"]["location"][1],e["car"]["location"][0]],
@@ -113,6 +115,8 @@ let cars=displayAllCars();
                 })
                 pannel.displayCarsSellector("0px","0px",items);
                 hideConnetionMessag()
+                }
+                
             });
         });
         
@@ -134,6 +138,8 @@ let stopSerchingButton= document.getElementById("stopserching");
 stopSerchingButton.onclick=(()=>{
     map.removeAllCars();
     displayAllCars();
+    stopSearch=true;
+    hideConnetionMessag();
     stopSerchingButton.classList.add("hidden")
     
 })

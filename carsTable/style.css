@@ -1,11 +1,13 @@
-body{
+body {
     background-color: #191a1c;
     margin: 0px;
     padding: 0px;
 }
-h1{
-    color:white;
+
+h1 {
+    color: white;
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -32,6 +34,7 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #777;
 }
+
 .edit-btn {
     background-color: #4CAF50;
     color: white;
@@ -51,14 +54,15 @@ tr:hover {
 .edit-btn:hover {
     background-color: #3e8e41;
 }
+
 .sidebar {
-    background-image: linear-gradient(to right, #001529, #001529);
+    background-image: linear-gradient(to right, #001529, #012f5a);
     width: 14.17em;
     flex-basis: 15%;
     overflow: auto;
     position: fixed;
     padding-top: 5em;
-    top:0.78em;
+    top: 0em;
     left: 0em;
     bottom: 0em;
     margin-left: 0px;
@@ -66,32 +70,37 @@ tr:hover {
     margin-bottom: 0px;
     transition: transform 0.3s ease-in-out;
     transform: translateX(-100%);
-    z-index: 5;
+    z-index: 6;
 
 
 }
+
 .sidebar.show {
     transform: translateX(0%);
 }
+
 .sidebar-toggle {
     position: fixed;
     top: 1.5em;
-    left:0em;
+    left: 0em;
     z-index: 7;
     transition: transform 0.33s ease-in-out;
     transform: translateX(13.5em);
 }
-.sidebar-toggle.hide{
-    transform :translateX(0.5em);
+
+.sidebar-toggle.hide {
+    transform: translateX(0.5em);
 }
+
 .sidebar-toggle:focus {
     outline: none;
 }
+
 .sidebar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    
+
 }
 
 .sidebar li a {
@@ -99,55 +108,89 @@ tr:hover {
     padding: 10px;
     text-decoration: none;
     color: white;
-    
+
 }
-li.sellected{
+
+li.sellected {
     background-color: #0548E8
 }
+
 .sidebar li a:hover {
     background-color: #ddd;
 }
-.main-content{
 
-    
-    position: relative ;
+.main-content {
+
+
+    position: relative;
 
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    
+
     overflow: auto;
 }
-.top-bar{
-width: 100%;
-height: 3.5em;
-padding: 8px 16px;
-text-align: center;
-position: fixed;
-left: 0em;
-right: 0em;
-top:0px;
-z-index: 6;
-margin-top: 0;
-background-color: #001529;
+
+.top-bar {
+    width: 100%;
+    height: 3.5em;
+    padding: 8px 16px;
+    text-align: center;
+    position: fixed;
+    left: 0em;
+    right: 0em;
+    top: 0px;
+    z-index: 6;
+    margin-top: 0;
+    background-color: #001529;
 }
 
 
 /* background-image: linear-gradient(to right, #FFC107, #FF9800); */
-#nextPreviosContainer{
-    position: absolute;
-    right: 0em;
+#nextPreviosContainer,
+#rightButton,
+#leftButton {
+    position: relative;
+    display: inline;
 }
-#createCar{
-position: fixed;
+
+#createCar,
+#closeCreatCarForm {
+    position: fixed;
     top: .5em;
     right: .35em;
     z-index: 8;
     background-color: #4CAF50;
     font-size: xx-large;
+    border-radius: 8px;
+    border-style: none;
 
+}
+
+
+
+#createCar:hover {
+    background-color: #1b961f;
+
+}
+
+#createCar:active {
+    background-color: #0c6b0f;
+
+}
+
+#closeCreatCarForm {
+    background-color: #ff0000;
+}
+
+#closeCreatCarForm:hover {
+    background-color: #aa0000;
+}
+
+#closeCreatCarForm:active {
+    background-color: #770000;
 }
 
 #formContainer {
@@ -173,6 +216,7 @@ position: fixed;
     transform: translateX(0%);
     /* move the div into view */
 }
+
 .outPage {
     opacity: 0;
     /* hide the div initially */
@@ -208,12 +252,12 @@ position: fixed;
 
 .line:first-of-type {
     top: 50%;
-transform: translate(-50%,-500%)
+    transform: translate(-50%, -500%)
 }
 
 .line:last-of-type {
     top: 50%;
-transform: translate(-50%, 500%)
+    transform: translate(-50%, 500%)
 }
 
 .sidebar-toggle.active .line:first-of-type {
@@ -227,6 +271,7 @@ transform: translate(-50%, 500%)
 .sidebar-toggle.active .line:nth-of-type(2) {
     transform: translate(-50%, -50%) scale(0);
 }
+
 .panel-wrapper {
     pointer-events: none;
     position: absolute;
@@ -234,7 +279,7 @@ transform: translate(-50%, 500%)
     right: 0em;
     margin-right: 0px;
     width: 100%;
-    height: 100%;
+    height: 1700px;
     overflow: hidden;
     /* hide any overflow from the panel */
 }
@@ -286,16 +331,17 @@ input:checked+.circle {
 .slot:has(input:checked) {
     background-color: aqua;
 }
-.formInput:has(.toggle){
-position: relative;
-top: 3em;
-left: 3em;
+
+.formInput:has(.toggle) {
+    position: relative;
+    top: 3em;
+    left: 3em;
 }
 
-#StatusToggleId{
-        position: relative;
-            top: -3.5em;
-            left: -3em;
+#StatusToggleId {
+    position: relative;
+    top: -3.5em;
+    left: -3em;
 }
 
 .copy-btn {
@@ -309,8 +355,9 @@ left: 3em;
 
 .copy-btn.success {
     background-color: #28a745;
-    
+
 }
+
 .copy-btn.fail {
     background-color: red;
 
@@ -324,16 +371,16 @@ left: 3em;
 }
 
 
-.editIcon{
-margin: 0px;
-position: relative;
-top: 0.1em;
-left: 0em;
+.editIcon {
+    margin: 0px;
+    position: relative;
+    top: 0.1em;
+    left: 0em;
 
 
 }
 
-.deleteButton{
+.deleteButton {
     padding: 0px;
     align-content: center;
     background-color: red;
@@ -342,11 +389,41 @@ left: 0em;
     border-radius: 8px;
     border-width: 0px;
 }
-.deleteButton:hover{
-background-color: rgb(202, 1, 1);
+
+.deleteButton:hover {
+    background-color: rgb(202, 1, 1);
 
 }
 
-a{
+a {
     cursor: pointer;
+}
+
+#navigationButtonsContainer {
+    width: 400px;
+    position: absolute;
+    left: 38%;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+#leftButton>p,
+#rightButton>p {
+    margin: 0px;
 }
