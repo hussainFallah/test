@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,55 +13,57 @@
     <link rel="stylesheet" href="mainStayle.css">
 
 </head>
-<body>
-<div class="top-bar">
-    <h1>Cars's Map</h1>
-</div>
 
-<div id="connection-message-positionner">
-    <div id="connection-message-container" class="hidden">
-        <p id="connection-message">this is connction message</p>
-        <div class="spinnerContainer">
-            <div class="spinner"></div>
+<body>
+    <div class="top-bar">
+        <h1>Cars's Map</h1>
+    </div>
+
+    <div id="connection-message-positionner">
+        <div id="connection-message-container" class="hidden">
+            <p id="connection-message">this is connction message</p>
+            <div class="spinnerContainer">
+                <div class="spinner"></div>
+            </div>
         </div>
     </div>
-</div>
 
-<button class="sidebar-toggle hide">
-    <span class="line"></span>
-    <span class="line"></span>
-    <span class="line"></span>
-</button>
-<div class="sidebar">
-    
-    <ul>
-        <li class="sidBarElement sellected"><a href="#">Map</a></li>
-        <li class="sidBarElement"><a>Drivers</a></li>
-        <li class="sidBarElement"><a>Logout</a></li>
-    </ul>
-</div>
+    <button class="sidebar-toggle hide">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </button>
+    <div class="sidebar">
+
+        <ul>
+            <li class="sidBarElement sellected"><a href="#">Map</a></li>
+            <li class="sidBarElement"><a>Drivers</a></li>
+            <li class="sidBarElement"><a>Logout</a></li>
+        </ul>
+    </div>
 
 
-<div id="mainContainer"></div>
-
+    <div id="mainContainer"></div>
 
 
 
-<script src="map/zipCoder.js"></script>
-<script src="map/jcars.js"></script>
-<script src="map/icons.js"></script>
-<script src="map/pannelcontroller.js"></script>
-<script src="map/mapController.js"></script>
-<script src="map/mousePositionHandler.js"></script>
-<script src="map/carsonclick.js"></script>
-<script src="map/distanceCalculator.js"></script>
-<script src="map/main.js"></script>
+    <script src="map/carsSellector.js"></script>
+    <script src="map/zipCoder.js"></script>
+    <script src="map/jcars.js"></script>
+    <script src="map/icons.js"></script>
+    <script src="map/pannelcontroller.js"></script>
+    <script src="map/mapController.js"></script>
+    <script src="map/mousePositionHandler.js"></script>
+    <script src="map/carsonclick.js"></script>
+    <script src="map/distanceCalculator.js"></script>
+    <script src="map/main.js"></script>
 
 
-<script src="carsTable/form.js"></script>
-<script src="carsTable/tableController.js"></script>
-<script src="carsTable/main.js"></script>
+    <script src="carsTable/form.js"></script>
+    <script src="carsTable/tableController.js"></script>
+    <script src="carsTable/main.js"></script>
 
-<script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>

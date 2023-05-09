@@ -4,6 +4,7 @@
     left: 15em;
     top: 5em;
     width: 800px;
-    height: 800px;
+    bottom: 0px;
+    height: auto;
     padding: 0px;
 }

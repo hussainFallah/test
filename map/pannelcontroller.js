@@ -27,60 +27,6 @@ pannel =
 
         return infoPannel;
     },
-    displayCarsSellector: function (x = "0px", y = "0px", option) {
-        this.hide();
-        let zipcodeSearchBox = document.getElementById("search-container")
-        this.infoPannel = document.getElementById("infoPannel");
-        this.infoPannel.classList.add("carsSellector")
-        infoPannel.innerHtml = "";
-        // this.xPosition=x;
-        // this.yPosition=y;
-        // this.infoPannel.style.left=this.xPosition;
-        // this.infoPannel.style.top=this.yPosition;
-        let container = document.getElementById("pannelTextContainer");
-        let TextContainer = document.createElement("p");
-        TextContainer.style.color = "#FFF";
-        container.innerHTML = "";
-        zipcodeSearchBox.appendChild(this.infoPannel);
-        if (option.length !== 0) {
-            TextContainer.innerText = "this is the cars list in this area";
-            container.append(TextContainer);
-            option.forEach((e) => {
-                let carButton = document.createElement("button");
-                let carP = document.createElement("p");
-                let carButtonDiv = document.createElement("div");
-                carP.innerText = `${e["car"]["name"]}
-        in about ${e["distance"]} miles`;
-                carP.style = "width: inherit;";
-                carButtonDiv.classList.add("carButtonDiv")
-                carButtonDiv.onclick = (() => { map.AnimateChangeView(e["car"]["location"].reverse(), 8) })
-                carButton.innerText = `Copy To CleapBourd`;
-                carButton.classList.add("copy-btn");
-                carButton.onclick = ((event) => {
-                    event.stopPropagation(event);
-                    copyToClipboard(
-                        `Location: ${e["car"]["locationName"]}
-distance: about ${e["distance"]} miles
-Dimension: ${e["car"]["dimension"]}
-Rate $`, event.target);
-                })
-                carButtonDiv.appendChild(carP);
-                carButtonDiv.appendChild(carButton);
-                container.appendChild(carButtonDiv);
-                carButtonDiv.style.height = "fit-content";
-            })
-        } else {
-            TextContainer.innerText = "there is no cars in this area"
-            container.append(TextContainer);
-        };
-
-
-        let infoPannelClosser = document.getElementById("infoPannelClosser");
-        infoPannelClosser.onclick = (() => this.hide());
-        this.infoPannel.classList.remove("hidden");
-        this.isdisplayed = true;
-
-    },
 
     hide: function () {
         if (this.isdisplayed === true) {

@@ -116,7 +116,7 @@ function mainMap() {
                                         carIcon(e["car"])
                                     );
                                 })
-                                pannel.displayCarsSellector("0px", "0px", items);
+                                carsSellector.displayCarsSellector(items);
                                 hideConnetionMessag()
                             }
 
@@ -145,6 +145,7 @@ function mainMap() {
         hideConnetionMessag();
         stopSerchingButton.classList.add("hidden")
         map.removeCircle();
+        carsSellector.hide();
 
     })
 }
