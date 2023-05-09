@@ -344,31 +344,6 @@ input:checked+.circle {
     left: -3em;
 }
 
-.copy-btn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.copy-btn.success {
-    background-color: #28a745;
-
-}
-
-.copy-btn.fail {
-    background-color: red;
-
-}
-
-
-
-.copy-btn.success::after {
-    content: '\2714';
-    margin-left: 5px;
-}
 
 
 .editIcon {

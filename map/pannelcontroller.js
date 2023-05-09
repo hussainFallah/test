@@ -1,131 +1,137 @@
-pannel=
+pannel =
 {
-infoPannel:document.getElementById("infoPannel"),
-xPosition:"0px",
-yPosition:"0px",
-isdisplayed:false,
+    infoPannel: document.getElementById("infoPannel"),
+    xPosition: "0px",
+    yPosition: "0px",
+    isdisplayed: false,
 
 
 
-display:function(x="0px",y="0px",text="text is't deffined"){
-    this.infoPannel=document.getElementById("infoPannel");
-    infoPannel.innerHtml="";
-    this.xPosition=x;
-    this.yPosition=y;
-    this.infoPannel.style.left=this.xPosition;
-    this.infoPannel.style.top=this.yPosition;
-    let container=document.getElementById("pannelTextContainer")
-    container.innerText=text;
-    let infoPannelClosser =document.getElementById("infoPannelClosser");
-    infoPannelClosser.onclick=(()=> this.hide());
-    this.infoPannel.classList.remove("hidden");
-    this.isdisplayed=true;
-    
+    display: function (x = "0px", y = "0px", text = "text is't deffined") {
+        this.hide();
+        this.infoPannel = document.getElementById("infoPannel");
+        infoPannel.innerHtml = "";
+        this.xPosition = x;
+        this.yPosition = y;
+        console.log(this.xPosition);
+        console.log(this.yPosition);
+        this.infoPannel.style.left = this.xPosition;
+        this.infoPannel.style.top = this.yPosition;
+        let container = document.getElementById("pannelTextContainer")
+        container.innerText = text;
+        let infoPannelClosser = document.getElementById("infoPannelClosser");
+        infoPannelClosser.onclick = (() => this.hide());
+        this.infoPannel.classList.remove("hidden");
+        this.isdisplayed = true;
 
-    return infoPannel;
-},
-displayCarsSellector:function(x="0px",y="0px",option){
-    this.infoPannel=document.getElementById("infoPannel");
-    this.infoPannel.classList.add("carsSellector")
-    infoPannel.innerHtml="";
-    this.xPosition=x;
-    this.yPosition=y;
-    this.infoPannel.style.left=this.xPosition;
-    this.infoPannel.style.top=this.yPosition;
-    let container=document.getElementById("pannelTextContainer");
-    let TextContainer=document.createElement("p");
-    TextContainer.style.color="#FFF";
-    container.innerHTML="";
-    
-    if (option.length!==0) 
-    {
-        TextContainer.innerText="this is the cars list in this area";
-        container.append(TextContainer);
-        option.forEach((e)=>{
-        let carButton=document.createElement("button");
-        let carP=document.createElement("p");
-        let carButtonDiv=document.createElement("div");
-        carP.innerText=`${e["car"]["name"] }
+
+        return infoPannel;
+    },
+    displayCarsSellector: function (x = "0px", y = "0px", option) {
+        this.hide();
+        let zipcodeSearchBox = document.getElementById("search-container")
+        this.infoPannel = document.getElementById("infoPannel");
+        this.infoPannel.classList.add("carsSellector")
+        infoPannel.innerHtml = "";
+        // this.xPosition=x;
+        // this.yPosition=y;
+        // this.infoPannel.style.left=this.xPosition;
+        // this.infoPannel.style.top=this.yPosition;
+        let container = document.getElementById("pannelTextContainer");
+        let TextContainer = document.createElement("p");
+        TextContainer.style.color = "#FFF";
+        container.innerHTML = "";
+        zipcodeSearchBox.appendChild(this.infoPannel);
+        if (option.length !== 0) {
+            TextContainer.innerText = "this is the cars list in this area";
+            container.append(TextContainer);
+            option.forEach((e) => {
+                let carButton = document.createElement("button");
+                let carP = document.createElement("p");
+                let carButtonDiv = document.createElement("div");
+                carP.innerText = `${e["car"]["name"]}
         in about ${e["distance"]} miles`;
-        carP.style="width: inherit;";
-        carButtonDiv.classList.add("carButtonDiv")
-        carButtonDiv.onclick=(()=>{map.AnimateChangeView(e["car"]["location"].reverse(),8)})
-        carButton.innerText=`Copy To CleapBourd`;
-        carButton.classList.add("copy-btn");
-        carButton.onclick=((event)=>{
-            event.stopPropagation(event);
-            copyToClipboard(
-`Location: ${e["car"]["locationName"]}
+                carP.style = "width: inherit;";
+                carButtonDiv.classList.add("carButtonDiv")
+                carButtonDiv.onclick = (() => { map.AnimateChangeView(e["car"]["location"].reverse(), 8) })
+                carButton.innerText = `Copy To CleapBourd`;
+                carButton.classList.add("copy-btn");
+                carButton.onclick = ((event) => {
+                    event.stopPropagation(event);
+                    copyToClipboard(
+                        `Location: ${e["car"]["locationName"]}
 distance: about ${e["distance"]} miles
 Dimension: ${e["car"]["dimension"]}
-Rate $`,event.target);
-        })
-        carButtonDiv.appendChild(carP);
-        carButtonDiv.appendChild(carButton);
-        container.appendChild(carButtonDiv);
-        })
-    }else{
-        TextContainer.innerText="there is no cars in this area"
-        container.append(TextContainer);
-    };
-    
-    
-    let infoPannelClosser =document.getElementById("infoPannelClosser");
-    infoPannelClosser.onclick=(()=> this.hide());
-    this.infoPannel.classList.remove("hidden");
-    this.isdisplayed=true;
-    
-},
+Rate $`, event.target);
+                })
+                carButtonDiv.appendChild(carP);
+                carButtonDiv.appendChild(carButton);
+                container.appendChild(carButtonDiv);
+                carButtonDiv.style.height = "fit-content";
+            })
+        } else {
+            TextContainer.innerText = "there is no cars in this area"
+            container.append(TextContainer);
+        };
 
-hide:function(){
-    if(this.isdisplayed===true){
-        this.infoPannel.classList.add("hidden");
-        this.infoPannel.classList.remove("carsSellector")
-        this.isdisplayed=false;
-        return true;
-    }
-    return false;
-},
-displayMultiChoice:function(x="0px",y="0px",places){
-    this.infoPannel=document.getElementById("infoPannel");
-this.infoPannel.innerHtml="";
-    this.xPosition=x;
-    this.yPosition=y;
-    this.infoPannel.style.left=this.xPosition;
-    this.infoPannel.style.top=this.yPosition;
-    let container=document.getElementById("pannelTextContainer");
-    let TextContainer=document.createElement("p");
-    container.innerHTML="";
-    console.log(container.innerHtml)
-    TextContainer.innerText="there are more than one point pleas choose one";
-    container.append(TextContainer);
-    promeses=[];
-    places.forEach((e)=>{
-        let placeButton=document.createElement("button")
-        let placeButtonDiv=document.createElement("div")
-        placeButton.style="width: inherit;";
-        placeButtonDiv.style="width: inherit;";
-        placeButton.innerText=`${e["place name"]}: "Knoxville",
+
+        let infoPannelClosser = document.getElementById("infoPannelClosser");
+        infoPannelClosser.onclick = (() => this.hide());
+        this.infoPannel.classList.remove("hidden");
+        this.isdisplayed = true;
+
+    },
+
+    hide: function () {
+        if (this.isdisplayed === true) {
+            this.infoPannel.classList.add("hidden");
+            this.infoPannel.classList.remove("carsSellector")
+            this.isdisplayed = false;
+            return true;
+        }
+        return false;
+    },
+    displayMultiChoice: function (x = "0px", y = "0px", places) {
+        this.hide();
+        this.infoPannel = document.getElementById("infoPannel");
+        this.infoPannel.innerHtml = "";
+        this.xPosition = x;
+        this.yPosition = y;
+        this.infoPannel.style.left = this.xPosition;
+        this.infoPannel.style.top = this.yPosition;
+        let container = document.getElementById("pannelTextContainer");
+        let TextContainer = document.createElement("p");
+        container.innerHTML = "";
+        console.log(container.innerHtml)
+        TextContainer.innerText = "there are more than one point pleas choose one";
+        container.append(TextContainer);
+        promeses = [];
+        places.forEach((e) => {
+            let placeButton = document.createElement("button")
+            let placeButtonDiv = document.createElement("div")
+            placeButton.style = "width: inherit;";
+            placeButtonDiv.style = "width: inherit;";
+            placeButton.innerText = `${e["place name"]}: "Knoxville",
                                 ${e["longitude"]}: "-93.0992",
                                 ${e["state"]}: "Iowa",
                                 ${e["state abbreviation"]}: "IA",
                                 ${e["latitude"]}: "41.3345"`;
-                let mypromis=new Promise(resolve => {
+            let mypromis = new Promise(resolve => {
                 placeButton.addEventListener('click', () => {
                     resolve(e);
                 }, { once: true });
-                    return e;
-                });
+                return e;
+            });
             promeses.push(mypromis);
             placeButtonDiv.appendChild(placeButton);
             container.appendChild(placeButtonDiv);
         })
-    let infoPannelClosser =document.getElementById("infoPannelClosser");
-    infoPannelClosser.onclick=(()=> this.hide());
-    this.infoPannel.classList.remove("hidden");
-    this.isdisplayed=true;
-    console.log(promeses);
-    return promeses
+        let infoPannelClosser = document.getElementById("infoPannelClosser");
+        infoPannelClosser.onclick = (() => this.hide());
+        this.infoPannel.classList.remove("hidden");
+        this.isdisplayed = true;
+        console.log(promeses);
+        return promeses
     },
 }
 
