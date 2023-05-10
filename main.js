@@ -32,7 +32,7 @@ if (navigator.userAgentData && navigator.userAgentData.mobile) {
             // Orientation not supported
         } else {
             // Portrait mode
-            prossesWindowSize(window.innerHeight);
+            prossesWindowSize(window.innerWidth);
         }
     });
 } else {
