@@ -73,12 +73,12 @@ function mainMap() {
                         }
                     });
                     let activeCarsArrays = [];
-                    let chunkSize = 49;
+                    let chunkSize = 3499;
                     for (let i = 0; i < activeCars.length; i += chunkSize) {
                         const chunk = activeCars.slice(i, i + chunkSize);
                         activeCarsArrays.push(chunk);
                     }
-
+                    console.log(activeCarsArrays);
                     let promiseArray = [];
                     newPosition = newPosition.reverse()
                     activeCarsArrays.forEach(e => {

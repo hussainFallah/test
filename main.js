@@ -78,7 +78,10 @@ onClickFunctions.push(mapButton);
 function driversButton() {
     container.innerHTML = `
     <button id="createCar">Create</button>
-    <div class="panel-wrapper">
+    
+
+        <div class="main-content">
+        <div class="panel-wrapper">
     <div id="formContainer">
         <form action="">
             <div class="formInput toggle">
@@ -187,7 +190,6 @@ function driversButton() {
     </div>
 </div>
 
-        <div class="main-content">
             <table id="carsTable">
                 <tr>
                     <th>Available</th>
