@@ -285,7 +285,7 @@ form select {
 
 #search-container {
     background-color: #777;
-    width: 25em;
+    width: auto;
     padding: 5px;
     border-radius: 6px;
     backdrop-filter: blur(2px);
