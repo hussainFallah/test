@@ -87,9 +87,10 @@ div {
 
 #mapid {
     z-index: 1;
-    display: block;
+    position: absolute;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
+
 
 
 }

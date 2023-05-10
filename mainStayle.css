@@ -3,7 +3,8 @@
     position: absolute;
     left: 15em;
     top: 5em;
-    width: 800px;
+    right: 0px;
+    width: auto;
     bottom: 0px;
     height: auto;
     padding: 0px;
