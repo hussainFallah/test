@@ -60,7 +60,21 @@ let map = {
     },
     addPoint: function (pointPosition, Car, pointIcon) {
         let a = L.marker(pointPosition, pointIcon !== undefined ? { icon: pointIcon } : null).addTo(this.map);
-        a.on('click', (() => { carsOnClick(Car) }))
+        a.on('click', ((e) => {
+            carsOnClick(Car)
+            let rect = pannel.infoPannel.getBoundingClientRect()
+            if (e.target["_icon"]["_leaflet_pos"]["x"] < window.innerWidth - rect.width * 2) {
+                pannel.infoPannel.style.left = e.target["_icon"]["_leaflet_pos"]["x"] + "px"
+            } else {
+                pannel.infoPannel.style.left = `${window.innerWidth - rect.width * 2}px`
+            }
+            if (e.target["_icon"]["_leaflet_pos"]["y"] < window.innerHeight - rect.height) {
+                pannel.infoPannel.style.top = e.target["_icon"]["_leaflet_pos"]["y"] + "px"
+            } else {
+                pannel.infoPannel.style.top = `${window.innerHeight - rect.height * 1.3}px`
+            }
+
+        }))
         this.pointLayers.push({ car: Car, layer: a });
 
     },

@@ -81,114 +81,114 @@ function driversButton() {
     
 
         <div class="main-content">
-        <div class="panel-wrapper">
-    <div id="formContainer">
-        <form action="">
-            <div class="formInput toggle">
-                <p id="StatusToggleId">Status:</p>
-                <label class="toggle slot">
-                    <input type="checkbox" name="status">
-                    <span class="circle"></span>
-                </label>
-            </div>
-            <div class="formInput">
-                <label for="availableDate">
-                    <p>Date available:</p>
-                </label>
-                <input type="datetime-local" name="availableDate" id="availableDate">
-            </div>
-            <div class="formInput">
-                <label for="id">
-                    <p>id:</p>
-                </label>
-                <input type="number" name="id" id="id">
-            </div>
-            <div class="formInput">
-                <label for="name">
-                    <p>Name:</p>
-                </label>
-                <input type="text" name="name" id="name">
-            </div>
-            <div class="formInput">
-                <label for="owner">
-                    <p>owner:</p>
-                </label>
-                <input type="text" id="owner" name="owner">
-            </div>
-            <div class="formInput">
-                <label for="phoneNumber">
-                    <p>Phone Number:</p>
-                </label>
-                <input type="number" name="phoneNumber" id="phoneNumber">
-            </div>
-            <div class="formInput">
-                <label for="carType">
-                    <p>Type:</p>
-                </label>
-                <select name="carType" id="carType">
-                    <option value="box truck">
-                        <p>Box truck</p>
-                    </option>
-                    <option value="large">
-                        <p>Large</p>
-                    </option>
-                    <option value="sprinter">
-                        <p>Sprinter</p>
-                    </option>
-                </select>
-            </div>
-            <div class="formInput">
-                <label for="dimension">
-                    <p>Dimension:</p>
-                </label>
-                <input type="text" name="dimension" id="dimension">
-            </div>
-            <div class="formInput">
-                <label for="capacity">
-                    <p>Capacity:</p>
-                </label>
-                <input type="text" name="capacity" id="capacity">
-            </div>
-            <div class="formInput">
-                <label for="status">
-                    <p>Type:</p>
-                </label>
-                <select name="status" id="status">
-                    <option value="US_CITIZEN">
-                        <p>US CITIZEN</p>
-                    </option>
-                    <option value="GREEN_CARD">
-                        <p>GREEN CARD</p>
-                    </option>
-                    <option value="NO_BORDER">
-                        <p>NO BORDER</p>
-                    </option>
-                </select>
-            </div>
-            <div class="formInput">
-                <label for="Zip Code">
-                    <p>Zip Code:</p>
-                </label>
-                <input type="text" name="Zip Code" id="Zip Code">
-            </div>
-            <div class="formInput">
-                <label for="location name">
-                    <p>Location Name:</p>
-                </label>
-                <input type="text" name="location name" id="location name" disabled>
-            </div>
-            <div class="formInput">
-                <label for="Note">
-                    <p>Note:</p>
-                </label>
-                <input type="text" name="Note" id="Note" disabled>
-            </div>
-            <div class="formInput">
-                <input type="submit">
-            </div>
-        </form>
-    </div>
-</div>
+        <dialog id="carsAdderDialog" class="fadeIn">
+        <div class="dialog-content">
+            <form action="">
+                <div class="formInput toggle">
+                    <p id="StatusToggleId">Status:</p>
+                    <label class="toggle slot">
+                        <input id="isActive" type="checkbox" name="status">
+                        <span class="circle"></span>
+                    </label>
+                </div>
+                <div class="formInput">
+                    <label for="availableDate">
+                        <p>Date available:</p>
+                    </label>
+                    <input type="datetime-local" name="availableDate" id="availableDate">
+                </div>
+                <div class="formInput">
+                    <label for="id">
+                        <p>id:</p>
+                    </label>
+                    <input type="number" name="id" id="id">
+                </div>
+                <div class="formInput">
+                    <label for="name">
+                        <p>Name:</p>
+                    </label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="formInput">
+                    <label for="owner">
+                        <p>owner:</p>
+                    </label>
+                    <input type="text" id="owner" name="owner">
+                </div>
+                <div class="formInput">
+                    <label for="phoneNumber">
+                        <p>Phone Number:</p>
+                    </label>
+                    <input type="number" name="phoneNumber" id="phoneNumber">
+                </div>
+                <div class="formInput">
+                    <label for="carType">
+                        <p>Type:</p>
+                    </label>
+                    <select name="carType" id="carType">
+                        <option value="box truck">
+                            Box truck
+                        </option>
+                        <option value="large">
+                            Large
+                        </option>
+                        <option value="sprinter">
+                            Sprinter
+                        </option>
+                    </select>
+                </div>
+                <div class="formInput">
+                    <label for="dimension">
+                        <p>Dimension:</p>
+                    </label>
+                    <input type="text" name="dimension" id="dimension">
+                </div>
+                <div class="formInput">
+                    <label for="capacity">
+                        <p>Capacity:</p>
+                    </label>
+                    <input type="text" name="capacity" id="capacity">
+                </div>
+                <div class="formInput">
+                    <label for="status">
+                        <p>Type:</p>
+                    </label>
+                    <select name="status" id="status">
+                        <option value="US_CITIZEN">
+                            US CITIZEN
+                        </option>
+                        <option value="GREEN_CARD">
+                            GREEN CARD
+                        </option>
+                        <option value="NO_BORDER">
+                            NO BORDER
+                        </option>
+                    </select>
+                </div>
+                <div class="formInput">
+                    <label for="Zip Code">
+                        <p>Zip Code:</p>
+                    </label>
+                    <input type="text" name="Zip Code" id="Zip Code">
+                </div>
+                <div class="formInput">
+                    <label for="location name">
+                        <p>Location Name:</p>
+                    </label>
+                    <input type="text" name="location name" id="location name" disabled="">
+                </div>
+                <div class="formInput">
+                    <label for="Note">
+                        <p>Note:</p>
+                    </label>
+                    <input type="text" name="Note" id="Note" disabled="">
+                </div>
+                <div class="formInput">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </dialog>
 
             <table id="carsTable">
                 <tr>

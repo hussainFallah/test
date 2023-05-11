@@ -1,9 +1,10 @@
 pannel =
 {
-    infoPannel: document.getElementById("infoPannel"),
+    infoPannel: undefined,
     xPosition: "0px",
     yPosition: "0px",
     isdisplayed: false,
+
 
 
 
@@ -13,10 +14,8 @@ pannel =
         infoPannel.innerHtml = "";
         this.xPosition = x;
         this.yPosition = y;
-        console.log(this.xPosition);
-        console.log(this.yPosition);
-        this.infoPannel.style.left = this.xPosition;
-        this.infoPannel.style.top = this.yPosition;
+        this.infoPannel.style.left = "0px"// this.xPosition;
+        this.infoPannel.style.top = "0px"// this.yPosition;
         let container = document.getElementById("pannelTextContainer")
         container.innerText = text;
         let infoPannelClosser = document.getElementById("infoPannelClosser");

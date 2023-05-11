@@ -1,42 +1,41 @@
 function showForm() {
-  const movingDiv = document.querySelector('#formContainer');
-  movingDiv.classList.add("visible");
-
-}
-function hideForm() {
-  const movingDiv = document.querySelector('#formContainer');
-
-  movingDiv.classList.remove("visible")
-}
-function showFormButtonClicked(e) {
-  showForm();
-  e.target.innerText = "close";
-  e.target.setAttribute("id", "closeCreatCarForm")
+  let carsAdderDialog = document.getElementById('carsAdderDialog');
   document.querySelectorAll(".formInput input")[document.querySelectorAll(".formInput input").length - 1].removeAttribute("disabled")
   let disablebuttons = Array.from(document.getElementsByClassName("edit-btn"));
   disablebuttons.forEach(e => { e.setAttribute("disabled", true) });
-  e.target.onclick = ((e) => {
-    hideFormButtonClicked(e)
-  })
-}
-function hideFormButtonClicked(e) {
-  hideForm();
-  e.target.innerText = "Create";
-  e.target.setAttribute("id", "createCar")
-  document.querySelectorAll(".formInput input").forEach((e, i, a) => {
-    if (i === 0) {
-      e.checked = false;
-    } else if (i != a.length - 1) {
-      e.value = ""
+  carsAdderDialog.showModal();
+
+  carsAdderDialog.addEventListener('click', function (event) {
+
+    if (event.target === this) {
+      document.querySelectorAll(".formInput input").forEach((e, i, a) => {
+        if (i === 0) {
+          e.checked = false;
+        } else if (i != a.length - 1) {
+          e.value = ""
+        }
+        else {
+          e.setAttribute("disabled", true);
+        }
+      });
+      let disablebuttons = Array.from(document.getElementsByClassName("edit-btn"));
+      disablebuttons.forEach(e => { e.removeAttribute("disabled") });
+
+      carsAdderDialog.classList.remove("fadeIn");
+      carsAdderDialog.classList.add("fadeOut");
+      setTimeout(() => {
+        carsAdderDialog.close();
+        carsAdderDialog.classList.add("fadeIn");
+        carsAdderDialog.classList.remove("fadeOut");
+      }, 150)
     }
-    else {
-      e.setAttribute("disabled", true);
-    }
+
   });
-  let disablebuttons = Array.from(document.getElementsByClassName("edit-btn"));
-  disablebuttons.forEach(e => { e.removeAttribute("disabled") });
-  e.target.onclick = ((e) => {
-    showFormButtonClicked(e)
-  })
+
+
 }
+
+
+
+
 

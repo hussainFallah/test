@@ -156,8 +156,7 @@ li.sellected {
     display: inline;
 }
 
-#createCar,
-#closeCreatCarForm {
+#createCar {
     position: fixed;
     top: .5em;
     right: .35em;
@@ -401,4 +400,56 @@ a {
 #leftButton>p,
 #rightButton>p {
     margin: 0px;
+}
+
+dialog::-webkit-scrollbar {
+    display: none;
+}
+
+.dialog-content {
+    background-color: #121212;
+    color: #fff;
+    padding: 20px;
+}
+
+dialog[open].fadeIn {
+    width: 30em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #121212;
+    animation: fade-in 0.15s ease-in-out forwards;
+    z-index: 9999;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+dialog::backdrop {
+    background-color: rgb(0, 0, 0, 0.8)
+}
+
+.fadeOut {
+    animation: fade-out 0.15s ease-in-out forwards;
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0.5);
+    }
 }

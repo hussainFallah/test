@@ -50,7 +50,7 @@ let carsTable = {
 
                 editButton.onclick = (() => {
                     document.getElementById("createCar").click();
-                    document.querySelector("#formContainer > form > div.formInput.toggle > label > input[type=checkbox]").checked = car["active"];
+                    document.querySelector("#isActive").checked = car["active"];
                     document.querySelector("#availableDate").value = convertTimeFromIso(car["dateAvailable"])
                     document.querySelector("#id").value = car["id"];
                     document.querySelector("#name").value = car["name"];
