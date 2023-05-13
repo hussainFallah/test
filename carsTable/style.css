@@ -453,3 +453,33 @@ dialog::backdrop {
         transform: scale(0.5);
     }
 }
+
+.searchImage {
+    width: 10px;
+    height: 10px;
+}
+
+.searchDiv {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#idSearch,
+#nameSearch {
+    width: auto;
+    height: auto;
+    margin-left: 6px;
+}
+
+.highlighted {
+    background-color: yellow;
+    color: #121212;
+}
+
+.searchBar {
+    position: absolute;
+    top: 4em;
+}

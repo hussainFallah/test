@@ -193,8 +193,8 @@ function driversButton() {
             <table id="carsTable">
                 <tr>
                     <th>Available</th>
-                    <th>id</th>
-                    <th>Name</th>
+                    <th><div class="searchDiv"><p>id </p><button id="idSearch"><img class="searchImage" src="carsTable/magnifying-glass-search-icon.png"></button></div></th>
+                    <th><div class="searchDiv"><p>Name </p><button id="nameSearch"><img class="searchImage" src="carsTable/magnifying-glass-search-icon.png"></button></div></th>
                     <th>Type</th>
                     <th>Phone</th>
                     <th>Dimension</th>
@@ -273,3 +273,4 @@ function hideConnetionMessag() {
     let connectionMessageContainer = document.getElementById("connection-message-container");
     connectionMessageContainer.classList.add("hidden");
 }
+
