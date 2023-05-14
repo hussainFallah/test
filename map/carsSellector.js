@@ -1,6 +1,6 @@
 let carsSellector = {
     carsSellectorPannel: undefined,
-    displayCarsSellector: function (option) {
+    displayCarsSellector: function (options) {
         this.hide();
         let zipcodeSearchBox = document.getElementById("search-container")
         this.carsSellectorPannel = document.createElement("div");
@@ -13,10 +13,10 @@ let carsSellector = {
         TextContainer.style.color = "#FFF";
         container.innerHTML = "";
 
-        if (option.length !== 0) {
+        if (options.length !== 0) {
             TextContainer.innerText = "this is the cars list in this area";
             container.append(TextContainer);
-            option.forEach((e) => {
+            options.forEach((e) => {
                 let carButton = document.createElement("button");
                 let carP = document.createElement("p");
                 let carButtonDiv = document.createElement("div");
@@ -53,7 +53,24 @@ Rate $`, event.target);
         this.carsSellectorPannel.classList.remove("hidden");
         this.carsSellectorPannel.appendChild(carsSellectorCloser);
         this.carsSellectorPannel.appendChild(container);
-        this.carsSellectorPannel.style.height = "20em";
+
+        switch (options.length) {
+            case 0:
+                this.carsSellectorPannel.style.height = "fit-content"
+                break;
+            case 1:
+                this.carsSellectorPannel.style.height = "12em"
+                break;
+            case 2:
+                this.carsSellectorPannel.style.height = "18.5em"
+                break;
+
+            default:
+                this.carsSellectorPannel.style.height = "20em";
+                break;
+        }
+
+
         zipcodeSearchBox.appendChild(this.carsSellectorPannel);
     },
     hide: function () {

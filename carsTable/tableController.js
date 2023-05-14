@@ -31,7 +31,7 @@ let carsTable = {
                 this.setTablePage(0);
             }
 
-        });
+        }).catch((error) => { console.log(error) });
 
     },
     setTablePage: function (tablepageindex) {
@@ -85,8 +85,9 @@ let carsTable = {
                 this.displayCars(passedCars, searchValue, searchCategory);
                 this.setNextPreviosContainer()
                 this.setTablePage(0);
+
             } else {
-                console.log("no Cars Have This Value");
+                // display a no cars message
             }
 
         }).catch((error) => {

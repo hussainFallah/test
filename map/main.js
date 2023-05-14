@@ -132,10 +132,10 @@ function mainMap() {
                     .then((position) => {
                         prossesSearch(position, isprossesed, a)
                         pannel.hide();
-                    });
+                    }).catch((error) => { console.log(error) })
             }
 
-        });
+        }).catch((error) => { console.log(error) })
     });
     let stopSerchingButton = document.getElementById("stopserching");
     stopSerchingButton.onclick = (() => {
